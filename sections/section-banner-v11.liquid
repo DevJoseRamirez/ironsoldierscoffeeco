@@ -1,0 +1,201 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v11" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v11 mt-all" style="background: {{ section.settings.bg_section }}">
+    <div class="container container-v2 ">
+      <div class="row" style="align-items: center;">   
+        <div class="col-xl-7 col-md-6  p-0">
+          <div class="img-banner text-center">
+            <a href="{{ section.settings.url_banner }}">
+              {% if section.settings.img_banner != blank %}
+              <img loading="lazy" width="" height="" data-src="{{ section.settings.img_banner | image_url }}" class="lazyload img-fluid " alt >
+              {% else %}
+              <img loading="lazy" width="" height="" data-src="//via.placeholder.com/535x534" class="lazyload img-fluid " alt>
+              {% endif %}
+            </a>
+          </div>
+        </div>
+        <div class="col-xl-5 col-md-6 " >
+          <div class="content-banner ">
+            {% if section.settings.title_banner != blank %}
+            <h1 class="title-banner" style="color: {{ section.settings.color_title }}">{{ section.settings.title_banner }}</h1>
+            {% endif %}
+          </div>
+          <div class="col-inner">
+            <ul class="p-0" style="list-style: none;">
+              {% if section.blocks.size > 0 %}
+              {% for block in section.blocks %}
+              {% if block.type == 'colection' %}
+
+              {% if block.settings.block_title_small != blank %}
+              <li class="title-small" style="color: {{ block.settings.color_title_small }}">{{ block.settings.block_title_small }}</li>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+              {% endif %} 
+
+            </ul>
+          </div>
+          <div class="button ">
+            {% if section.settings.button_banner != blank %}
+            <a href="{{ section.settings.url_banner }}" class="button-shop button-shop-{{ section.id }}" title="">{{ section.settings.button_banner }}</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .section-banner-v11 .button .button-shop-{{ section.id }} {
+    color:{{ section.settings.color_btn }};
+    border: 2px solid {{ section.settings.bg_btn }};
+    background: {{ section.settings.bg_btn }};
+  }
+  .section-banner-v11 .button .button-shop-{{ section.id }}:hover {
+    color:{{ section.settings.color_btn_hover }};
+    background: {{ section.settings.bg_hover_btn }};
+    border: 2px solid  {{ section.settings.bg_hover_btn }};
+  }
+
+</style>
+
+{% schema %}
+{
+  "name": "BANNER V11",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_section",
+      "label": "Bacground Section",
+      "default": "#f4f7e3"
+    },
+    {
+      "type": "url",
+      "id": "url_banner",
+      "label": "URL Button ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner",
+      "label": "Image Banner",
+      "info": "720 x 720px recommended"
+    },
+    {
+      "type": "header",
+      "content": "Section Banner Right"
+    },
+    {
+      "type": "text",
+      "id": "title_banner",
+      "label": "Title Banner",
+      "default": "SOPHISTICATED COATS"
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Color Title banner",
+      "default": "#000"
+    },
+    {
+      "type": "text",
+      "id": "button_banner",
+      "label": "Button Banner 1",
+      "default": "Shop now"
+    },
+    {
+      "type": "color",
+      "id": "color_btn",
+      "label": "Color button banner",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_btn_hover",
+      "label": "Color button banner Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn",
+      "label": "Background button ",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "bg_hover_btn",
+      "label": "Background button hover",
+      "default": "#222"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "colection",
+      "name": "Item List v1",
+      "settings": [
+        {
+          "type": "text",
+          "id": "block_title_small",
+          "label": "Label Collection",
+          "default": "New Collection"
+        },
+        {
+          "type": "color",
+          "id": "color_title_small",
+          "label": "Color Title Small",
+          "default": "#6e6e6e"
+        },
+        {
+          "type": "url",
+          "id": "brand_url",
+          "label": "URL collection",
+          "default": "/collections/all"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V11",
+      "category": "HOME",
+      "blocks": [
+        {
+          "type": "colection",
+          "settings": {
+            "block_title_small": "4k 60FPS, 2.7k 60FPS, 1080p 120FPS"
+          }
+        },
+        {
+          "type": "colection",
+          "settings": {
+            "block_title_small": "100mbps Bitrate at 4K 60FPS"
+          }
+        },
+        {
+          "type": "colection",
+          "settings": {
+            "block_title_small": "Sony CMOS 1/2.3 Sensor, F2.8,"
+          }
+        },
+        {
+          "type": "colection",
+          "settings": {
+            "block_title_small": "94° FOV"
+          }
+        },
+        {
+          "type": "colection",
+          "settings": {
+            "block_title_small": "File Formats – Photo: JPG/DNG Video: MOV/MP4"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

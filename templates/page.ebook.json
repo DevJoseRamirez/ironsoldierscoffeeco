@@ -1,0 +1,108 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "560133dd-7826-4b16-ba2c-d6f6f2f05bd4": {
+      "type": "rich-text",
+      "settings": {
+        "rich_icon_svg": "",
+        "section_title": ""
+      }
+    },
+    "0757111e-0a8e-4f42-a27b-06109cf62701": {
+      "type": "section-product-v4",
+      "settings": {
+        "title_heading": "Check Out Our Coffee Options",
+        "color_title": "#222222",
+        "select_collection": "all-coffee",
+        "products_limit": 4,
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "44a936c5-24ae-4de6-a7fb-e8793de48846": {
+      "type": "section-banner-v7",
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "",
+        "ena_container": false,
+        "ena_margin_top": true,
+        "select_pos": "left",
+        "title_banner": "",
+        "color_title": "#fff",
+        "content_banner": "",
+        "color_content_banner": "#fff",
+        "button_banner": "",
+        "color_btn": "#F3A395",
+        "bg_btn": "#fff",
+        "color_btn_hover": "#fff",
+        "bg_btn_hover": "#F3A395",
+        "url_button": "shopify:\/\/collections\/all",
+        "img_banner": "shopify:\/\/shop_images\/ebook.png"
+      }
+    },
+    "9864e175-ea6d-4fe9-b3cd-1c35e06d8842": {
+      "type": "section-banner-v10",
+      "disabled": true,
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "",
+        "bg_banner_content": "#698467",
+        "title_show1": "",
+        "title_banner1": "Exclusive from Iron Soldiers",
+        "sub_bottom1": "We crafted this to compliment your coffee experience!",
+        "button_banner1": "Grab Some Halftrack Coffee Here",
+        "url_button_banner1": "shopify:\/\/products\/cowboy-blend-11",
+        "banner_img1": "shopify:\/\/shop_images\/The_Battle_for_the_Perfect_Cup_-_Iron_Soldiers_Coffee_Company_FINAL_001.png",
+        "title_show2": "",
+        "title_banner2": "Historical Information",
+        "sub_bottom2": "Learn about how important coffee was to the past soldiers!",
+        "button_banner2": "Grab Some Jeep Edition Here",
+        "url_button_banner2": "shopify:\/\/products\/breakfast-blend-2",
+        "banner_img2": "shopify:\/\/shop_images\/The_Battle_for_the_Perfect_Cup_-_Iron_Soldiers_Coffee_Company_FINAL_004.png",
+        "title_show3": "",
+        "title_banner3": "Coffee Education",
+        "sub_bottom3": "We take you through the steps of basic components to a quality brew!",
+        "button_banner3": "Experience GMC Truck Edition Here",
+        "url_button_banner3": "shopify:\/\/products\/whiskey-barrel-aged-1",
+        "banner_img3": "shopify:\/\/shop_images\/The_Battle_for_the_Perfect_Cup_-_Iron_Soldiers_Coffee_Company_FINAL_010.png",
+        "color_title_show": "#ffffff",
+        "color_title_banner": "#ffffff",
+        "color_sub_bottom": "#ffffff",
+        "color_bottom": "#ffffff",
+        "color_border_hover": "#000000"
+      }
+    },
+    "3aa0b03b-4d0a-4a1b-aca3-0d37f5b8390c": {
+      "type": "section-banner-v2",
+      "disabled": true,
+      "settings": {
+        "select_pos": "left",
+        "img_banner1": "shopify:\/\/shop_images\/image-003.jpg",
+        "img_banner1_mb": "shopify:\/\/shop_images\/image-003.jpg",
+        "title_banner": "",
+        "color_title": "#222222",
+        "sub_title": "",
+        "color_sub_title": "#222222",
+        "button_1": "",
+        "color_btn": "#ffffff",
+        "bg_btn": "#000000",
+        "color_btn_hover": "#000000",
+        "bg_btn_hover": "#ffffff",
+        "url_button1": "shopify:\/\/collections\/all",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "560133dd-7826-4b16-ba2c-d6f6f2f05bd4",
+    "0757111e-0a8e-4f42-a27b-06109cf62701",
+    "44a936c5-24ae-4de6-a7fb-e8793de48846",
+    "9864e175-ea6d-4fe9-b3cd-1c35e06d8842",
+    "3aa0b03b-4d0a-4a1b-aca3-0d37f5b8390c"
+  ]
+}

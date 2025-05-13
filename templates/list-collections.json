@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collection",
+      "settings": {
+        "ena_bg_img": true,
+        "bg_breadcrumb": "shopify:\/\/shop_images\/mike-kenneally-TD4DBagg2wE-unsplash.jpg",
+        "bg_color_breadcrumb": "#ffffff",
+        "color_breadcrumb": "#ffffff",
+        "select_style_bread": "style_2"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

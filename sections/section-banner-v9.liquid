@@ -1,0 +1,145 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v9" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v9  mt-all ">
+    <div class="relative banner-v9" style="background-image: url({% if section.settings.img_bg != blank %}{{ section.settings.img_bg | image_url }}{% else %}//via.placeholder.com/1920x550{% endif %});">
+      <div class="banner-inner">
+        <div class="item-banner">
+          <div class="content-banner">
+            {% if section.settings.title_banner != blank %}
+            <h3 class="title-banner" style="color: {{ section.settings.color_title_banner }}">{{ section.settings.title_banner }}</h3>
+            {% endif %}
+            {% if section.settings.sub_bottom != blank %}
+            <p class="content" style="color: {{ section.settings.color_sub_bottom }}">{{ section.settings.sub_bottom }}</p>
+            {% endif %}
+            {% if section.settings.button_banner != blank %}
+            <a href="{{ section.settings.url_banner }}" class="button-main1 button-banner-{{ section.id }}" title="">{{ section.settings.button_banner }}</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .section-banner-v9 .button-banner-{{ section.id }} {
+   color: {{ section.settings.color_button }};
+   background: {{ section.settings.color_bg_button }};
+  }
+  .section-banner-v9 .button-banner-{{ section.id }}:hover {
+   color: {{ section.settings.color_hover_button }};
+   background: {{ section.settings.color_hover_bg_button }};
+  }
+</style>
+{% schema %}
+{
+  "name": "BANNER V9",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "header",
+      "content": "Settings Background"
+    },
+    {
+      "type": "url",
+      "id": "url_banner",
+      "label": "URL Banner",
+      "default": "/collections/all"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_bg",
+      "info": "1920 x 550px recommended",
+      "label": "Background image"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner"
+    },
+    {
+      "type": "text",
+      "id": "title_banner",
+      "label": "Title Banner ",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_bottom",
+      "label": "Sub Bottom ",
+      "default": " 20% Food Shop Sale Off This Day"
+    },
+    {
+      "type": "text",
+      "id": "button_banner",
+      "label": "Button Banner ",
+      "default": "SHOP NOW"
+    },
+    {
+      "type": "header",
+      "content": "Color banner"
+    },
+    {
+      "type": "color",
+      "id": "color_title_banner",
+      "label": "Color Title Banner",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_bottom",
+      "label": "Color Sub Banner",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_button",
+      "label": "Color Button",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_bg_button",
+      "label": "Color Background Button",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_hover_button",
+      "label": "Color Hover Button",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_hover_bg_button",
+      "label": "Color Hover Background Button",
+      "default": "#fff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V9",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

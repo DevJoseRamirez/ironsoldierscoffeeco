@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_banner_v9_ATVh3g": {
+      "type": "section-banner-v9",
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "",
+        "url_banner": "shopify:\/\/collections\/all",
+        "title_banner": "Banner Title",
+        "sub_bottom": "20% Food Shop Sale Off This Day",
+        "button_banner": "SHOP NOW",
+        "color_title_banner": "#fff",
+        "color_sub_bottom": "#fff",
+        "color_button": "#fff",
+        "color_bg_button": "#fff",
+        "color_hover_button": "#fff",
+        "color_hover_bg_button": "#fff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_banner_v9_ATVh3g"
+  ]
+}

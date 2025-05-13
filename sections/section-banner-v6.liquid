@@ -1,0 +1,230 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v6" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v6 {% if section.settings.ena_padding_top %} padding_top_banner5 {% endif %}">
+    <div class="{% if section.settings.ena_container %} container container-v2 {% endif %}">
+      <div class="row" > 
+
+
+
+
+        <a class="col-md-6 col-lg-6" href="{{ section.settings.url_banner }}">
+          <div class="vc_column-inner">
+            <div class="banner-inner">
+              <div class="banner-thumb">
+                {% if section.settings.img_banner != blank %}
+                <img loading="lazy" width="" height="" data-src="{{ section.settings.img_banner | image_url }}" class="lazyload img-fluid w-100" alt >
+                {% else %}
+                <img loading="lazy" width="" height="" data-src="//via.placeholder.com/960x624" class="lazyload img-fluid w-100" alt>
+                {% endif %}
+              </div>
+              <div class="banner-info ">
+                {% if section.settings.sub_title_banner != blank %}
+                <h6 class="sub-title" style="color: {{ section.settings.color_sub_title }}">{{ section.settings.sub_title_banner }}</h6>
+                {% endif %}
+                {% if section.settings.title_banner != blank %}
+                <h3 class="title-banner" style="color: {{ section.settings.color_title }}">{{ section.settings.title_banner }}</h3>
+                {% endif %}
+
+                {% if section.settings.button_banner != blank %}
+                <a href="{{ section.settings.url_banner }}" class="button-shop button-shop-{{ section.id }}" title="">{{ section.settings.button_banner }}</a>
+                {% endif %}
+              </div>
+
+            </div>
+          </div>  
+        </a>
+
+
+
+
+        <a class="col-md-6 col-lg-6" href="{{ section.settings.url_banner }}">
+          <div class="vc_column-inner">
+            <div class="banner-inner">
+              <div class="banner-thumb">
+                {% if section.settings.img_banner2 != blank %}
+                <img loading="lazy" width="" height="" data-src="{{ section.settings.img_banner2 | image_url }}" class="lazyload img-fluid w-100" alt >
+                {% else %}
+                <img loading="lazy" width="" height="" data-src="//via.placeholder.com/960x624" class="lazyload img-fluid w-100" alt>
+                {% endif %}
+              </div>
+              <div class="banner-info banner-center">
+                {% if section.settings.sub_title_banner2 != blank %}
+                <h6 class="sub-title" style="color: {{ section.settings.color_sub_title }}">{{ section.settings.sub_title_banner2 }}</h6>
+                {% endif %}
+                {% if section.settings.title_banner2 != blank %}
+                <h3 class="title-banner" style="color: {{ section.settings.color_title }}">{{ section.settings.title_banner2 }}</h3>
+                {% endif %}
+                {% if section.settings.button_banner2 != blank %}
+                <a href="{{ section.settings.url_banner }}" class="button-shop button-shop-{{ section.id }}" title="">{{ section.settings.button_banner2 }}</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </a>
+        
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <style>
+  .section-banner-v6 .button-shop-{{ section.id }} {
+    color: {{ section.settings.color_btn }};
+    background: {{ section.settings.bg_btn }};
+  }
+  .section-banner-v6 .button-shop-{{ section.id }}:hover {
+    color: {{ section.settings.color_btn_hover }};
+    background: {{ section.settings.bg_btn_hover }};
+    transition: all .3s;
+  }
+</style>
+{% schema %}
+{
+  "name": "BANNER V6",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "ena_padding_top",
+      "label": "Enable Add Padding Top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "ena_container",
+      "label": "Enable Add Container Box",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "header",
+      "content": "Background Color Banner"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner Content"
+    },
+    {
+      "type": "text",
+      "id": "title_banner",
+      "label": "Title Banner 1",
+      "default": "100% Pure Natural Vegetables"
+    },
+    {
+      "type": "text",
+      "id": "title_banner2",
+      "label": "Title Banner 2",
+      "default": "100% Pure Natural Vegetables "
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Color Title banner",
+      "default": "#fff"
+    },
+    {
+      "type": "text",
+      "id": "sub_title_banner",
+      "label": "Sub Title Banner",
+      "default": "NEW ARRIVAL"
+    },
+    {
+      "type": "text",
+      "id": "sub_title_banner2",
+      "label": "Sub Title Banner 2",
+      "default": "NEW ARRIVAL"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_title",
+      "label": "Color Sub Title banner",
+      "default": "#fff"
+    },
+    {
+      "type": "text",
+      "id": "button_banner",
+      "label": "Button Banner 1",
+      "default": "Shop now"
+    },
+    {
+      "type": "text",
+      "id": "button_banner2",
+      "label": "Button Banner 2",
+      "default": "Shop now"
+    },
+    {
+      "type": "color",
+      "id": "color_btn",
+      "label": "Color button banner",
+      "default": "#222"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn",
+      "label": "Background Color button banner",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn_hover",
+      "label": "Background button hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_btn_hover",
+      "label": "Color button banner Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "url",
+      "id": "url_banner",
+      "label": "URL Button ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner",
+      "label": "Image Banner",
+      "info": "960 x 624px recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner2",
+      "label": "Image Banner",
+      "info": "960 x 624px recommended"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V6",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

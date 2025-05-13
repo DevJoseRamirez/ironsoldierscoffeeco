@@ -1,0 +1,384 @@
+{
+  "sections": {
+    "f3564036-5385-4ce6-8098-21665f861ffc": {
+      "type": "section-banner-v2",
+      "custom_css": [
+        ".title {max-width: 600px;}",
+        "div {margin: 0px;}",
+        "@media only screen and (max-width: 1200px) {.title {max-width: 500px; }}",
+        "@media only screen and (max-width: 992px) {.title {max-width: 400px; }}"
+      ],
+      "settings": {
+        "select_pos": "left",
+        "img_banner1": "shopify:\/\/shop_images\/Iron_Soldier_Coffee_Co.jpg",
+        "img_banner1_mb": "shopify:\/\/shop_images\/Iron_Soldier_Coffee_Co_M.png",
+        "title_banner": "Fuel Your Day with Coffee  That Makes A Difference",
+        "color_title": "#ffffff",
+        "sub_title": "BREWING COURAGE, ONE CUP AT A TIME",
+        "color_sub_title": "#ffffff",
+        "button_1": "SHOP NOW",
+        "color_btn": "#ffffff",
+        "bg_btn": "#556b2f",
+        "color_btn_hover": "#000000",
+        "bg_btn_hover": "#ffffff",
+        "url_button1": "shopify:\/\/collections\/all-coffee",
+        "margin_top": "0",
+        "margin_bottom": "0"
+      }
+    },
+    "119987c0-5c7e-4297-822a-7e66d01f5e1c": {
+      "type": "section-info-v1",
+      "custom_css": [
+        "* {color: #556b2f;}"
+      ],
+      "settings": {
+        "title_info": "\"$1 from each Bag order goes to a volunteer-only nonprofit.\"",
+        "color_title_info": "#556b2f",
+        "content_info": "\"100% of proceeds are used for youth education programs & veteran support.<br> Join 2,500+ supporters and enjoy a cup of tasty joe with it.\"<br> Our Mission goes way beyond Great Coffee, but that's a start, will you Join Us?",
+        "color_content_info": "#556b2f",
+        "more_about": "More about us",
+        "url_banner": "shopify:\/\/pages\/about-us",
+        "margin_top": "0",
+        "margin_bottom": "0"
+      }
+    },
+    "video_crtaR7": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "video": "shopify:\/\/files\/videos\/ISCC Final Draft, Heroes.mov",
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a3e905e0-f2af-47a4-bbfc-b6a6c7ca53da": {
+      "type": "section-banner-v2",
+      "settings": {
+        "select_pos": "left",
+        "img_banner1": "shopify:\/\/shop_images\/Mask_groupvets.png",
+        "img_banner1_mb": "shopify:\/\/shop_images\/Mask_groupvets-1.png",
+        "title_banner": "You're Supporting Soldiers & Their Families",
+        "color_title": "#ffffff",
+        "sub_title": "Buying our coffee puts dollars from every sale toward supporting our Soldiers!  Annually hosted Pancake Breakfast, Flagpole Installs, to Camouflage Christmas Programs each purchase makes an impact on our Mission!  Image: Branson Missouri, Day Room",
+        "color_sub_title": "#ffffff",
+        "button_1": "Count Me In!",
+        "color_btn": "#ffffff",
+        "bg_btn": "#556b2f",
+        "color_btn_hover": "#000000",
+        "bg_btn_hover": "#ffffff",
+        "url_button1": "shopify:\/\/collections\/all-coffee",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "section_info_v1_4Gra4C": {
+      "type": "section-info-v1",
+      "settings": {
+        "title_info": "\"Coffee is just the Vehicle, the real mission is the people\"",
+        "color_title_info": "#556b2f",
+        "content_info": "At Iron Soldiers Coffee Company, our mission is clear: to support veterans by providing them with more than just a cup of coffee, but a symbol of camaraderie, resilience, and community. We are dedicated to crafting fresh, roast-to-order coffee that not only fuels your day but also fuels our commitment to giving back to those who have served. With every sip, you're not just enjoying a premium blend; you're standing in solidarity with our veterans, honoring their sacrifice, and supporting them and their families. Join us in our mission to serve those who have served us, one delicious cup at a time.",
+        "color_content_info": "#556b2f",
+        "more_about": "More about us",
+        "url_banner": "shopify:\/\/pages\/about-us",
+        "margin_top": "0",
+        "margin_bottom": "0"
+      }
+    },
+    "2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87": {
+      "type": "section-collection-v3",
+      "blocks": {
+        "template--19964658680126__2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87-colection-3": {
+          "type": "colection",
+          "settings": {
+            "brand_img": "shopify:\/\/shop_images\/G503_JEEP.png",
+            "title_collection": "Jeep Series",
+            "brand_url": "shopify:\/\/products\/breakfast-blend-11",
+            "block_content": "Jeep Series Breakfast Blend to start your day! Roast: Medium House Breakfast Blend. Smooth blend of coffee from South America."
+          }
+        },
+        "template--19964658680126__2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87-colection-1": {
+          "type": "colection",
+          "settings": {
+            "brand_img": "shopify:\/\/shop_images\/shermantank-min.jpg",
+            "title_collection": "Sherman Tank Edition",
+            "brand_url": "shopify:\/\/products\/6-bean-blend-1",
+            "block_content": "Great for Espresso meticulous blend of coffee from around the world Sherman Tank Series is our tribute to the Iconic WWII Tank."
+          }
+        },
+        "template--19964658680126__2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87-colection-2": {
+          "type": "colection",
+          "settings": {
+            "brand_img": "shopify:\/\/shop_images\/halftrack-1-min.jpg",
+            "title_collection": "Halftrack Edition",
+            "brand_url": "shopify:\/\/products\/cowboy-blend-11",
+            "block_content": "Our Special Series \"Halftrack\" Blend pays tribute to the Iron Soldier that was a wonderful piece of armor that saw a wide range of use from WWII all the way into the 1980's!"
+          }
+        }
+      },
+      "block_order": [
+        "template--19964658680126__2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87-colection-3",
+        "template--19964658680126__2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87-colection-1",
+        "template--19964658680126__2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87-colection-2"
+      ],
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "166001160513bad377": {
+      "type": "section-collection-v2",
+      "blocks": {
+        "16600116052e1a32be-0": {
+          "type": "colection",
+          "settings": {
+            "brand_img": "shopify:\/\/shop_images\/Mask_group-6.png",
+            "title_collection": "Coffee Blends",
+            "brand_url": "shopify:\/\/collections\/blends"
+          }
+        },
+        "bd4a9378-296d-40f1-b83b-41486d06dcbe": {
+          "type": "colection",
+          "settings": {
+            "brand_img": "shopify:\/\/shop_images\/enamel-mug-white-12oz-front-643025f40b7dd.png",
+            "title_collection": "Coffee Mugs",
+            "brand_url": "shopify:\/\/collections\/mugs"
+          }
+        },
+        "16600116052e1a32be-1": {
+          "type": "colection",
+          "settings": {
+            "brand_img": "shopify:\/\/shop_images\/Mask_group-5.png",
+            "title_collection": "Flavored Coffee",
+            "brand_url": "shopify:\/\/collections\/flavored"
+          }
+        },
+        "0eb44197-cf54-4e09-9b7e-0671a92936ac": {
+          "type": "colection",
+          "settings": {
+            "brand_img": "shopify:\/\/shop_images\/1ac2f32b9877996dccc33cfd8974cd30.jpg",
+            "title_collection": "Merchandise",
+            "brand_url": "shopify:\/\/collections\/merchandise"
+          }
+        },
+        "16600116052e1a32be-2": {
+          "type": "colection",
+          "settings": {
+            "brand_img": "shopify:\/\/shop_images\/Mask_group.png",
+            "title_collection": "Single Origin Coffee",
+            "brand_url": "shopify:\/\/collections\/single-origin"
+          }
+        }
+      },
+      "block_order": [
+        "16600116052e1a32be-0",
+        "bd4a9378-296d-40f1-b83b-41486d06dcbe",
+        "16600116052e1a32be-1",
+        "0eb44197-cf54-4e09-9b7e-0671a92936ac",
+        "16600116052e1a32be-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "70",
+        "title_heading": "",
+        "color_title": "#000000"
+      }
+    },
+    "16597502433e02abd4": {
+      "type": "section-product-v2",
+      "blocks": {
+        "165975024318832717-0": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "BLENDS",
+            "tab_collection": "blends",
+            "tab_limit": 8
+          }
+        },
+        "165975024318832717-1": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "SINGLE ORIGIN",
+            "tab_collection": "single-origin",
+            "tab_limit": 8
+          }
+        },
+        "165975024318832717-2": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "FLAVORED",
+            "tab_collection": "flavored",
+            "tab_limit": 8
+          }
+        }
+      },
+      "block_order": [
+        "165975024318832717-0",
+        "165975024318832717-1",
+        "165975024318832717-2"
+      ],
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "",
+        "title_heading": "A World of Flavor",
+        "color_title": "#353b25"
+      }
+    },
+    "169161429315f1c80b": {
+      "type": "apps",
+      "blocks": {
+        "f376fedc-96e8-47e6-a196-616e2fa49605": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1440
+          }
+        }
+      },
+      "block_order": [
+        "f376fedc-96e8-47e6-a196-616e2fa49605"
+      ],
+      "settings": {}
+    },
+    "26777e46-fb28-4520-8111-8efc8d70d00b": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "rich_icon_svg": "",
+        "section_title": ""
+      }
+    },
+    "43186b9f-56be-4412-b1d2-3e0b40d27d2e": {
+      "type": "section-banner-v6",
+      "disabled": true,
+      "settings": {
+        "ena_padding_top": false,
+        "ena_container": true,
+        "margin_top": "",
+        "margin_bottom": "",
+        "title_banner": "",
+        "title_banner2": "",
+        "color_title": "#ffffff",
+        "sub_title_banner": "",
+        "sub_title_banner2": "",
+        "color_sub_title": "#ffffff",
+        "button_banner": "",
+        "button_banner2": "",
+        "color_btn": "#222222",
+        "bg_btn": "#ffffff",
+        "bg_btn_hover": "#ffffff",
+        "color_btn_hover": "#ffffff",
+        "url_banner": "shopify:\/\/collections\/merchandise",
+        "img_banner": "shopify:\/\/shop_images\/Mask_group_9f6d6650-e136-4a9b-8b92-42f2b28baee5.png",
+        "img_banner2": "shopify:\/\/shop_images\/Mask_group-1_ecf5f1e4-c881-460e-b1ae-6773675cf995.png"
+      }
+    },
+    "d1c889e3-61b3-455b-b873-382b8e6dc739": {
+      "type": "section-banner-v11",
+      "blocks": {
+        "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-3": {
+          "type": "colection",
+          "settings": {
+            "block_title_small": "Helping Veterans and Their Families",
+            "color_title_small": "#ffffff",
+            "brand_url": "shopify:\/\/collections\/all"
+          }
+        },
+        "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-1": {
+          "type": "colection",
+          "settings": {
+            "block_title_small": "Roasted & Shipped The Same Day",
+            "color_title_small": "#ffffff",
+            "brand_url": "shopify:\/\/collections\/all"
+          }
+        },
+        "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-2": {
+          "type": "colection",
+          "settings": {
+            "block_title_small": "Freshness Guaranteed",
+            "color_title_small": "#ffffff",
+            "brand_url": "shopify:\/\/collections\/all"
+          }
+        },
+        "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-0": {
+          "type": "colection",
+          "settings": {
+            "block_title_small": "Free U.S. Shipping",
+            "color_title_small": "#ffffff",
+            "brand_url": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-3",
+        "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-1",
+        "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-2",
+        "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-0"
+      ],
+      "settings": {
+        "bg_section": "#556b2f",
+        "url_banner": "shopify:\/\/collections\/all",
+        "img_banner": "shopify:\/\/shop_images\/Group_1165layered.png",
+        "title_banner": "Iron soldiers coffee company",
+        "color_title": "#ffffff",
+        "button_banner": "Get Started!",
+        "color_btn": "#ffffff",
+        "color_btn_hover": "#556b2f",
+        "bg_btn": "#353b25",
+        "bg_hover_btn": "#ffffff"
+      }
+    },
+    "2385d999-5cef-4a59-aee1-6e7ad508d8c5": {
+      "type": "section-banner-v2",
+      "settings": {
+        "select_pos": "left",
+        "img_banner1": "shopify:\/\/shop_images\/Mask_group4_oly-1.png",
+        "img_banner1_mb": "shopify:\/\/shop_images\/Mask_group4_oly.png",
+        "title_banner": "Join Our Mission with Every Sip",
+        "color_title": "#ffffff",
+        "sub_title": "Transform your coffee ritual into an act of support. Together, we can make every cup count for our brave soldiers.",
+        "color_sub_title": "#ffffff",
+        "button_1": "Brew a Difference Today",
+        "color_btn": "#ffffff",
+        "bg_btn": "#556b2f",
+        "color_btn_hover": "#000000",
+        "bg_btn_hover": "#ffffff",
+        "url_button1": "shopify:\/\/collections\/all-coffee",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "1b99cb98-d753-4210-808e-e9d5fe7d10a0": {
+      "type": "section-blog-v1",
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "",
+        "section_title": "Our Blogs",
+        "color_title": "#222222",
+        "select_blog": "news",
+        "blogs_limit": 6,
+        "enable_category": false,
+        "enable_date": true,
+        "enable_title": true,
+        "enable_excerpt": true,
+        "ena_btn_readmore": true
+      }
+    }
+  },
+  "order": [
+    "f3564036-5385-4ce6-8098-21665f861ffc",
+    "119987c0-5c7e-4297-822a-7e66d01f5e1c",
+    "video_crtaR7",
+    "a3e905e0-f2af-47a4-bbfc-b6a6c7ca53da",
+    "section_info_v1_4Gra4C",
+    "2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87",
+    "166001160513bad377",
+    "16597502433e02abd4",
+    "169161429315f1c80b",
+    "26777e46-fb28-4520-8111-8efc8d70d00b",
+    "43186b9f-56be-4412-b1d2-3e0b40d27d2e",
+    "d1c889e3-61b3-455b-b873-382b8e6dc739",
+    "2385d999-5cef-4a59-aee1-6e7ad508d8c5",
+    "1b99cb98-d753-4210-808e-e9d5fe7d10a0"
+  ]
+}

@@ -1,0 +1,231 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v12" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v12 mt-all"> 
+    <div class="container container-v2">
+      <div class="row "  style="background-color:{{ section.settings.bg_banner }}"> 
+        <div class="col-md-4"> 
+          <div class="banner">
+            <div class="img-banner">
+              <img loading="lazy" width="" height="" data-src="{% if section.settings.img_banner1 != blank %} {{ section.settings.img_banner1 | image_url }} {% else %} //via.placeholder.com/449x308 {% endif %}" class="lazyload w-100 img-fluid">
+            </div>
+            <div class="content-banner">
+              {% if section.settings.sub_heading1 != blank %}
+              <p class="sub-heading" style="color: {{ section.settings.color_sub_heading }}">{{ section.settings.sub_heading1 }}</p>
+              {% endif %}
+              <a href="{{ section.settings.url_banner }}">
+                {% if section.settings.title_banner1 != blank %}
+                <h3 class="title-banner title-banner-{{ section.id }} ">{{ section.settings.title_banner1 }}</h3>
+                {% endif %}
+              </a>
+                {% if section.settings.sub_bottom1 != blank %}
+                <p class="sub-banner-bottom" style="color: {{ section.settings.color_sub_bottom }}">{{ section.settings.sub_bottom1 }}</p>
+                {% endif %}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="banner">
+            <div class="img-banner">
+              <img loading="lazy" width="" height="" data-src="{% if section.settings.img_banner2 != blank %} {{ section.settings.img_banner2 | image_url }} {% else %} //via.placeholder.com/449x308 {% endif %}" class="lazyload w-100 img-fluid">
+            </div>
+            <div class="content-banner">
+              {% if section.settings.sub_heading2 != blank %}
+              <p class="sub-heading" style="color: {{ section.settings.color_sub_heading }}">{{ section.settings.sub_heading2 }}</p>
+              {% endif %}
+              <a href="{{ section.settings.url_banner }}">
+                {% if section.settings.title_banner2 != blank %}
+                <h3 class="title-banner title-banner-{{ section.id }}">{{ section.settings.title_banner2 }}</h3>
+                {% endif %}
+              </a>
+              {% if section.settings.sub_bottom2 != blank %}
+              <p class="sub-banner-bottom" style="color: {{ section.settings.color_sub_bottom }}">{{ section.settings.sub_bottom2 }}</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="banner">
+            <div class="img-banner">
+              <img loading="lazy" width="" height="" data-src="{% if section.settings.img_banner3 != blank %} {{ section.settings.img_banner3 | image_url }} {% else %} //via.placeholder.com/449x308 {% endif %}" class="lazyload w-100 img-fluid">
+            </div>
+            <div class="content-banner">
+              {% if section.settings.sub_heading3 != blank %}
+              <p class="sub-heading" style="color: {{ section.settings.color_sub_heading }}">{{ section.settings.sub_heading3 }}</p>
+              {% endif %}
+              <a href="{{ section.settings.url_banner }}">
+                {% if section.settings.title_banner3 != blank %}
+                <h3 class="title-banner title-banner-{{ section.id }}">{{ section.settings.title_banner3 }}</h3>
+                {% endif %}
+              </a>
+              {% if section.settings.sub_bottom3 != blank %}
+              <p class="sub-banner-bottom" style="color: {{ section.settings.color_sub_bottom }}">{{ section.settings.sub_bottom3 }}</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .section-banner-v12 .content-banner .title-banner-{{ section.id }} {
+    color: {{ section.settings.color_title_banner }};
+transition: all .3s;
+  }
+  .section-banner-v12 .content-banner .title-banner-{{ section.id }}:hover {
+    color: {{ section.settings.color_title_hover_banner }};
+  }
+</style>
+{% schema %}
+{
+  "name": "BANNER V12",
+  "settings": [
+    {
+      "type": "url",
+      "id": "url_banner",
+      "label": "URL Banner ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "header",
+      "content": "Banner 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner1",
+      "label": "Image",
+      "info": "600x400px recommended"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading1",
+      "label": "Sub Heading 1",
+      "default": "01"
+    },
+    {
+      "type": "text",
+      "id": "title_banner1",
+      "label": "Title Banner 1",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_bottom1",
+      "label": "Sub Bottom 1",
+      "default": " We conduct "
+    },
+    {
+      "type": "header",
+      "content": "Banner 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner2",
+      "label": "Image",
+      "info": "600x400px recommended"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading2",
+      "label": "Sub Heading 2",
+      "default": "02"
+    },
+    {
+      "type": "text",
+      "id": "title_banner2",
+      "label": "Title Banner 2",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_bottom2",
+      "label": "Sub Bottom 2",
+      "default": " We conduct "
+    },
+    {
+      "type": "header",
+      "content": "Banner 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner3",
+      "label": "Image",
+      "info": "600x400px recommended"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading3",
+      "label": "Sub Heading 3",
+      "default": "03"
+    },
+    {
+      "type": "text",
+      "id": "title_banner3",
+      "label": "Title Banner 3",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_bottom3",
+      "label": "Sub Bottom 3",
+      "default": " We conduct "
+    },
+    {
+      "type": "header",
+      "content": "Color Banner "
+    },
+    {
+      "type": "color",
+      "id": "color_sub_heading",
+      "label": "Color Sub Heading",
+      "default": "#c7a17a"
+    },
+    {
+      "type": "color",
+      "id": "color_title_banner",
+      "label": "Color Title Banner",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_title_hover_banner",
+      "label": "Color Title Banner Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_bottom",
+      "label": "Color Sub Banner",
+      "default": "#fff"
+    },
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V12",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,287 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v10" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v10">
+    <div class="container container-v2">
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="banner-item" style=" background-image: url({% if section.settings.banner_img1 != blank %}{{ section.settings.banner_img1 | image_url }}{% else %}//via.placeholder.com/600x400{% endif %});">
+            <div class="banner-img text-center">
+              {% if section.settings.title_show1 != blank %}
+              <h3 class="title-show" style="color: {{ section.settings.color_title_show }}">{{ section.settings.title_show1 }}</h3>
+              {% endif %}
+            </div>
+            <div class="banner-content" style="background: {{ section.settings.bg_banner_content }}">
+              <div class="content">
+                {% if section.settings.title_banner1 != blank %}
+                <h3 class="title-banner" style="color: {{ section.settings.color_title_banner }}">{{ section.settings.title_banner1 }}</h3>
+                {% endif %}
+                {% if section.settings.sub_bottom1 != blank %}
+                <p class="sub-banner-bottom" style="color: {{ section.settings.color_sub_bottom }}">{{ section.settings.sub_bottom1 }}</p>
+                {% endif %}
+                {% if section.settings.button_banner1 != blank %}
+                <a href="{{ section.settings.url_button_banner1 }}" class="button-shop button-shop-{{ section.id }}" title="">{{ section.settings.button_banner1 }}</a>
+                {% endif %}
+                <div class="qodef-m-line"></div>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="banner-item" style=" background-image: url({% if section.settings.banner_img2 != blank %}{{ section.settings.banner_img2 | image_url }}{% else %}//via.placeholder.com/600x400{% endif %});">
+            <div class="banner-img text-center">
+              
+              {% if section.settings.title_show2 != blank %}
+              <h3 class="title-show" style="color: {{ section.settings.color_title_show }}">{{ section.settings.title_show2 }}</h3>
+              {% endif %}
+            </div>
+            <div class="banner-content" style="background: {{ section.settings.bg_banner_content }}">
+              <div class="content">
+                {% if section.settings.title_banner2 != blank %}
+                <h3 class="title-banner" style="color: {{ section.settings.color_title_banner }}">{{ section.settings.title_banner2 }}</h3>
+                {% endif %}
+                {% if section.settings.sub_bottom2 != blank %}
+                <p class="sub-banner-bottom" style="color: {{ section.settings.color_sub_bottom }}">{{ section.settings.sub_bottom2 }}</p>
+                {% endif %}
+                {% if section.settings.button_banner2 != blank %}
+                <a href="{{ section.settings.url_button_banner2 }}" class="button-shop button-shop-{{ section.id }}" title="">{{ section.settings.button_banner2 }}</a>
+                {% endif %}
+                <div class="qodef-m-line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="banner-item" style=" background-image: url({% if section.settings.banner_img3 != blank %}{{ section.settings.banner_img3 | image_url }}{% else %}//via.placeholder.com/600x400{% endif %});">
+            <div class="banner-img text-center">
+              
+              {% if section.settings.title_show3 != blank %}
+              <h3 class="title-show" style="color: {{ section.settings.color_title_show }}">{{ section.settings.title_show3 }}</h3>
+              {% endif %}
+            </div>
+            <div class="banner-content" style="background: {{ section.settings.bg_banner_content }}">
+              <div class="content">
+                {% if section.settings.title_banner3 != blank %}
+                <h3 class="title-banner" style="color: {{ section.settings.color_title_banner }}">{{ section.settings.title_banner3 }}</h3>
+                {% endif %}
+                {% if section.settings.sub_bottom3 != blank %}
+                <p class="sub-banner-bottom" style="color: {{ section.settings.color_sub_bottom }}">{{ section.settings.sub_bottom3 }}</p>
+                {% endif %}
+                {% if section.settings.button_banner3 != blank %}
+                <a href="{{ section.settings.url_button_banner3 }}" class="button-shop button-shop-{{ section.id }}" title="">{{ section.settings.button_banner3 }}</a>
+                {% endif %}
+                <div class="qodef-m-line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>   
+</div>
+<style>
+  .section-banner-v10 .banner-item .button-shop-{{ section.id }} {
+   color: {{ section.settings.color_bottom }};
+  }
+  .section-banner-v10 .banner-item .button-shop-{{ section.id }}:hover {
+   color: {{ section.settings.color_border_hover }};
+  }
+</style>
+
+{% schema %}
+{
+  "name": "BANNER V10",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "header",
+      "content": "Bacground Banner Content"
+    },
+    {
+      "type": "color",
+      "id": "bg_banner_content",
+      "label": "Bacground Banner Content",
+      "default": "#698467"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 1"
+    },
+    {
+      "type": "text",
+      "id": "title_show1",
+      "label": "Title Show 1",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "title_banner1",
+      "label": "Title Banner 1",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_bottom1",
+      "label": "Sub Bottom 1",
+      "default": " We conduct the marketing of products & services using latest technologies.We successfully implemented numerous projects for both global & local clients"
+    },
+    {
+      "type": "text",
+      "id": "button_banner1",
+      "label": "Button Banner 1",
+      "default": "SHOP NOW"
+    },
+    {
+      "type": "url",
+      "id": "url_button_banner1",
+      "label": "URL Banner 1 ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_img1",
+      "label": "Image",
+      "info": "600x400px recommended"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 2"
+    },
+    {
+      "type": "text",
+      "id": "title_show2",
+      "label": "Title Show 2",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "title_banner2",
+      "label": "Title Banner 2",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_bottom2",
+      "label": "Sub Bottom 2",
+      "default": " We conduct the marketing of products & services using latest technologies.We successfully implemented numerous projects for both global & local clients"
+    },
+    {
+      "type": "text",
+      "id": "button_banner2",
+      "label": "Button Banner 2",
+      "default": "SHOP NOW"
+    },
+    {
+      "type": "url",
+      "id": "url_button_banner2",
+      "label": "URL Banner 2 ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_img2",
+      "label": "Image",
+      "info": "600x400px recommended"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 3"
+    },
+    {
+      "type": "text",
+      "id": "title_show3",
+      "label": "Title Show 3",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "title_banner3",
+      "label": "Title Banner 3",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_bottom3",
+      "label": "Sub Bottom 3",
+      "default": " We conduct the marketing of products & services using latest technologies.We successfully implemented numerous projects for both global & local clients"
+    },
+    {
+      "type": "text",
+      "id": "button_banner3",
+      "label": "Button Banner 3",
+      "default": "SHOP NOW"
+    },
+    {
+      "type": "url",
+      "id": "url_button_banner3",
+      "label": "URL Banner 3 ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_img3",
+      "label": "Image",
+      "info": "600x400px recommended"
+    },
+    {
+      "type": "header",
+      "content": "Settings Color Banner"
+    },
+    {
+      "type": "color",
+      "id": "color_title_show",
+      "label": "Color Title Show",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_title_banner",
+      "label": "Color Title Banner",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_bottom",
+      "label": "Color Sub Bottom Banner",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_bottom",
+      "label": "Color Bottom",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_border_hover",
+      "label": "Color Hover Border Bottom",
+      "default": "#000"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V10",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

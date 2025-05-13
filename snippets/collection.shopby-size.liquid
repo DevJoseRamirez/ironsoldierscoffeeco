@@ -1,0 +1,87 @@
+<section class=" filter-size filter-tag">
+  <h1>shop by size</h1>
+  {% comment %} REMOVE THIS LATER {% endcomment %}
+
+  <div class="widget-title">
+    <h2 class="mb-0">{{ settings.shop_by_size_title }}</h2>
+  </div>
+  <ul class="list-none list-size">
+    {% assign tags = settings.shop_by_size_list_tags | split: ',' %}
+    {% for t in tags %}
+      {% assign tag = t | strip %}
+      {% assign tag_value = tag | handleize %}
+      <li class="cat-item{% if current_tags contains tag %} current-cat{% endif %}">
+        <input
+          type="checkbox"
+          value="{{ tag_value | split: '|' | first }}"
+          {% if current_tags contains tag %}checked{% endif %} />
+        <a
+          href="javascript:void(0)"
+          title="{{ tag }}"
+          class=" {% if current_tags contains tag %}active{% endif %}">{{ tag }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <!-- /.product-categories -->
+</section>
+
+{% comment %} 
+
+
+<section class=" filter-size filter-tag">
+
+
+  <div class="widget-title">
+    <h2 class="mb-0">Size</h2>
+  </div>
+
+
+  <ul class="list-none list-size">
+
+            <li class="cat-item">
+              <input type="checkbox" value="12oz">
+              <a
+                href="javascript:void(0)"
+                title="12oz"
+                class=" ">12oz</a>
+            </li>
+
+            <li class="cat-item">
+              <input type="checkbox" value="1-lb">
+              <a
+                href="javascript:void(0)"
+                title="1 LB"
+                class=" ">1 LB</a>
+            </li>
+
+
+
+            <li class="cat-item">
+              <input type="checkbox" value="2-lb">
+              <a
+                href="javascript:void(0)"
+                title="2 LB"
+                class="">2 LB</a>
+            </li>
+
+            <li class="cat-item">
+              <input type="checkbox" value="5-lb">
+              <a
+                href="javascript:void(0)"
+                title="5 LB"
+                class="active">5 LB</a>
+            </li>
+
+            <li class="cat-item">
+              <input type="checkbox" value="12-lb">
+              <a
+                href="javascript:void(0)"
+                title="12 LB"
+                class=" ">12 LB</a>
+            </li>
+
+  </ul>
+  <!-- /.product-categories -->
+
+</section>
+ {% endcomment %}

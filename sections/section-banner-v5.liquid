@@ -1,0 +1,317 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v5" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v5 {% if section.settings.ena_padding_top %} padding_top_banner5 {% endif %}">
+    <div class="{% if section.settings.ena_container %} container container-v2 {% endif %}">
+      <div class="row no-gutters align-items-center"  style="background-color:{{ section.settings.bg_banner }}"> 
+        <div class=" col-banner-6 {% if section.settings.select_pos == 'left' %} order-lg-1 {% elsif section.settings.select_pos == 'right'%} order-lg-2  {% endif %}">
+          <div class="box-img1 img-left" style="background-color:{{ section.settings.bg_banner }}">
+            <div class="banner-content">
+              {% if section.settings.sub_title_banner != blank %}
+              <p class="sub-title" style="color: {{ section.settings.color_sub_title }}">{{ section.settings.sub_title_banner }}</p>
+              {% endif %}
+              <a href="{{ section.settings.url_banner }}">
+                {% if section.settings.title_banner != blank %}
+                <h3 class="title-banner" style="color: {{ section.settings.color_title }}">{{ section.settings.title_banner }}</h3>
+                {% endif %}
+              </a>
+            </div>
+
+{% comment %} 
+  fa-bolt
+  fa-hand-paper-o
+  fa-handshake-o
+{% endcomment %}
+
+            <div class="banner-content">
+              <div class="row">
+                <div class="col-sm-6 " style="display: flex; ">
+                  <div class="icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                  <div class="content"> 
+                    {% if section.settings.content_title != blank %}
+                    <h3 class="subtitle" style="color: {{ section.settings.color_content_title }}">{{ section.settings.content_title }}</h3>
+                    {% endif %}
+                    {% if section.settings.content_sub != blank %}
+                    <p class="subcontent" style="color: {{ section.settings.color_content_sub }}">{{ section.settings.content_sub }}</p>
+                    {% endif %}
+                  </div>
+                </div>
+
+                <div class="col-sm-6 " style="display: flex; ">
+                  <div class="icon">
+                    <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="content">
+                    {% if section.settings.content_title2 != blank %}
+                    <h3 class="subtitle" style="color: {{ section.settings.color_content_title }}">{{ section.settings.content_title2 }}</h3>
+                    {% endif %}
+                    {% if section.settings.content_sub2 != blank %}
+                    <p class="subcontent" style="color: {{ section.settings.color_content_sub }}">{{ section.settings.content_sub2 }}</p>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="    margin-top: 40px;">
+                <div class="col-sm-6 " style="display: flex; ">
+                  <div class="icon">
+                    <i class="fa fa-truck" aria-hidden="true"></i>
+                  </div>
+                  <div class="content">
+                    {% if section.settings.content_title3 != blank %}
+                    <h3 class="subtitle" style="color: {{ section.settings.color_content_title }}">{{ section.settings.content_title3 }}</h3>
+                    {% endif %}
+                    {% if section.settings.content_sub3 != blank %}
+                    <p class="subcontent" style="color: {{ section.settings.color_content_sub }}">{{ section.settings.content_sub3 }}</p>
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="col-sm-6 " style="display: flex;">
+                  <div class="icon">
+                    <i class="fa fa-bolt" aria-hidden="true"></i>
+                  </div>
+                  <div class="content">
+                    {% if section.settings.content_title4 != blank %}
+                    <h3 class="subtitle" style="color: {{ section.settings.color_content_title }}">{{ section.settings.content_title4 }}</h3>
+                    {% endif %}
+                    {% if section.settings.content_sub4 != blank %}
+                    <p class="subcontent" style="color: {{ section.settings.color_content_sub }}">{{ section.settings.content_sub4 }}</p>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-banner-4 {% if section.settings.select_pos == 'left' %} order-lg-2  {% elsif section.settings.select_pos == 'right'%} order-lg-1 {% endif %}">
+          <div class="box-img img-right">
+            <a href="{{ section.settings.url_banner }}">
+              {% if section.settings.img_banner_right != blank %}
+              <img loading="lazy" width="" height="" data-src="{{ section.settings.img_banner_right | image_url }}" class="lazyload img-fluid w-100" alt >
+              {% else %}
+              <img loading="lazy" width="" height="" data-src="//via.placeholder.com/951x613" class="lazyload img-fluid w-100" alt>
+              {% endif %}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .section-banner-v5 .col-banner-6  .img-left .banner-content .button-shop-{{ section.id }} {
+    color: {{ section.settings.color_btn }};
+    background: {{ section.settings.bg_btn }};
+    border: 2px solid  {{ section.settings.bg_btn }};
+  }
+  .section-banner-v5 .col-banner-6  .img-left .banner-content .button-shop-{{ section.id }}:hover {
+    color: {{ section.settings.color_btn_hover }};
+    background: transparent;
+    border: 2px solid  {{ section.settings.color_btn_hover }};
+  }
+</style>
+{% schema %}
+{
+  "name": "BANNER V5",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "ena_padding_top",
+      "label": "Enable Add Padding Top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "ena_container",
+      "label": "Enable Add Container Box",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "select_pos",
+      "label": "Select Position Content",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "header",
+      "content": "Background Color Banner"
+    },
+    {
+      "type": "color",
+      "id": "bg_banner",
+      "label": "Backgorund Color",
+      "default": "#f2f2f2"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner Content"
+    },
+    {
+      "type": "text",
+      "id": "title_banner",
+      "label": "Title Banner",
+      "default": "We Provide You With Top Quality Products For Your Pet"
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Color Title banner",
+      "default": "#fff"
+    },
+    {
+      "type": "text",
+      "id": "sub_title_banner",
+      "label": "Sub Title Banner",
+      "default": "Timeless and evolving"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_title",
+      "label": "Color Sub Title banner",
+      "default": "#fff"
+    },
+    {
+      "type": "text",
+      "id": "button_banner",
+      "label": "Button Banner 1",
+      "default": "Shop now"
+    },
+    {
+      "type": "color",
+      "id": "color_btn",
+      "label": "Color button banner",
+      "default": "#222"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn",
+      "label": "Background Color button banner",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_btn_hover",
+      "label": "Color button banner Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "url",
+      "id": "url_banner",
+      "label": "URL Button ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "header",
+      "content": "Settings Content Sub"
+    },
+    {
+      "type": "text",
+      "id": "content_title",
+      "label": "Title Banner ",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "content_sub",
+      "label": " Sub Banner ",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "content_title2",
+      "label": "Title Banner 2",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "content_sub2",
+      "label": " Sub Banner 2",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "content_title3",
+      "label": "Title Banner 3",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "content_sub3",
+      "label": " Sub Banner 3",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "content_title4",
+      "label": "Title Banner 4",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "content_sub4",
+      "label": " Sub Banner 4",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "color",
+      "id": "color_content_title",
+      "label": "Color Content Title",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "color_content_sub",
+      "label": "Color Content Sub",
+      "default": "#7a7a7a"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner_right",
+      "label": "Image Banner",
+      "info": "720 x 720px recommended"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V5",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

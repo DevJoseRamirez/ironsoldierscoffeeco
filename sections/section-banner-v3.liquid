@@ -1,0 +1,213 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v3" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v3 mt-all">
+    <div class="container container-full">
+      <div class="row js-banner-v3" style="background-image: url({% if section.settings.img_bg != blank %}{{ section.settings.img_bg | image_url }}{% else %}//via.placeholder.com/1920x1102{% endif %});">
+        {% if section.blocks.size > 0 %}
+        {% for block in section.blocks %}
+        {% if block.type == 'banner' %}
+        <div class="col-12" >
+          <div class="container container-v2">
+            <div class="row banner">
+              <div class="col-md-6 p-0 {% if block.settings.select_pos == 'left' %} order-lg-1 {% elsif block.settings.select_pos == 'right'%} order-lg-2  {% endif %}" >
+                <a href="{{ block.settings.brand_url }}">
+                  {% if block.settings.banner_img != blank %}
+                  <img loading="lazy" width="" height="" data-src="{{ block.settings.banner_img | image_url }}" class="lazyload img-fluid w-100" alt="_img_collection">
+                  {% else %}
+                  <img loading="lazy" width="" height="" data-src="//via.placeholder.com/800x1000" class="lazyload img-fluid w-100" alt="_img_collection">
+                  {% endif %}
+                </a>
+              </div>
+              <div class="col-md-6 p-0 {% if block.settings.select_pos == 'left' %} order-lg-2  {% elsif block.settings.select_pos == 'right'%} order-lg-1 {% endif %}">
+                <div class=" imgsmall ">
+                  <a href="{{ block.settings.brand_url }}">
+                    {% if block.settings.banner_img2 != blank %}
+                    <img loading="lazy" width="" height="" data-src="{{ block.settings.banner_img2 | image_url }}" class="lazyload img-fluid " style="display:inline-block" alt="_img_collection">
+                    {% else %}
+                    <img loading="lazy" width="" height="" data-src="//via.placeholder.com/289x394" class="lazyload img-fluid" style="display:inline-block" alt="_img_collection">
+                    {% endif %}
+                  </a>
+                </div>
+                <div class="content">
+                  {% if block.settings.title_collection != blank %}
+                  <h3 class="title "style="color: {{ block.settings.color_title }}">{{ block.settings.title_collection }}</h3>
+                  {% endif %}
+                  <div class="price-banner">
+                    {% if block.settings.previous != blank %}
+                    <del class="previous">{{ block.settings.previous }} </del>
+                    {% endif %}
+                    {% if block.settings.price != blank %}
+                    <p class="price ">{{ block.settings.price }}</p>
+                    {% endif %}
+                  </div>
+                  {% if block.settings.button != blank %}
+                  <a href="{{ block.settings.brand_url }}" class="button-shop button-shop-{{ block.id }}">{{ block.settings.button }}</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endif %} 
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  {% if section.blocks.size > 0 %}
+  {% for block in section.blocks %}
+  {% if block.type == 'banner' %}
+  .section-banner-v3 .content .button-shop-{{ block.id }} {
+    color: {{ block.settings.color_url }};
+  }
+  .section-banner-v3 .content .button-shop-{{ block.id }}:hover {
+    color: {{ block.settings.color_url_hover }};
+  }
+  .section-banner-v3 .banner .button-shop:before {
+  border: 1px solid {{ block.settings.color_url }};
+  }
+  .section-banner-v3 .banner .button-shop:hover:before {
+    border-color: {{ block.settings.color_url_hover }};
+  }
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+</style>
+
+{% schema %}
+{
+  "name": "BANNER V3",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_bg",
+      "info": "1920 x 900px recommended",
+      "label": "Bg Banner 1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "banner",
+      "name": "Item Collection v1",
+      "settings": [
+        {
+          "type": "select",
+          "id": "select_pos",
+          "label": "Select Position Content",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "url",
+          "id": "brand_url",
+          "label": "URL collection",
+          "default": "/collections/all"
+        },
+        {
+          "type": "image_picker",
+          "id": "banner_img",
+          "info": "800 x 1000px recommended",
+          "label": "Image 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "banner_img2",
+          "info": "289 x 394px recommended",
+          "label": "Image 2"
+        },
+        {
+          "type": "text",
+          "id": "title_collection",
+          "label": "Label Banner",
+          "default": "New Collection"
+        },
+        {
+          "type": "color",
+          "id": "color_title",
+          "label": "Color Title banner",
+          "default": "#000"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price",
+          "default": "$20.00"
+        },
+        {
+          "type": "text",
+          "id": "previous",
+          "label": "Previous",
+          "default": "$30.00"
+        },
+        {
+          "type": "text",
+          "id": "button",
+          "label": "Button Banner",
+          "default": "Shop Now"
+        },
+        {
+          "type": "color",
+          "id": "color_url",
+          "label": "Color Button",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "color_url_hover",
+          "label": "Color Button Hover",
+          "default": "#000"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V3",
+      "category": "HOME",
+      "blocks": [
+        {
+          "type": "banner",
+          "settings": {
+            "title_collection": "Women",
+            "button": "Shop Now"
+          }
+        },
+        {
+          "type": "banner",
+          "settings": {
+            "title_collection": "Man",
+            "button": "Shop Now"
+          }
+        },
+        {
+          "type": "banner",
+          "settings": {
+            "title_collection": "Basic",
+            "button": "Shop Now"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

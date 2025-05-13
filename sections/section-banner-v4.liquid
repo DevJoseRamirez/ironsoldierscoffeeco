@@ -1,0 +1,177 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v4" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v4" style="background: {{ section.settings.bg_section }}">
+    <div class="container-fluid contanier">
+      <div class="row">
+        <div class="col-md-6 order-2 order-md-1 p-0">
+          <div class="banner-item">
+            <div class="content">
+              {% if section.settings.sub_title != blank %}
+              <p class="sub_title" style="color: {{ section.settings.color_sub_title }}">
+                {{ section.settings.sub_title }}
+              </p>
+              {% endif %}
+
+              {% if section.settings.title_banner != blank %}
+              <h3 class="title_banner" style="color: {{ section.settings.color_title }}">{{ section.settings.title_banner }}</h3>
+              {% endif %}
+
+              {% if section.settings.btn_banner != blank %}
+              <a href="{{ section.settings.url_btn }}" class="btn-banner btn-banner-{{ section.id }}">{{ section.settings.btn_banner }}</a>
+              {% endif %}
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6  order-1 order-md-2 p-0">
+          <div class="banner-img">
+            <img loading="lazy" width="" height="" data-src="{% if section.settings.img_banner != blank %} {{ section.settings.img_banner | image_url }} {% else %}  //via.placeholder.com/850x850 {% endif %}" class="lazyload img-fluid w-100" alt="_img_banner">
+            {% if section.settings.content != blank %}
+            <h4 class="content" style="color: {{ section.settings.color_content }}">{{ section.settings.content }}</h4>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% if section.settings.label_banner != blank %}
+      <div class="label_banner">
+        <span>{{ section.settings.label_banner }}</span>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<style>
+  .section-banner-v4 .banner-item .btn-banner-{{ section.id }} {
+    color: {{ section.settings.color_btn }};
+    background: {{ section.settings.bg_btn }};
+  }
+  .section-banner-v4 .banner-item .btn-banner-{{ section.id }}:hover {
+    color: {{ section.settings.color_btn_hover }};
+    background: {{ section.settings.bg_btn_hover }};
+  }
+</style>
+{% schema %}
+{
+  "name": "BANNER V4",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_section",
+      "label": "Background Section",
+      "default": "#ede8e4"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub Title",
+      "default": " 🔥 Up to 50% off almost everything"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_title",
+      "label": "Color",
+      "default": "#000"
+    },
+    {
+      "type": "text",
+      "id": "title_banner",
+      "label": "Sub Title",
+      "default": "YOUR OFFER <br>CYBER MONDAY"
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Color",
+      "default": "#000"
+    },
+    {
+      "type": "text",
+      "id": "btn_banner",
+      "label": "Button Banner",
+      "default": "SHOP NOW"
+    },
+    {
+      "type": "url",
+      "id": "url_btn",
+      "label": "URL Button ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "color",
+      "id": "color_btn",
+      "label": "Color Button",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn",
+      "label": "Background Button",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_btn_hover",
+      "label": "Color Button Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn_hover",
+      "label": "Background Button Hover",
+      "default": "#000"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner",
+      "label": "Image",
+      "info": "850 x 850px recommended"
+    },
+    {
+      "type": "text",
+      "id": "content",
+      "label": "Title countdown",
+      "default": "45% OFF"
+    },
+    {
+      "type": "color",
+      "id": "color_content",
+      "label": "Color",
+      "default": "#fff"
+    },
+    {
+      "type": "text",
+      "id": "label_banner",
+      "label": "Label banner",
+      "default": "BEST <br><strong>PRICES</strong>"
+    },
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V4",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

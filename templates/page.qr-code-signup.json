@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "001d6faa-898e-4abb-bb9c-128b743e8f92": {
+      "type": "rich-text",
+      "settings": {
+        "rich_icon_svg": "",
+        "section_title": ""
+      }
+    },
+    "c2fc9b00-2cc0-48a3-9aa0-2c32d4ae4d03": {
+      "type": "section-product-v4",
+      "settings": {
+        "title_heading": "CHECK OUT OUR COFFEE OPTIONS",
+        "color_title": "#222",
+        "select_collection": "all-coffee",
+        "products_limit": 4,
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "001d6faa-898e-4abb-bb9c-128b743e8f92",
+    "c2fc9b00-2cc0-48a3-9aa0-2c32d4ae4d03"
+  ]
+}

@@ -1,0 +1,133 @@
+<div class=" tab-pd-details">
+
+    <div class="bd-tab">
+        <div class="container container-v2">
+            <ul class="nav nav-tabs tab_prod">
+                {% if section.settings.description-tab %}
+                <li>
+                    <a class="underline_scale active" data-toggle="tab" href="#des">{{ settings.destab_title }}</a>
+                </li>
+                {% endif %}
+
+
+                {% if section.settings.add-tab_1  != blank %}
+                <li>
+                    <a class="underline_scale" data-toggle="tab"
+                        href="#add-1">{{ section.settings.add-tab_1.title }}</a>
+                </li>
+                {% endif %}
+
+                {% if section.settings.add-tab_2 != blank %}
+                <li>
+                    <a class="underline_scale" data-toggle="tab"
+                        href="#add-2">{{ section.settings.add-tab_2.title }}</a>
+                </li>
+                {% endif %}
+
+
+                {% if section.settings.reviews-tab %}
+                <li>
+                    <a class="underline_scale" data-toggle="tab" href="#review">{{ settings.reviewtab_title }}</a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="tab-content container container-v4">
+
+
+        {% comment %} DESCRIPTION TAB1 {% endcomment %}
+        {% if section.settings.description-tab %}
+        <div class="tab-pane fade show active" id="des">
+            <div class="desc product-desc">{{ product.description }}
+            </div>
+        </div>
+        {% endif %}
+
+        {% comment %} ADDITIONAL TAB 1 {% endcomment %}
+        {% if section.settings.add-tab_1 != blank %}
+        <div class="tab-pane fade mt-4" id="add-1">
+            <div class="">{{ section.settings.add-tab_1.content }}
+            </div>
+        </div>
+        {% endif %}
+
+        {% comment %} ADDITIONAL TAB 2 {% endcomment %}
+        {% if section.settings.add-tab_2 != blank %}
+        <div class="tab-pane fade mt-4" id="add-1">
+            <div class="">{{ section.settings.add-tab_2.content }}
+            </div>
+        </div>
+        {% endif %}
+
+        {% comment %} REVIEWS TAB {% endcomment %}
+        {% if section.settings.reviews-tab %}
+        <div class="tab-pane fade mt-4" id="review">
+            <!-- Start of Judge.me code -->
+            <div style='clear:both'></div>
+            <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget'
+                data-product-title='{{ product.title | escape }}' data-id='{{ product.id }}' data-auto-install='false'>
+                {{ product.metafields.judgeme.widget }}
+            </div>
+            <!-- End of Judge.me code -->
+
+            {% comment %}
+            <div id="shopify-product-reviews" data-id="{{ product.id }}">
+
+                {{ product.metafields.spr.reviews }}</div>
+            {% endcomment %}
+        </div>
+        {% endif %}
+
+    </div>
+</div>
+
+
+{% include 'social_share-product' %}
+{% include 'related-product-new' %}
+
+
+{% schema %}
+{
+"name": {
+"en": "Product Tabs"
+},
+"class": "index-section",
+"settings": [
+{
+"type": "checkbox",
+"id": "description-tab",
+"label": "Show product description tab",
+"default": true
+},
+{
+"type": "checkbox",
+"id": "reviews-tab",
+"label": "Show product reviews tab",
+"default": true
+},
+{
+"type": "page",
+"id": "add-tab_1",
+"label": "Add product tab page content"
+},
+{
+"type": "page",
+"id": "add-tab_2",
+"label": "Add product tab page content"
+}
+],
+"presets": [
+{
+"name": {
+"en": "Product Tabs"
+},
+"category": {
+"en": "Product"
+}
+}
+]
+}
+{% endschema %}
