@@ -12,11 +12,23 @@
           <div class="item">
             <div class="box-img">
               <a href="{{ block.settings.brand_url }}" title="{{ block.settings.title_collection }}">
-                {% if block.settings.brand_img != blank %}
+              
+              
+              {% if block.settings.brand_img != blank %}
                 <img loading="lazy" width="" height="" data-src="{{ block.settings.brand_img | image_url }}" class="lazyload img-fluid w-100" alt="_img_collection">
+              {% elsif block.settings.brand_url != blank %}
+                {% assign collection_handle = block.settings.brand_url | split: '/' | last %}
+                {% assign collection = collections[collection_handle] %}
+                {% if collection.products_count > 0 and collection.products.first.featured_image != blank %}
+                  <img loading="lazy" width="" height="" data-src="{{ collection.products.first.featured_image | image_url }}" class="lazyload img-fluid w-100" alt="{{ collection.products.first.title }}">
                 {% else %}
-                <img loading="lazy" width="" height="" data-src="//via.placeholder.com/456x456" class="lazyload img-fluid w-100" alt="_img_collection">
+                  <img loading="lazy" width="" height="" data-src="//via.placeholder.com/456x456" class="lazyload img-fluid w-100" alt="_img_collection">
                 {% endif %}
+              {% else %}
+                <img loading="lazy" width="" height="" data-src="//via.placeholder.com/456x456" class="lazyload img-fluid w-100" alt="_img_collection">
+              {% endif %}
+
+
               </a>
             </div>
             <div class="category-info">
