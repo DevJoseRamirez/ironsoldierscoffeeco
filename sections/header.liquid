@@ -1,7 +1,21 @@
+<a href="pages/trading-company" 
+style="padding: 1rem 2rem;
+    background: #f4f4f4cc;
+    color: black;
+    width: 100%;
+    position: relative;
+    display: block;
+    text-align: center;
+    font-weight: bold; 
+    ">TO TRADE PAGE</a>
+
 <!-- /sections/header.liquid -->
 {% if template contains 'index' %}
+  {% comment %} HOME PAGE {% endcomment %}
   {% if section.settings.select_hds == "header_v1" %}
   {% include 'header-v1' %}
+  {% comment %}  - currently selected {% endcomment %}
+
   {% elsif section.settings.select_hds == "header_v2" %}
   {% include 'header-v2' %}
   {% elsif section.settings.select_hds == "header_v3" %}
@@ -14,8 +28,11 @@
   {% include 'header-v6' %}
   {% endif %}
 {% else %}
+{% comment %} ALL OTHER PAGES {% endcomment %}
   {% if section.settings.select_hds_all == "header_ver1" %}
   {% include 'header-v1' %}
+  {% comment %}  - currently selected {% endcomment %}
+  
   {% elsif section.settings.select_hds_all == "header_ver2" %}
   {% include 'header-v2' %}
   {% elsif section.settings.select_hds_all == "header_ver3" %}

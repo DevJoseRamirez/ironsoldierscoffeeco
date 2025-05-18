@@ -1,7 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-light p-0 text-center justify-content-between">
   <div class="collapse navbar-collapse justify-content-center">
     <ul class="navbar-nav">
-      {% assign main_menu = section.settings.main_menu_store %}
+      {% comment %} {% assign main_menu = section.settings.main_menu_store %} {% endcomment %}
+
+        {% if page.handle == 'trading-company' %}
+          {% assign main_menu = 'trading-company' %}
+        {% else %}
+          {% assign main_menu = section.settings.main_menu_store %}
+        {% endif %}
+
+
       {% for link in linklists[main_menu].links %}
 
       {% assign item = link.title | split: '[' | first | downcase %}

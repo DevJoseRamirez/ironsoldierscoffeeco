@@ -1,3 +1,5 @@
+{% comment %} CURRENT MOBILE HEADER {% endcomment %}
+
 <div class="menu_moblie d-flex d-xl-none jsmenumobile align-items-center {% unless settings.enable_sticky_mobile %}engoc-disable-sticky{% endunless %}">
   <a href="javascript:void(0)" title="" class="menuleft">
     <span class="iconmenu">
@@ -15,7 +17,13 @@
     {% else %}          	
     <a href="{{ shop.url }}">
       {% if settings.logo_mobile != blank %}
-      <img loading="lazy" height="{{ image.height }}" src="{{ settings.logo_mobile | image_url }}" width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
+
+          {% if page.handle == 'trading-company' %}
+            <img loading="lazy" height="{{ image.height }}" src="https://cdn.shopify.com/s/files/1/0716/3009/4654/files/Iron_Soldier_Trading_Company-1.png?v=1747518837" width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
+          {%- else -%}
+            <img loading="lazy" height="{{ image.height }}" src="{{ settings.logo_mobile | image_url }}" width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
+          {% endif %}
+
       {% else %}
       <img loading="lazy" height="{{ image.height }}" src="//via.placeholder.com/150x40" width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
       {% endif %}
@@ -57,7 +65,13 @@
 
         {% assign i = 1 %}
 
-        {% assign main_menu = settings.main_menu_store_mb %}
+        {% if page.handle == 'trading-company' %}
+          {% assign main_menu = 'trading-company' %}
+        {% else %}
+          {% assign main_menu = settings.main_menu_store_mb %}
+        {% endif %}
+
+   
         {% for link in linklists[main_menu].links %}    
         
         {% assign child_list_handle = link.title | handleize %}

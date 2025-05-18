@@ -157,12 +157,28 @@
     color : {{ section.settings.ft_home_color_text }};
   }
 </style>
+
 {% endif %}
 {% endif %}
 
+{% if page.handle == 'trading-company' %}
+  {% style %}
+    footer {
+    background-color: #352812;
+    }
+  {% endstyle %}
+{%- else -%}
+  {% style %}
+    footer {
+    background-color : {{ section.settings.ft_other_bg_footer }}
+    }  
+  {% endstyle %}
+{% endif %}
+
+
 {% if section.settings.select_fts_all == "footer_ver4" %}
 {% unless template contains 'index' %}
-<footer class="footer_v4 " style="background-color : {{ section.settings.ft_other_bg_footer }}">
+<footer class="footer_v4 " >
   <div class="top-footer">
     <div class="container container-v1 ">    
       <div class="row">

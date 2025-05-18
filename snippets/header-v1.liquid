@@ -1,3 +1,6 @@
+{% comment %} CURRENT DESKTOP HEADER {% endcomment %}
+
+
 {% if section.settings.select_hds == "header_v1" %}
 {% if template contains 'index' %}
 <header id="header" class="homepage header-v1-h1 js_height_hd jsheader_sticky d-none d-xl-block {% if section.settings.hd_home_enable_transparents %}header-absolute {% endif %}">
@@ -177,10 +180,16 @@
             <div class="logosvg" style="max-width:{{ section.settings.hd_other_logo_maxwidth }}px;">
               <a class="logourl" href="{{ shop.url }}">{{ section.settings.hd_other_logo_svg }}</a>
             </div>
-            {% else %}            
+            {% else %}       
             <a href="{{ shop.url }}">
               {% if section.settings.hd_other_logo != blank %}
-              <img loading="lazy" height="{{ image.height }}" src="{{ section.settings.hd_other_logo | image_url }}" width="{{ section.settings.hd_other_logo_maxwidth }}" alt="{{ shop.name }}">
+                {% if page.handle == 'trading-company' %}
+                  <img loading="lazy" height="{{ image.height }}" src="https://cdn.shopify.com/s/files/1/0716/3009/4654/files/Iron_Soldier_Trading_Company-1.png?v=1747518837" width="{{ section.settings.hd_other_logo_maxwidth }}" alt="{{ shop.name }}">
+                  {% comment %} <img loading="lazy" height="{{ image.height }}" src="https://cdn.shopify.com/s/files/1/0716/3009/4654/files/Iron_Soldier_Trading_Company.png?v=1747518837" width="{{ section.settings.hd_other_logo_maxwidth }}" alt="{{ shop.name }}"> {% endcomment %}
+                {%- else -%}
+                  <img loading="lazy" height="{{ image.height }}" src="{{ section.settings.hd_other_logo | image_url }}" width="{{ section.settings.hd_other_logo_maxwidth }}" alt="{{ shop.name }}">
+                {% endif %}
+
               {% else %}
               <img loading="lazy" height="{{ image.height }}" src="//via.placeholder.com/160x46" width="{{ section.settings.hd_other_logo_maxwidth }}" alt="{{ shop.name }}">
               {% endif %}

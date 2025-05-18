@@ -33520,3 +33520,13 @@ a.back-to-top:hover::before{
   }
 }
 .rtl a.back-to-top{right: auto;left:36px;}
+
+/* ============================================  CUSTOM STYLE ============================================ */
+
+{% if page.handle == 'trading-company' %}
+  {% style %}
+    .contentbody {
+        background-color: red;
+        }
+    {% endstyle %}
+{% endif %}
