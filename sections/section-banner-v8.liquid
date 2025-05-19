@@ -1,12 +1,29 @@
-<div data-section-id="{{ section.id }}" data-section-type="section-banner-v8" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+
+{% style %}
+.css {
+  margin-top: {{section.settings.margin_top}}px;
+  margin-bottom: {{section.settings.margin_bottom}}px;
+}
+{% endstyle %}
+
+
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v8">
   <div class="section-banner-v8 mt-all">
     <div class="container container-v2">
       <div class="row">        
         <div class="col-sm-6">
           <div class="banner-item">
-            <div class="box-img">
+
+            {% comment %} <div class="box-img">
               <img loading="lazy" width="" height="" data-src="{% if section.settings.img_banner1 != blank %} {{ section.settings.img_banner1 | image_url }} {% else %} //via.placeholder.com/960x960 {% endif %}" class="lazyload img-fluid w-100" alt="_img_banner">
-            </div>
+            </div> {% endcomment %}
+
+            <a href="{{ section.settings.url_banner1 }}" class="box-img">
+              <img loading="lazy" width="" height="" data-src="{% if section.settings.img_banner1 != blank %} {{ section.settings.img_banner1 | image_url }} {% else %} //via.placeholder.com/960x960 {% endif %}" class="lazyload img-fluid w-100" alt="_img_banner">
+            </a>
+
+
+
             <div class="banner-content">
               {% if section.settings.sub_title1 != blank %}
               <p class="title-top title-top-{{ section.id }}">{{ section.settings.sub_title1 }}</p>
@@ -22,9 +39,18 @@
         </div>
         <div class="col-sm-6">
           <div class="banner-item">
-            <div class="box-img">
+ 
+            {% comment %} <div class="box-img">
               <img loading="lazy" width="" height="" data-src="{% if section.settings.img_banner2 != blank %} {{ section.settings.img_banner2 | image_url }} {% else %} //via.placeholder.com/960x960 {% endif %}" class="lazyload img-fluid w-100" alt="_img_banner">
-            </div>
+            </div> {% endcomment %}
+
+
+            <a href="{{ section.settings.url_banner2 }}" class="box-img">
+              <img loading="lazy" width="" height="" data-src="{% if section.settings.img_banner2 != blank %} {{ section.settings.img_banner2 | image_url }} {% else %} //via.placeholder.com/960x960 {% endif %}" class="lazyload img-fluid w-100" alt="_img_banner">
+            </a>
+
+
+
             <div class="banner-content">
               {% if section.settings.sub_title2 != blank %}
               <p class="title-top title-top-{{ section.id }}">{{ section.settings.sub_title2 }}</p>
