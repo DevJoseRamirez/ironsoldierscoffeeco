@@ -1,9 +1,27 @@
-<div data-section-id="{{ section.id }}" data-section-type="section-product-v2" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+{% style %}
+.active_product_grid-{{ section.id }} {
+margin: 0rem;
+padding-top: {{section.settings.margin_top}}px;
+padding-bottom: {{section.settings.margin_bottom}}px;
+}
+.active_product_grid-{{ section.id }} .section-product-v2.mt-all {
+margin: 0rem;
+/* margin-top: {{section.settings.margin_top}}px; */
+/* margin-bottom: {{section.settings.margin_bottom}}px; */
+}
+
+
+{% endstyle %}
+
+
+<div class="active_product_grid-{{ section.id }}" data-section-id="{{ section.id }}"
+  data-section-type="section-product-v2">
   <div class="section-product-v2 mt-all">
     <div class="container container-v2">
       {% if section.settings.title_heading != blank %}
       <div class="text-center">
-        <h3 class="title_heading text-center mb-4" style="color: {{ section.settings.color_title }}">{{ section.settings.title_heading }}</h3>
+        <h3 class="title_heading text-center mb-4" style="color: {{ section.settings.color_title }}">{{
+          section.settings.title_heading }}</h3>
       </div>
       {% endif %}
       <div class="row justify-content-center">
@@ -13,7 +31,8 @@
             {%- assign i = 1 -%}
             {% for block in section.blocks %}
             <li>
-              <a href="#a{{ i }}" data-toggle="tab" class="{% if forloop.first %}active{% endif %} ds-prod-1">{{ block.settings.tab_title }}</a>
+              <a href="#a{{ i }}" data-toggle="tab" class="{% if forloop.first %}active{% endif %} ds-prod-1">{{
+                block.settings.tab_title }}</a>
             </li>
             {%- assign i = i | plus : 1 -%}
 
@@ -54,90 +73,90 @@
 
 {% schema %}
 {
-  "name": "PRODUCT V2",
-  "settings": [
-    {
-      "type": "header",
-      "content": "Section Space"
-    },
-    {
-      "type": "text",
-      "id": "margin_top",
-      "label": "Margin Top",
-      "info": "Defined in pixels. Do not add the 'px' unit."
-    },
-    {
-      "type": "text",
-      "id": "margin_bottom",
-      "label": "Margin Bottom",
-      "info": "Defined in pixels. Do not add the 'px' unit."
-    },
-    {
-      "type": "text",
-      "id": "title_heading",
-      "label": "Title Section",
-      "default": "Our Best Seller"
-    },
-    {
-      "type": "color",
-      "id": "color_title",
-      "label": "Color",
-      "default": "#222"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "tab",
-      "name": "Tab",
-      "settings": [
-        {
-          "type": "text",
-          "id": "tab_title",
-          "label": "Title Tab",
-          "default": "NEW ARRIVALS"
-        },
-        {
-          "type": "collection",
-          "id": "tab_collection",
-          "label": "Chose Collection"
-        },
-        {
-          "type": "range",
-          "id": "tab_limit",
-          "min": 2,
-          "max": 50,
-          "step": 1,
-          "label": "Limit Products",
-          "default": 8
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "PRODUCT V2",
-      "category": "HOME",
-      "blocks": [
-        {
-          "type": "tab",
-          "settings": {
-            "tab_title": "NEW ARRIVALS"
-          }
-        },
-        {
-          "type": "tab",
-          "settings": {
-            "tab_title": "BEST SELLERS"
-          }
-        },
-        {
-          "type": "tab",
-          "settings": {
-            "tab_title": "TOP RATES"
-          }
-        }
-      ]
-    }
-  ]
+"name": "PRODUCT V2",
+"settings": [
+{
+"type": "header",
+"content": "Section Space"
+},
+{
+"type": "text",
+"id": "margin_top",
+"label": "Margin Top",
+"info": "Defined in pixels. Do not add the 'px' unit."
+},
+{
+"type": "text",
+"id": "margin_bottom",
+"label": "Margin Bottom",
+"info": "Defined in pixels. Do not add the 'px' unit."
+},
+{
+"type": "text",
+"id": "title_heading",
+"label": "Title Section",
+"default": "Our Best Seller"
+},
+{
+"type": "color",
+"id": "color_title",
+"label": "Color",
+"default": "#222"
+}
+],
+"blocks": [
+{
+"type": "tab",
+"name": "Tab",
+"settings": [
+{
+"type": "text",
+"id": "tab_title",
+"label": "Title Tab",
+"default": "NEW ARRIVALS"
+},
+{
+"type": "collection",
+"id": "tab_collection",
+"label": "Chose Collection"
+},
+{
+"type": "range",
+"id": "tab_limit",
+"min": 2,
+"max": 50,
+"step": 1,
+"label": "Limit Products",
+"default": 8
+}
+]
+}
+],
+"presets": [
+{
+"name": "PRODUCT V2",
+"category": "HOME",
+"blocks": [
+{
+"type": "tab",
+"settings": {
+"tab_title": "NEW ARRIVALS"
+}
+},
+{
+"type": "tab",
+"settings": {
+"tab_title": "BEST SELLERS"
+}
+},
+{
+"type": "tab",
+"settings": {
+"tab_title": "TOP RATES"
+}
+}
+]
+}
+]
 }
 {% endschema %}

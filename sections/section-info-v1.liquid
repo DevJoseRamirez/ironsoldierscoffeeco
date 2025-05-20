@@ -1,18 +1,22 @@
 {% style %}
-.section-info-v1-wrap {
-margin-top: {{section.settings.margin_top}}px;
-margin: 2rem 0rem;
-margin-bottom: {{section.settings.margin_bottom}}px;
-margin-bottom: 0rem;
+.info-title-{{ section.id }} .section-info-v1-wrap {
+margin: 0rem;
+padding-bottom: {{section.settings.margin_bottom}}px;
+padding-top: {{section.settings.margin_top}}px;
 }
-.section-info-v1 {
-margin-top: {{section.settings.margin_top}}px;
-margin-bottom: {{section.settings.margin_bottom}}px;
+.info-title-{{ section.id }} .section-info-v1 {
+margin: 0rem;
+padding-top: {{section.settings.margin_top}}px;
+padding-bottom: {{section.settings.margin_bottom}}px;
+}
+
+@media (max-width: 1199px) {
+
 }
 {% endstyle %}
 
 
-<div data-section-id="{{ section.id }}" data-section-type="" class="section-info-v1-wrap">
+<div class="info-title-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="" class="section-info-v1-wrap">
   <div class="section-info-v1">
     <div class="container container-v2">
       <div class="d-flex justify-content-center">
