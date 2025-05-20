@@ -665,12 +665,14 @@ display: none;
                   </div>
                   {% endif %}
 
+                  {% comment %} 
                   {% if settings.enable_catalog_mode == false %}
                   <div class="btn-addwhlist">
                     {% include 'add-wishlist' %}
                     <span class="text_whlist"></span>
                   </div>
                   {% endif %}
+                   {% endcomment %}
 
                   <ul class="product-meta-info"> 
                     {% if section.settings.show_sku %}
