@@ -1,3 +1,5 @@
+{% comment %} PRODUCT TEMPLATE {% endcomment %}
+
 {% assign on_sale = false %}
 {% if product.compare_at_price > product.price %}
 {% assign on_sale = true %}
@@ -448,7 +450,11 @@
                   </div>
                   {% else %}
                   <div class="pd_summary">
-                    <p class=" mb-0">{{ product.description | strip_html | truncatewords: 50 }}</p>
+                    {% if product.metafields.custom.product_description_snippet != blank %}
+                      {{ product.metafields.custom.product_description_snippet | metafield_tag }}
+                    {% else %}
+                      <p class=" mb-0">{{ product.description | strip_html | truncatewords: 50 }}</p>
+                    {% endif %}
                   </div>
                   {% endif %}
                   {% endif %}
