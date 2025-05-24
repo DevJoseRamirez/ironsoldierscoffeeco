@@ -5,26 +5,293 @@
       "disabled": true,
       "settings": {}
     },
-    "section_banner_v9_ATVh3g": {
-      "type": "section-banner-v9",
+    "section_banner_v2_Hiz6Lh": {
+      "type": "section-banner-v2",
+      "custom_css": [
+        ".section-banner-v2 {margin-top: 0px;}"
+      ],
+      "name": "BANNER V2",
+      "settings": {
+        "select_pos": "left",
+        "img_banner1": "shopify:\/\/shop_images\/Iron_Soldier_Trading_Company-min.png",
+        "img_banner1_mb": "shopify:\/\/shop_images\/Iron_Soldier_Trading_Company_mobile-min.png",
+        "title_banner": "",
+        "color_title": "#222222",
+        "sub_title": "",
+        "color_sub_title": "#222222",
+        "button_1": "",
+        "color_btn": "#ffffff",
+        "bg_btn": "#000000",
+        "color_btn_hover": "#000000",
+        "bg_btn_hover": "#ffffff",
+        "url_button1": "shopify:\/\/collections\/bbq",
+        "margin_top": "0",
+        "margin_bottom": "0"
+      }
+    },
+    "section_info_v1_HbzUTk": {
+      "type": "section-info-v1",
+      "custom_css": [
+        "H2 {margin: 0rem; font-weight: 800;}"
+      ],
+      "name": "INFO V1",
+      "settings": {
+        "title_info": "TRY OUR NEW GRILL ESSENTIALS",
+        "color_title_info": "",
+        "content_info": "",
+        "color_content_info": "",
+        "more_about": "",
+        "url_banner": "",
+        "margin_top": "48",
+        "margin_bottom": "16"
+      }
+    },
+    "rich_text_MtRQcE": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [
+        "H2 {margin: 2rem 0rem; font-weight: 800;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "rich_icon_svg": "",
+        "section_title": "TRY OUR NEW GRILL ESSENTIALS"
+      }
+    },
+    "section_banner_v8_LNirpY": {
+      "type": "section-banner-v8",
+      "name": "BANNER V8",
+      "settings": {
+        "img_banner1": "shopify:\/\/shop_images\/BQQ_RUBS-min.png",
+        "sub_title1": "",
+        "title_banner1": "",
+        "btn_banner1": "",
+        "url_banner1": "shopify:\/\/collections\/rubs",
+        "img_banner2": "shopify:\/\/shop_images\/sauces_coming_soon-min.png",
+        "sub_title2": "",
+        "title_banner2": "",
+        "btn_banner2": "",
+        "url_banner2": "shopify:\/\/collections\/sauce",
+        "color_top_title": "#222222",
+        "color_title": "#222222",
+        "color_btn": "#000000",
+        "color_btn_hover": "#ffffff",
+        "bg_btn_hover": "#222222",
+        "margin_top": "24",
+        "margin_bottom": "36"
+      }
+    },
+    "section_info_v1_jwBhMD": {
+      "type": "section-info-v1",
+      "custom_css": [
+        "H2 {margin: 0rem; font-weight: 800;}"
+      ],
+      "name": "INFO V1",
+      "settings": {
+        "title_info": "shop all things iron Soldier",
+        "color_title_info": "",
+        "content_info": "",
+        "color_content_info": "",
+        "more_about": "",
+        "url_banner": "",
+        "margin_top": "24",
+        "margin_bottom": "12"
+      }
+    },
+    "section_collection_v3_Wm3zar": {
+      "type": "section-collection-v3",
+      "blocks": {
+        "colection_BtDJAJ": {
+          "type": "colection",
+          "settings": {
+            "brand_img": "shopify:\/\/shop_images\/G503_JEEP-3_4e532fda-56f0-44d2-ac58-5079c470d1f2.jpg",
+            "title_collection": "New Collection",
+            "brand_url": "shopify:\/\/collections\/all",
+            "block_content": "What sets FarmFresh varieties apart are their fresh, home-grown flavor, exceptional fruit quality, earlier and longer harvests and loads of produce."
+          }
+        },
+        "colection_t7EJGz": {
+          "type": "colection",
+          "settings": {
+            "brand_img": "shopify:\/\/shop_images\/SHERMAN_TANK-1.jpg",
+            "title_collection": "Earthenware",
+            "brand_url": "shopify:\/\/collections\/all",
+            "block_content": "The earliest form of human produced ceramics that was created in fire pits as early as 29,000 BC."
+          }
+        }
+      },
+      "block_order": [
+        "colection_BtDJAJ",
+        "colection_t7EJGz"
+      ],
+      "disabled": true,
+      "name": "COLLECTION V3",
       "settings": {
         "margin_top": "",
-        "margin_bottom": "",
-        "url_banner": "shopify:\/\/collections\/all",
-        "title_banner": "Banner Title",
-        "sub_bottom": "20% Food Shop Sale Off This Day",
-        "button_banner": "SHOP NOW",
-        "color_title_banner": "#fff",
-        "color_sub_bottom": "#fff",
-        "color_button": "#fff",
-        "color_bg_button": "#fff",
-        "color_hover_button": "#fff",
-        "color_hover_bg_button": "#fff"
+        "margin_bottom": ""
+      }
+    },
+    "section_collection_v2_gU8fwr": {
+      "type": "section-collection-v2",
+      "blocks": {
+        "colection_PaxdtJ": {
+          "type": "colection",
+          "settings": {
+            "title_collection": "Glasses",
+            "brand_url": "shopify:\/\/collections\/glasses"
+          }
+        },
+        "colection_HWRPnM": {
+          "type": "colection",
+          "settings": {
+            "title_collection": "Tumblers",
+            "brand_url": "shopify:\/\/collections\/tumblers"
+          }
+        },
+        "colection_JGHWtc": {
+          "type": "colection",
+          "settings": {
+            "title_collection": "Apparel",
+            "brand_url": "shopify:\/\/collections\/apparel"
+          }
+        },
+        "colection_VDMTmU": {
+          "type": "colection",
+          "settings": {
+            "title_collection": "Mugs",
+            "brand_url": "shopify:\/\/collections\/mugs"
+          }
+        },
+        "colection_UmP8w3": {
+          "type": "colection",
+          "settings": {
+            "title_collection": "Merchandise",
+            "brand_url": "shopify:\/\/collections\/merchandise"
+          }
+        }
+      },
+      "block_order": [
+        "colection_PaxdtJ",
+        "colection_HWRPnM",
+        "colection_JGHWtc",
+        "colection_VDMTmU",
+        "colection_UmP8w3"
+      ],
+      "name": "COLLECTION V2",
+      "settings": {
+        "margin_top": "12",
+        "margin_bottom": "48",
+        "title_heading": "",
+        "color_title": "#000000"
+      }
+    },
+    "1747172670cba55867": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_rb7FjG": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1280
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_rb7FjG"
+      ],
+      "settings": {}
+    },
+    "section_product_v2_dA7KdV": {
+      "type": "section-product-v2",
+      "blocks": {
+        "tab_WPzwQy": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "new",
+            "tab_collection": "new-trading-company",
+            "tab_limit": 8
+          }
+        },
+        "tab_cBkpwX": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "drinkware",
+            "tab_collection": "drinkware",
+            "tab_limit": 8
+          }
+        },
+        "tab_YRg7mK": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "bbq",
+            "tab_collection": "bbq",
+            "tab_limit": 8
+          }
+        }
+      },
+      "block_order": [
+        "tab_WPzwQy",
+        "tab_cBkpwX",
+        "tab_YRg7mK"
+      ],
+      "name": "PRODUCT V2",
+      "settings": {
+        "margin_top": "24",
+        "margin_bottom": "24",
+        "title_heading": "Our Best Seller",
+        "color_title": "#222222"
+      }
+    },
+    "section_banner_v2_tRPg7n": {
+      "type": "section-banner-v2",
+      "name": "BANNER V2",
+      "settings": {
+        "select_pos": "left",
+        "img_banner1": "shopify:\/\/shop_images\/bbq_rubs_Now_Arrived-min.png",
+        "img_banner1_mb": "shopify:\/\/shop_images\/bbq_rubs_Now_Arrived-1-min.png",
+        "title_banner": "",
+        "color_title": "#222222",
+        "sub_title": "",
+        "color_sub_title": "#222222",
+        "button_1": "",
+        "color_btn": "#ffffff",
+        "bg_btn": "#000000",
+        "color_btn_hover": "#000000",
+        "bg_btn_hover": "#ffffff",
+        "url_button1": "shopify:\/\/collections\/rubs",
+        "margin_top": "0",
+        "margin_bottom": "0"
+      }
+    },
+    "section_blog_v1_BhbQpf": {
+      "type": "section-blog-v1",
+      "name": "BLOG",
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "36",
+        "section_title": "Our Blogs",
+        "color_title": "#222222",
+        "select_blog": "news",
+        "blogs_limit": 8,
+        "enable_category": false,
+        "enable_date": true,
+        "enable_title": true,
+        "enable_excerpt": true,
+        "ena_btn_readmore": true
       }
     }
   },
   "order": [
     "main",
-    "section_banner_v9_ATVh3g"
+    "section_banner_v2_Hiz6Lh",
+    "section_info_v1_HbzUTk",
+    "rich_text_MtRQcE",
+    "section_banner_v8_LNirpY",
+    "section_info_v1_jwBhMD",
+    "section_collection_v3_Wm3zar",
+    "section_collection_v2_gU8fwr",
+    "1747172670cba55867",
+    "section_product_v2_dA7KdV",
+    "section_banner_v2_tRPg7n",
+    "section_blog_v1_BhbQpf"
   ]
 }

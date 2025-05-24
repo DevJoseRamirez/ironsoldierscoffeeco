@@ -3,13 +3,13 @@
     "collection_template": {
       "type": "collection-template",
       "settings": {
-        "select_style_bread": "style_2",
-        "ena_bg_img": true,
+        "select_style_bread": "style_1",
+        "ena_bg_img": false,
         "bg_breadcrumb": "shopify:\/\/shop_images\/coffee_9b55b3d1-a81c-493d-82f8-9255ef1e593f.png",
-        "bg_color_breadcrumb": "#111111",
-        "color_breadcrumb": "#ffffff",
+        "bg_color_breadcrumb": "#ffffff",
+        "color_breadcrumb": "#111111",
         "collection_layout": "infinity_scroll",
-        "prod_per_page": 12,
+        "prod_per_page": 24,
         "prod_layout": "prod_grid",
         "prod_per_row": "prod_col_4",
         "filter_layout": "filter_draw",

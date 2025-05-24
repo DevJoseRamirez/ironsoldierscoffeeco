@@ -34,11 +34,11 @@
       "settings": {
         "title_info": "\"$1 from each Bag order goes to a volunteer-only nonprofit.\"",
         "color_title_info": "#556b2f",
-        "content_info": "\"100% of proceeds are used for youth education programs & veteran support.<br> Join 2,500+ supporters and enjoy a cup of tasty joe with it.\"<br> Our Mission goes way beyond Great Coffee, but that's a start, will you Join Us?",
+        "content_info": "\"100% of proceeds are used for youth education programs & veteran support. Join 2,500+ supporters and enjoy a cup of tasty joe with it.\" Our Mission goes way beyond Great Coffee, but that's a start, will you Join Us?",
         "color_content_info": "#556b2f",
         "more_about": "More about us",
         "url_banner": "shopify:\/\/pages\/about-us",
-        "margin_top": "0",
+        "margin_top": "048",
         "margin_bottom": "0"
       }
     },
@@ -81,7 +81,7 @@
         "color_content_info": "#556b2f",
         "more_about": "More about us",
         "url_banner": "shopify:\/\/pages\/about-us",
-        "margin_top": "0",
+        "margin_top": "36",
         "margin_bottom": "0"
       }
     },
@@ -219,7 +219,7 @@
         "165975024318832717-2"
       ],
       "settings": {
-        "margin_top": "",
+        "margin_top": "24",
         "margin_bottom": "",
         "title_heading": "A World of Flavor",
         "color_title": "#353b25"
