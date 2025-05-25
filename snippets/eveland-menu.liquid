@@ -3,7 +3,7 @@
     <ul class="navbar-nav">
       {% comment %} {% assign main_menu = section.settings.main_menu_store %} {% endcomment %}
 
-        {% if page.handle == 'trading-company' %}
+        {% if page.handle == 'trading-company'  or  collection.template_suffix == 'trading-company'%}
           {% assign main_menu = 'trading-company' %}
         {% else %}
           {% assign main_menu = section.settings.main_menu_store %}
@@ -23,7 +23,7 @@
 
       {% if settings[megamenu_1] == item or settings[megamenu_2] == item or settings[megamenu_3] == item or settings[megamenu_4] == item or settings[megamenu_5] == item %}
       {% for i in (1..5) %}
-
+        
       {% capture megamenu %}apmenuitem_title_{{i}}{% endcapture %}
       {% capture enamega %}apmenuitem_enable_{{i}}{% endcapture %}
 

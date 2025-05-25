@@ -15,20 +15,41 @@
       <a href="{{ shop.url }}">{{ settings.logo_svgmobile }}</a>
     </div>
     {% else %}          	
-    <a href="{{ shop.url }}">
-      {% if settings.logo_mobile != blank %}
 
-          {% if page.handle == 'trading-company' %}
-            <img loading="lazy" height="{{ image.height }}" src="https://cdn.shopify.com/s/files/1/0716/3009/4654/files/Iron_Soldier_Trading_Company-1.png?v=1747518837" width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
-          {%- else -%}
-            <img loading="lazy" height="{{ image.height }}" src="{{ settings.logo_mobile | image_url }}" width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
+      {% if page.handle == 'trading-company' or collection.template_suffix == 'trading-company'%}
+
+        <a href="{{ shop.url }}/pages/trading-company">
+          {% if settings.logo_mobile != blank %}
+          <img loading="lazy" height="{{ image.height }}"
+            src="https://cdn.shopify.com/s/files/1/0716/3009/4654/files/Iron_Soldier_Trading_Company-1.png?v=1747518837"
+            width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
+
+          {% else %}
+          <img loading="lazy" height="{{ image.height }}" src="//via.placeholder.com/150x40"
+            width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
           {% endif %}
+        </a>
+
 
       {% else %}
-      <img loading="lazy" height="{{ image.height }}" src="//via.placeholder.com/150x40" width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
+
+
+        <a href="{{ shop.url }}">
+          {% if settings.logo_mobile != blank %}
+          <img loading="lazy" height="{{ image.height }}" src="{{ settings.logo_mobile | image_url }}"
+            width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
+
+          {% else %}
+          <img loading="lazy" height="{{ image.height }}" src="//via.placeholder.com/150x40"
+            width="{{ settings.mobile_logo_maxwidth }}" alt="logo">
+          {% endif %}
+        </a>
+
+
       {% endif %}
-    </a>
-    {% endif %}
+
+ {% endif %}
+
 
   </div>
   <div class="menuright">
@@ -65,7 +86,7 @@
 
         {% assign i = 1 %}
 
-        {% if page.handle == 'trading-company' %}
+        {% if page.handle == 'trading-company'  or  collection.template_suffix == 'trading-company'%}
           {% assign main_menu = 'trading-company' %}
         {% else %}
           {% assign main_menu = settings.main_menu_store_mb %}
