@@ -11,6 +11,18 @@
 {% endif %}
 
 
+{% comment %} keep image squre regardless of original {% endcomment %}
+{% style %}
+  .img-product > .engoj_find_img > img {
+  aspect-ratio: 1 / 1 !important; 
+  object-fit: cover !important;
+  width: 100% !important;
+  height: auto !important;
+  overflow: hidden !important;
+}
+{% endstyle %}
+
+
 <section class="collection-page-fullwidth">
   <div class="filter-to-left">
     <div class="filter_sidebar">

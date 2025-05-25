@@ -1,3 +1,19 @@
+
+{% if template.name == 'product' and collection.template_suffix == 'trading-company' %}
+      {% style %}
+      .contentbody {
+          background-color: #FAF3E6;
+        }
+        footer.footer_v4  {
+            background-color: #352812;
+
+          }
+    {% endstyle %}
+{% endif %}
+
+{% comment %} PRODUCT TEMPLATE {% endcomment %}
+
+
 {% assign on_sale = false %}
 {% if product.compare_at_price > product.price %}
 {% assign on_sale = true %}
