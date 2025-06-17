@@ -6,7 +6,7 @@
         "select_style_bread": "style_1",
         "ena_bg_img": false,
         "bg_breadcrumb": "shopify:\/\/shop_images\/coffee_9b55b3d1-a81c-493d-82f8-9255ef1e593f.png",
-        "bg_color_breadcrumb": "#ffffff",
+        "bg_color_breadcrumb": "#faf3e6",
         "color_breadcrumb": "#111111",
         "collection_layout": "infinity_scroll",
         "prod_per_page": 24,

@@ -1,0 +1,28 @@
+{
+  "parent": "page.aboutus.json",
+  "context": {
+    "market": "us"
+  },
+  "sections": {
+    "about_introduce": {
+      "settings": {},
+      "blocks": {
+        "a653e752-d2e2-4d29-b960-f964706f33f1": {
+          "settings": {
+            "content_intro": "<p>At the heart of our story is a deep commitment to honoring veterans and supporting their families—a passion that began with our founder and continues to drive everything we do. We believe many of our customers share this same sense of purpose. \n<\/p><p>\nOur mission goes beyond great coffee; it’s about keeping history alive and passing on the stories of the brave men and women who sacrificed for our freedom. If you feel the same calling, then you understand why this mission matters so much to us—and why we’re determined to make a lasting impact.!<\/p>"
+          }
+        },
+        "1bdc974c-d9e3-4e49-8dd4-02b7a9c4e479": {
+          "settings": {
+            "content_intro": "<p>Our passion drives our mission—to honor and support veterans through action. Whether it's providing our products at events, donating time, or using proceeds from every sale to support the cause, we’re committed to making a real difference. <\/p><p>\nWe believe in the power of community and connection. By building relationships with like-minded individuals, we can go further together. Coffee may be our product—but our purpose is so much greater. <\/p><p>\nEach cup we serve helps keep the stories of the Greatest Generation alive and ensures their sacrifices are never forgotten.\n!<\/p>"
+          }
+        },
+        "d381963a-364c-41b3-a4e4-929f06889386": {
+          "settings": {
+            "content_intro": "<p>At Iron Soldiers Coffee Company, our mission doesn’t stop at the cup. Through strong partnerships with nonprofit organizations, we are proud to take meaningful action that directly supports our veteran community. From providing holiday assistance to veteran families in need, to donating and installing flagpoles as lasting symbols of honor and pride, our work is about more than words—it’s about real service. <\/p><p>\nWe also create opportunities for connection and healing by hosting social events that bring veterans together, reminding them they’re never alone. Beyond veteran support, we believe in the power of education. That’s why we help fund and participate in public and youth events focused on keeping history alive—especially the stories and sacrifices of the Greatest Generation. <\/p><p>\nFor us, coffee is more than a product—it’s a tool. A way to bring people together, to raise awareness, to fund action, and to carry forward a mission rooted in patriotism, respect, and remembrance. Every bag we roast is brewed with purpose—uniting passion and product to serve those who served us.\n<\/p>"
+          }
+        }
+      }
+    }
+  }
+}
