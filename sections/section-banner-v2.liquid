@@ -1,3 +1,8 @@
+{% style %}
+  .section-banner-v2  .sub-title  > p  {
+    color: {{ section.settings.color_sub_title  }}
+  }
+{% endstyle %}
 <div data-section-id="{{ section.id }}" data-section-type="section-banner-v2" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{% endif %} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
   <div class="section-banner-v2">
     <div class="banner-box">
@@ -30,7 +35,7 @@
       <div class="banner-info {% if section.settings.select_pos == 'left' %} content-left {% elsif section.settings.select_pos == 'right'%} content-right {% elsif section.settings.select_pos == 'center'%} content-center {% endif %}">
         <h3 class="title" style="color: {{ section.settings.color_title }}">{{ section.settings.title_banner }}</h3>
         {% if section.settings.sub_title != blank %}
-        <p class="sub-title" style="color: {{ section.settings.color_sub_title }}">{{ section.settings.sub_title }}</p>
+        <div class="sub-title" style="color: {{ section.settings.color_sub_title }}">{{ section.settings.sub_title }}</div>
         {% endif %}
         {% if section.settings.button_1 != blank %}
         <a href="{{ section.settings.url_button1 }}" class="button-shop button-shop-{{ section.id }} text-center">{{ section.settings.button_1 }}</a>
@@ -99,10 +104,10 @@
       "default": "#222"
     },
     {
-      "type": "text",
+      "type": "richtext",
       "id": "sub_title",
       "label": "Sub Title banner",
-      "default": "When you’ve got your health, you got everything."
+      "default": "<p>When you’ve got your health, you got everything.</p>"
     },
     {
       "type": "color",
