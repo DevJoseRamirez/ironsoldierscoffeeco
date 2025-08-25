@@ -14,7 +14,7 @@
         "img_banner1_mb": "shopify:\/\/shop_images\/Iron_Soldier_Coffee_Co_M.png",
         "title_banner": "Fuel Your Day with Coffee  That Makes A Difference",
         "color_title": "#ffffff",
-        "sub_title": "BREWING COURAGE, ONE CUP AT A TIME",
+        "sub_title": "<p>BREWING COURAGE, ONE CUP AT A TIME<\/p>",
         "color_sub_title": "#ffffff",
         "button_1": "SHOP NOW",
         "color_btn": "#ffffff",
@@ -52,15 +52,15 @@
         "padding_bottom": 36
       }
     },
-    "a3e905e0-f2af-47a4-bbfc-b6a6c7ca53da": {
+    "section_banner_v2_CPPcYe": {
       "type": "section-banner-v2",
       "settings": {
         "select_pos": "left",
         "img_banner1": "shopify:\/\/shop_images\/Mask_groupvets.png",
-        "img_banner1_mb": "shopify:\/\/shop_images\/Mask_groupvets-1.png",
+        "img_banner1_mb": "shopify:\/\/shop_images\/Branson_Missouri_Day_Room_-_mobile-min.png",
         "title_banner": "You're Supporting Soldiers & Their Families",
         "color_title": "#ffffff",
-        "sub_title": "Buying our coffee puts dollars from every sale toward supporting our Soldiers!  Annually hosted Pancake Breakfast, Flagpole Installs, to Camouflage Christmas Programs each purchase makes an impact on our Mission!  Image: Branson Missouri, Day Room",
+        "sub_title": "<p>Buying our coffee puts dollars from every sale toward supporting our Soldiers!  Annually hosted Pancake Breakfast, Flagpole Installs, to Camouflage Christmas Programs each purchase makes an impact on our Mission!  <\/p><p><em> - Image: Branson Missouri, Day Room<\/em><\/p>",
         "color_sub_title": "#ffffff",
         "button_1": "Count Me In!",
         "color_btn": "#ffffff",
@@ -336,7 +336,7 @@
         "img_banner1_mb": "shopify:\/\/shop_images\/Mask_group4_oly.png",
         "title_banner": "Join Our Mission with Every Sip",
         "color_title": "#ffffff",
-        "sub_title": "Transform your coffee ritual into an act of support. Together, we can make every cup count for our brave soldiers.",
+        "sub_title": "<p>Transform your coffee ritual into an act of support. Together, we can make every cup count for our brave soldiers.<\/p>",
         "color_sub_title": "#ffffff",
         "button_1": "Brew a Difference Today",
         "color_btn": "#ffffff",
@@ -369,7 +369,7 @@
     "f3564036-5385-4ce6-8098-21665f861ffc",
     "119987c0-5c7e-4297-822a-7e66d01f5e1c",
     "video_crtaR7",
-    "a3e905e0-f2af-47a4-bbfc-b6a6c7ca53da",
+    "section_banner_v2_CPPcYe",
     "section_info_v1_4Gra4C",
     "2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87",
     "166001160513bad377",

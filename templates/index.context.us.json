@@ -3,12 +3,5 @@
   "context": {
     "market": "us"
   },
-  "sections": {
-    "a3e905e0-f2af-47a4-bbfc-b6a6c7ca53da": {
-      "settings": {
-        "sub_title": "When you buy a bag of Iron Soldiers Coffee, you're doingmore than getting a great cup of coffee—you’re giving back. For every bag sold,$1 goes directly toward supporting active-duty soldiers, veterans, and theirfamilies. Through our own outreach and in partnership with trusted nonprofitorganizations, these funds fuel programs that make a real difference.From hosting our annual Veteran Pancake Breakfast toinstalling flagpoles for those who’ve served, to bringing holiday joy throughour Camouflage Christmas Program, every purchase helps us carry out meaningfulacts of service. Your support turns coffee into a mission—uniting purpose,patriotism, and action in every cup.  Image: Branson Missouri Dayroom, Veterans Week"
-      },
-      "blocks": {}
-    }
-  }
+  "sections": {}
 }
