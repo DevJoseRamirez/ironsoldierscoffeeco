@@ -24,7 +24,7 @@
         "bg_btn": "#000000",
         "color_btn_hover": "#000000",
         "bg_btn_hover": "#ffffff",
-        "url_button1": "shopify:\/\/collections\/bbq",
+        "url_button1": "shopify:\/\/collections\/new-trading-company",
         "margin_top": "0",
         "margin_bottom": "0"
       }
@@ -62,12 +62,12 @@
       "type": "section-banner-v8",
       "name": "BANNER V8",
       "settings": {
-        "img_banner1": "shopify:\/\/shop_images\/BQQ_RUBS-min.png",
+        "img_banner1": "shopify:\/\/shop_images\/Iron_Soldires_-_BBQ_Rubs_Seasoning-min.png",
         "sub_title1": "",
         "title_banner1": "",
         "btn_banner1": "",
         "url_banner1": "shopify:\/\/collections\/rubs",
-        "img_banner2": "shopify:\/\/shop_images\/sauces_coming_soon-min.png",
+        "img_banner2": "shopify:\/\/shop_images\/Iron_Soldires_-_Hot_BBQ_Sauces-min_4d73ddb7-4a44-4108-bb74-059fadf4dd7e.png",
         "sub_title2": "",
         "title_banner2": "",
         "btn_banner2": "",
@@ -243,6 +243,7 @@
     },
     "section_banner_v2_tRPg7n": {
       "type": "section-banner-v2",
+      "disabled": true,
       "name": "BANNER V2",
       "settings": {
         "select_pos": "left",

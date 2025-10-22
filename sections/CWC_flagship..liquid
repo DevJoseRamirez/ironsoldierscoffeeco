@@ -1,0 +1,132 @@
+{% style %}
+  #CWC_flagship-{{ section.id }} {
+    --section-bg: {{ section.settings.background_color }};
+    --padding-top: {{ section.settings.padding_top }}px;
+    --padding-bottom: {{ section.settings.padding_bottom }}px;
+    --padding-top-mobile: {{ section.settings.padding_top | times: 0.5 }}px;
+    --padding-bottom-mobile: {{ section.settings.padding_bottom | times: 0.5 }}px;
+  }
+{% endstyle %}
+
+{{ 'CWC_flagship.css' | asset_url | stylesheet_tag }}
+
+<section id="CWC_flagship-{{ section.id }}" class="CWC_flagship CWC_flagship-{{ section.id }}">
+  <div class="CWC_flagship-wrapper">
+    {% if section.settings.title != blank %}
+      <h2 class="CWC_flagship-title">{{ section.settings.title }}</h2>
+    {% endif %}
+
+    <div class="CWC_flagship-columns">
+      {% if section.settings.link_1 or section.settings.image_1 or section.settings.text_1 %}
+        <div class="flagship-item">
+          <a href="{{ section.settings.link_1 }}">
+            {% if section.settings.image_1 %}
+              <img src="{{ section.settings.image_1 | image_url }}" alt="{{ section.settings.text_1 | escape }}">
+            {% else %}
+              <img src="{{ 'placeholder.png' | asset_url }}" alt="Placeholder image">
+            {% endif %}
+
+            {% if section.settings.text_1 != blank %}
+              <div class="flagship-label">{{ section.settings.text_1 }}</div>
+            {% endif %}
+          </a>
+        </div>
+      {% endif %}
+
+      {% if section.settings.link_2 or section.settings.image_2 or section.settings.text_2 %}
+        <div class="flagship-item">
+          <a href="{{ section.settings.link_2 }}">
+            {% if section.settings.image_2 %}
+              <img src="{{ section.settings.image_2 | image_url }}" alt="{{ section.settings.text_2 | escape }}">
+            {% else %}
+              <img src="{{ 'placeholder.png' | asset_url }}" alt="Placeholder image">
+            {% endif %}
+
+            {% if section.settings.text_2 != blank %}
+              <div class="flagship-label">{{ section.settings.text_2 }}</div>
+            {% endif %}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "CWC Flagship",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Flagship Products"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "url",
+      "id": "link_1",
+      "label": "Link 1"
+    },
+    {
+      "type": "text",
+      "id": "text_1",
+      "label": "Text Under Image 1",
+      "default": "ANVÄNDA V1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "url",
+      "id": "link_2",
+      "label": "Link 2"
+    },
+    {
+      "type": "text",
+      "id": "text_2",
+      "label": "Text Under Image 2",
+      "default": "ANVÄNDA V2"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top Padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom Padding",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Flagship",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
