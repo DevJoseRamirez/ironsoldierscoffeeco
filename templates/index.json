@@ -1,7 +1,42 @@
 {
   "sections": {
+    "cwc_two_image_banner_GJhNfG": {
+      "type": "CWC_two_image_banner",
+      "blocks": {
+        "image_block_pctBLb": {
+          "type": "image_block",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Fuel_Your_Day_with_Coffee_That_Makes_A_Difference___hero___02-min.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_1000007377mobile-min.png",
+            "alt_text": "",
+            "link": "shopify:\/\/collections\/all-coffee"
+          }
+        },
+        "image_block_4twQFn": {
+          "type": "image_block",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/BBQ_Rubs_Sauces___hero___01-min.png",
+            "mobile_image": "shopify:\/\/shop_images\/BBQ_Rubs_Sauces___hero___3mobile-min.png",
+            "alt_text": "",
+            "link": "shopify:\/\/pages\/trading-company"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_pctBLb",
+        "image_block_4twQFn"
+      ],
+      "name": "CWC Two Image Banner",
+      "settings": {
+        "background_color": "#faf9f6",
+        "text_color": "#202020",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "f3564036-5385-4ce6-8098-21665f861ffc": {
       "type": "section-banner-v2",
+      "disabled": true,
       "custom_css": [
         ".title {max-width: 600px;}",
         "div {margin: 0px;}",
@@ -303,7 +338,7 @@
         "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-0": {
           "type": "colection",
           "settings": {
-            "block_title_small": "Free U.S. Shipping",
+            "block_title_small": "Free Shipping On All Coffee & Tea",
             "color_title_small": "#ffffff",
             "brand_url": "shopify:\/\/collections\/all"
           }
@@ -366,6 +401,7 @@
     }
   },
   "order": [
+    "cwc_two_image_banner_GJhNfG",
     "f3564036-5385-4ce6-8098-21665f861ffc",
     "119987c0-5c7e-4297-822a-7e66d01f5e1c",
     "video_crtaR7",

@@ -3951,8 +3951,8 @@
           "hd_other_logo_maxwidth": 300,
           "hd_other_logo_svg": "",
           "main_menu_store": "main-menu-2",
-          "hd_icon_search": "",
-          "hd_icon_search_svg": "",
+          "hd_icon_search": "icon-icon-search",
+          "hd_icon_search_svg": "<!--?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?-->\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 400 400\" height=\"400\" width=\"400\" id=\"svg2\" version=\"1.1\" xmlns:dc=\"http:\/\/purl.org\/dc\/elements\/1.1\/\" xmlns:cc=\"http:\/\/creativecommons.org\/ns#\" xmlns:rdf=\"http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns#\" xmlns:svg=\"http:\/\/www.w3.org\/2000\/svg\" xml:space=\"preserve\"><metadata id=\"metadata8\"><rdf><work rdf:about=\"\"><format>image\/svg+xml<\/format><type rdf:resource=\"http:\/\/purl.org\/dc\/dcmitype\/StillImage\"><\/type><\/work><\/rdf><\/metadata><defs id=\"defs6\"><\/defs><g transform=\"matrix(1.3333333,0,0,-1.3333333,0,400)\" id=\"g10\"><g transform=\"scale(0.1)\" id=\"g12\"><path id=\"path14\" style=\"fill-opacity:1;fill-rule:nonzero;stroke:none\" d=\"m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801\"><\/path><\/g><\/g><\/svg>",
           "hd_icon_wishlist": "",
           "hd_icon_wishlist_svg": "",
           "url_wishlist": "shopify:\/\/pages\/wishlist",
@@ -6182,6 +6182,11 @@
       },
       "5557296251606798448": {
         "type": "shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-embed\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+        "disabled": false,
+        "settings": {}
+      },
+      "9752555012629308362": {
+        "type": "shopify:\/\/apps\/parkour-facebook-pixel\/blocks\/threasury_pixel\/f23b2ffe-4c53-446e-ad3a-7976ffbee5c2",
         "disabled": false,
         "settings": {}
       }

@@ -4,6 +4,8 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js p-0" {% if settings.enable_rtl_mode %} dir="rtl"{% endif %} > <!--<![endif]-->
 <head>
 
+  <meta name="google-site-verification" content="q6a8D5AIYMemNiCG8Vjg4L0JHvlJhQED89WagyXJAvg" />
+
   <!-- Microsoft Clarity -->
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -27,7 +29,7 @@
   {% endif %}
 
   <!-- Helpers ================================================== -->
-  {% include 'social-meta-tags' %}
+  {% render 'social-meta-tags' %}
   <link rel="canonical" href="{{ canonical_url }}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="{{ settings.m_primary_color }}">
@@ -36,7 +38,7 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <!-- font -->
-  {% include 'engo-header-fonts' %}
+  {% render 'engo-header-fonts' %}
   <!-- CSS ================================================== -->
   {% if settings.po_style == "po_swatchs" %}
   {{ 'timber.scss.css' | asset_url | stylesheet_tag }}
@@ -57,9 +59,9 @@
 
   <!-- Header hook for plugins ================================================== -->
   {{ content_for_header }}
-  {% include 'oldIE-js' %}
-  <script src="{{ 'jquery-3.5.0.min.js' | asset_url }}" type="text/javascript" ></script>
-  <script src="{{ 'api.jquery.js' | shopify_asset_url }}" type="text/javascript" ></script>
+  {% render 'oldIE-js' %}
+  <script src="{{ 'jquery-3.5.0.min.js' | asset_url }}" type="text/javascript" async ></script>
+  <script src="{{ 'api.jquery.js' | shopify_asset_url }}" type="text/javascript" async ></script>
   <script src="{{ 'modernizr-2.8.3.min.js' | asset_url }}" type="text/javascript" async></script>
   <script src="{{ 'option_selection.js' | shopify_asset_url }}" type="text/javascript" async></script>  
   <script src="{{ 'lazysizes.min.js' | asset_url }}" type="text/javascript" async></script>
@@ -104,11 +106,11 @@
   {% endcomment %}
   {% if template contains 'customers' %}
   {% comment %}theme-check-disable ParserBlockingScriptTag{% endcomment %}
-  {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
+  {{ 'shopify_common.js' | shopify_asset_url }}
   {% comment %}theme-check-enable ParserBlockingScriptTag{% endcomment %}
   {% endif %}
 
-  {% include 'social-meta-tags' %}
+  {% render 'social-meta-tags' %}
   {%- render 'bold-subscription-widget' -%}
 </head>
 {% comment %}
@@ -132,7 +134,7 @@ Add the page template as a class for easy page or template specific styling.
   <div class="wrap">
     <div class="contentbody">
       {% if settings.enable_promo_topbar %}
-      {% include 'promo-topbar' %}
+      {% render 'promo-topbar' %}
       {% endif %}
       {% section 'header' %}
 
@@ -141,10 +143,10 @@ Add the page template as a class for easy page or template specific styling.
       <h1 class="sr-only">{{ shop.name }}</h1>
       {% endif %}
 
-      {% include 'search' %}
-      {% include 'minicart' %}
-      {% include 'menu_mobile' %}
-      {% include 'popup-login' %}
+      {% render 'search' %}
+      {% render 'minicart' %}
+      {% render 'menu_mobile' %}
+      {% render 'popup-login' %}
       {{ content_for_layout }}
 
       {% section 'footer' %}
@@ -162,7 +164,7 @@ Add the page template as a class for easy page or template specific styling.
 
 
   <script src="{{ 'fastclick.js' | asset_url }}" type="text/javascript" defer></script>
-  {% include 'currencies' %}
+  {% render 'currencies' %}
   <script src="{{ 'timber.js' | asset_url }}" type="text/javascript" defer></script>
 
   {% comment %}
@@ -194,7 +196,7 @@ Add the page template as a class for easy page or template specific styling.
 
   {% if settings.ajax_cart_method == "drawer" %}
   <script src="{{ 'handlebars.min.js' | asset_url }}" type="text/javascript" defer></script>
-  {% include 'ajax-cart-template' %}
+  {% render 'ajax-cart-template' %}
   <script src="{{ 'ajax-cart.js' | asset_url }}" type="text/javascript" defer></script>
   <script>
     var ajaxCartConfig = {
@@ -223,9 +225,9 @@ Add the page template as a class for easy page or template specific styling.
   {% comment %} <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> {% endcomment %}
 
   <script src="{{ 'bootstrap.bundle.min.js' | asset_url }}" type="text/javascript" defer></script>
-  <script src="{{ 'slick.min.js' | asset_url }}" type="text/javascript" ></script>
+  <script src="{{ 'slick.min.js' | asset_url }}" type="text/javascript" defer></script>
   <script src="{{ 'instafeed.min.js' | asset_url }}" type="text/javascript" defer></script>
-  <script src="{{ 'jquery.fancybox.min.js' | asset_url }}" type="text/javascript" ></script>
+  <script src="{{ 'jquery.fancybox.min.js' | asset_url }}" type="text/javascript" defer></script>
   <script src="{{ 'engo-plugins.js' | asset_url }}" type="text/javascript" defer></script>
   <script src="{{ 'quickview.js' | asset_url }}" type="text/javascript" defer></script>
   {% comment %}
@@ -235,25 +237,25 @@ Add the page template as a class for easy page or template specific styling.
   <script src="{{ 'engo-scripts.js' | asset_url }}" type="text/javascript" defer></script>
   <script src="{{ 'masonry.pkgd.min.js' | asset_url }}" type="text/javascript" defer></script>
 
-  {% include 'product-quick-view' %}
-  {% include 'template-popup' %}
-  {% include 'template-popup-ajax-addtocart' %}
+  {% render 'product-quick-view' %}
+  {% render 'template-popup' %}
+  {% render 'template-popup-ajax-addtocart' %}
 
-  {% include 'linked-options' %}
-  {% include 'remove-sold-out' %}
+  {% render 'linked-options' %}
+  {% render 'remove-sold-out' %}
   {% if settings.ena_popup_cookie %}
-  {% include 'popup-cookie' %}
+  {% render 'popup-cookie' %}
   {% endif %}
 
-  {% include 'popup-product-random' %}
+  {% render 'popup-product-random' %}
 
   {% if settings.show_menu_toolbar %}
-  {% include 'menu-toolbar' %}
+  {% render 'menu-toolbar' %}
   {% endif %}
 
   {% if settings.ena_popup_news %}
   {% if template contains 'index' %}
-  {% include 'popup-newletter' %}
+  {% render 'popup-newletter' %}
   {% endif %}
   {% endif %}
 

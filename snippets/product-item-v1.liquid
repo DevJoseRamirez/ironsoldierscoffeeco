@@ -2175,7 +2175,8 @@
 
     <p class="price-product mb-0">
       {% if on_sale %}<s class="price-old">{{ product.compare_at_price | money }}</s>{% endif %}
-      <span class="price">{{ product.price | money }}</span>
+      {% comment %} <span class="price">{{ product.price | money }}</span> {% endcomment %}
+      <span class="price">From  {{ product.price | money }}</span>
     </p>
     <!-- END PRODUCT     -->
 

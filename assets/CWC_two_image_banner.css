@@ -21,6 +21,14 @@
     overflow: hidden;
 }
 
+.CWC_two_image_banner-column--large {
+    /* flex: 2 1 66%; */
+}
+
+.CWC_two_image_banner-column--small {
+    /* flex: 1 1 33%; */
+}
+
 /* === Images === */
 .CWC_two_image_banner-image {
     width: 100%;
