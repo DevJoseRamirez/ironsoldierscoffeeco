@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -39,8 +48,8 @@
         "bg_btn": "#fff",
         "color_btn_hover": "#fff",
         "bg_btn_hover": "#F3A395",
-        "url_button": "shopify:\/\/collections\/all",
-        "img_banner": "shopify:\/\/shop_images\/ebook.png"
+        "url_button": "shopify://collections/all",
+        "img_banner": "shopify://shop_images/ebook.png"
       }
     },
     "9864e175-ea6d-4fe9-b3cd-1c35e06d8842": {
@@ -54,20 +63,20 @@
         "title_banner1": "Exclusive from Iron Soldiers",
         "sub_bottom1": "We crafted this to compliment your coffee experience!",
         "button_banner1": "Grab Some Halftrack Coffee Here",
-        "url_button_banner1": "shopify:\/\/products\/cowboy-blend-11",
-        "banner_img1": "shopify:\/\/shop_images\/The_Battle_for_the_Perfect_Cup_-_Iron_Soldiers_Coffee_Company_FINAL_001.png",
+        "url_button_banner1": "shopify://products/cowboy-blend-11",
+        "banner_img1": "shopify://shop_images/The_Battle_for_the_Perfect_Cup_-_Iron_Soldiers_Coffee_Company_FINAL_001.png",
         "title_show2": "",
         "title_banner2": "Historical Information",
         "sub_bottom2": "Learn about how important coffee was to the past soldiers!",
         "button_banner2": "Grab Some Jeep Edition Here",
-        "url_button_banner2": "shopify:\/\/products\/breakfast-blend-2",
-        "banner_img2": "shopify:\/\/shop_images\/The_Battle_for_the_Perfect_Cup_-_Iron_Soldiers_Coffee_Company_FINAL_004.png",
+        "url_button_banner2": "shopify://products/breakfast-blend-2",
+        "banner_img2": "shopify://shop_images/The_Battle_for_the_Perfect_Cup_-_Iron_Soldiers_Coffee_Company_FINAL_004.png",
         "title_show3": "",
         "title_banner3": "Coffee Education",
         "sub_bottom3": "We take you through the steps of basic components to a quality brew!",
         "button_banner3": "Experience GMC Truck Edition Here",
-        "url_button_banner3": "shopify:\/\/products\/whiskey-barrel-aged-1",
-        "banner_img3": "shopify:\/\/shop_images\/The_Battle_for_the_Perfect_Cup_-_Iron_Soldiers_Coffee_Company_FINAL_010.png",
+        "url_button_banner3": "shopify://products/whiskey-barrel-aged-1",
+        "banner_img3": "shopify://shop_images/The_Battle_for_the_Perfect_Cup_-_Iron_Soldiers_Coffee_Company_FINAL_010.png",
         "color_title_show": "#ffffff",
         "color_title_banner": "#ffffff",
         "color_sub_bottom": "#ffffff",
@@ -80,8 +89,8 @@
       "disabled": true,
       "settings": {
         "select_pos": "left",
-        "img_banner1": "shopify:\/\/shop_images\/image-003.jpg",
-        "img_banner1_mb": "shopify:\/\/shop_images\/image-003.jpg",
+        "img_banner1": "shopify://shop_images/image-003.jpg",
+        "img_banner1_mb": "shopify://shop_images/image-003.jpg",
         "title_banner": "",
         "color_title": "#222222",
         "sub_title": "",
@@ -91,7 +100,7 @@
         "bg_btn": "#000000",
         "color_btn_hover": "#000000",
         "bg_btn_hover": "#ffffff",
-        "url_button1": "shopify:\/\/collections\/all",
+        "url_button1": "shopify://collections/all",
         "margin_top": "",
         "margin_bottom": ""
       }

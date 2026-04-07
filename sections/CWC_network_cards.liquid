@@ -1,0 +1,273 @@
+{% style %}
+  #cwc-network-cards-{{ section.id }} {
+    --section-bg: {{ section.settings.bg_color | default: '#ffffff' }};
+    --text-color: {{ section.settings.text_color | default: '#111111' }};
+    --highlight-color: {{ section.settings.bold_color | default: '#125657' }};
+    --card-bg: {{ section.settings.card_bg_color | default: '#f8f8f8' }};
+    --button-bg: {{ section.settings.button_bg_color | default: '#125657' }};
+    --button-text: {{ section.settings.button_text_color | default: '#ffffff' }};
+    --content-max-width: {{ section.settings.content_max_width | default: 900 }}px;
+    --padding-top: {{ section.settings.padding_top | default: 60 }}px;
+    --padding-bottom: {{ section.settings.padding_bottom | default: 60 }}px;
+    --padding-top-mobile: {{ section.settings.padding_top | default: 60 | times: 0.5 }}px;
+    --padding-bottom-mobile: {{ section.settings.padding_bottom | default: 60 | times: 0.5 }}px;
+  }
+{% endstyle %}
+
+{{ 'CWC_network_cards.css' | asset_url | stylesheet_tag }}
+
+<section id="cwc-network-cards-{{ section.id }}" class="cwc-network-cards">
+  <div class="cwc-network-cards__container">
+
+    {% comment %} Section Header {% endcomment %}
+    {% if section.settings.heading != blank or section.settings.subtext != blank %}
+      <div class="cwc-network-cards__content">
+        {% if section.settings.heading != blank %}
+          <div class="cwc-network-cards__content-heading rte">
+            {{ section.settings.heading }}
+          </div>
+        {% endif %}
+
+        {% if section.settings.subtext != blank %}
+          <div class="cwc-network-cards__content-subtext rte">
+            {{ section.settings.subtext }}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% comment %} Cards Grid {% endcomment %}
+    {% if section.blocks.size > 0 %}
+      <div class="cwc-network-cards__wrapper">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'card' %}
+              <div class="cwc-network-cards__card" {{ block.shopify_attributes }}>
+                
+                {% comment %} Logo / Image {% endcomment %}
+                {% if block.settings.image != blank %}
+                  <div class="cwc-network-cards__card-image">
+                    {% if block.settings.image_link != blank %}
+                      <a href="{{ block.settings.image_link }}" target="_blank" rel="noopener">
+                        <img 
+                          src="{{ block.settings.image | image_url: height: 120 }}"
+                          alt="{{ block.settings.image.alt | default: 'Partner logo' | escape }}"
+                          loading="lazy"
+                          height="60"
+                        >
+                      </a>
+                    {% else %}
+                      <img 
+                        src="{{ block.settings.image | image_url: height: 120 }}"
+                        alt="{{ block.settings.image.alt | default: 'Partner logo' | escape }}"
+                        loading="lazy"
+                        height="60"
+                      >
+                    {% endif %}
+                  </div>
+                {% endif %}
+
+                {% comment %} Title {% endcomment %}
+                {% if block.settings.title != blank %}
+                  <div class="cwc-network-cards__card-title rte">
+                    {{ block.settings.title }}
+                  </div>
+                {% endif %}
+
+                {% comment %} Text {% endcomment %}
+                {% if block.settings.text != blank %}
+                  <div class="cwc-network-cards__card-text rte">
+                    {{ block.settings.text }}
+                  </div>
+                {% endif %}
+
+                {% comment %} Button {% endcomment %}
+                {% if block.settings.button_text != blank and block.settings.button_link != blank %}
+                  <div class="cwc-network-cards__card-button">
+                    <a href="{{ block.settings.button_link }}" target="_blank" class="cwc-network-cards__button">
+                      {{ block.settings.button_text }}
+                    </a>
+                  </div>
+                {% endif %}
+
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "CWC Network Cards",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Header"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "<h2>Our <strong>Network</strong></h2>"
+    },
+    {
+      "type": "richtext",
+      "id": "subtext",
+      "label": "Section Subtext",
+      "default": "<p>Trusted partners and platforms we work with.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#111111"
+    },
+    {
+      "type": "color",
+      "id": "bold_color",
+      "label": "Heading Bold Color",
+      "default": "#353B25"
+    },
+    {
+      "type": "header",
+      "content": "Card Colors"
+    },
+    {
+      "type": "color",
+      "id": "card_bg_color",
+      "label": "Card Background",
+      "default": "#f8f8f8"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button Background",
+      "default": "#353B25"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "label": "Content Max Width",
+      "default": 900,
+      "min": 600,
+      "max": 1200,
+      "step": 50,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 60,
+      "min": 0,
+      "max": 120,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 60,
+      "min": 0,
+      "max": 120,
+      "step": 5,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Logo / Image"
+        },
+        {
+          "type": "url",
+          "id": "image_link",
+          "label": "Image Link",
+          "info": "Optional. Opens in new tab."
+        },
+        {
+          "type": "header",
+          "content": "Content"
+        },
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title",
+          "default": "<p><strong>Partner Name</strong></p>"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Description",
+          "default": "<p>A brief description of this partner or network.</p>"
+        },
+        {
+          "type": "header",
+          "content": "Button"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Learn More"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Network Cards",
+      "category": "CWC Custom",
+      "blocks": [
+        { "type": "card" },
+        { "type": "card" },
+        { "type": "card" },
+        { "type": "card" }
+      ]
+    }
+  ]
+}
+{% endschema %}

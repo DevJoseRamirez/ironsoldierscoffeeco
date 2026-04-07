@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "faq_template_v1": {
@@ -27,7 +36,7 @@
         "0e4df55d-389a-417b-9eb9-e8e7677785b7": {
           "type": "faq_left",
           "settings": {
-            "block_title_question": "I haven’t received a dispatch email\/email confirmation?",
+            "block_title_question": "I haven’t received a dispatch email/email confirmation?",
             "block_description_question": "Please be aware an automated email is sent to you to the given email address when your order is dispatched. Please check all folders including you junk as it will come from a noreply email address. To ensure emails reach you, add the domain eurocarparts.com to your safe senders list."
           }
         },
@@ -104,7 +113,7 @@
       ],
       "settings": {
         "enable_slide": true,
-        "bg_breadcrumb": "shopify:\/\/shop_images\/collection.jpg",
+        "bg_breadcrumb": "shopify://shop_images/collection.jpg",
         "enable_asked": true,
         "title_asked": "#Frequently asked questions",
         "description_asked": "I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",

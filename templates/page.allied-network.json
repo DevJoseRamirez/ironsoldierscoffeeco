@@ -1,0 +1,365 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "7b352823-a56c-44c6-af34-db3fca79bcaa": {
+      "type": "contact-template",
+      "disabled": true,
+      "settings": {
+        "bg_breadcrumb": "shopify://shop_images/contact_us.png",
+        "enable_map": true,
+        "select_style_map": "style_image",
+        "image_map": "shopify://shop_images/telegram.png",
+        "link_map": "",
+        "title_get_left": "CONTACT INFORMATION",
+        "des_get_left": "support@ironsoldierscoffeeco.com",
+        "url_mail": "",
+        "title_follow": "Follow Us",
+        "url_twitter": "",
+        "url_face": "https://www.facebook.com/IronSoldiersCC",
+        "url_insta": "https://www.instagram.com/ironsoldierscc/",
+        "url_youtube": "https://www.youtube.com/channel/UCJrwzG-pFnUS7jJDyyVuOzA",
+        "enable_follow": true,
+        "enable_s_contactform": true,
+        "contactform_title": "Contact Form",
+        "contactform_name": "Name",
+        "contactform_email": "Email address",
+        "contactform_content": "Your Message",
+        "contactform_btn": "Submit"
+      }
+    },
+    "cwc_network_cards_rrKMzD": {
+      "type": "CWC_network_cards",
+      "blocks": {
+        "card_Y8NC47": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DF-LOGO-ALT_1.avif",
+            "image_link": "https://documentaryfirst.com",
+            "title": "<p><strong>Documentary First</strong><br/>Production Company | D-Day Blend Partner</p>",
+            "text": "<p>The film production company behind the story that inspired our D-Day Blend. Documentary First brings history to life through powerful storytelling, and we're honored to have our coffee connected to their mission.</p>",
+            "button_text": "Learn More",
+            "button_link": "https://documentaryfirst.com"
+          }
+        },
+        "card_NULW3j": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/logo_22.jpg",
+            "image_link": "https://pownetwork.org/",
+            "title": "<p><strong>POW Network</strong><br/>Veteran Advocacy | Branson, MO</p><p></p>",
+            "text": "<p>The POW Network is dedicated to accounting for America's Prisoners of War and those Missing in Action. We support their annual Branson gathering and are proud to be part of an organization that ensures no veteran is ever forgotten.</p>",
+            "button_text": "Learn More",
+            "button_link": "https://pownetwork.org/"
+          }
+        },
+        "card_ba9PML": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/449749429_10224856852385473_4962938254998189333_n.jpg",
+            "image_link": "https://www.facebook.com/groups/457545080317295",
+            "title": "<p><strong>Veterans Association of Whitesboro</strong><br/>Local Veteran Resource Group</p>",
+            "text": "<p>A community-rooted nonprofit providing real resources and support to veterans in the Whitesboro area. Iron Soldiers Coffee Company is proud to support the work being done close to home for the men and women who served.</p>",
+            "button_text": "Learn More",
+            "button_link": "https://www.facebook.com/groups/457545080317295"
+          }
+        },
+        "card_48Km7h": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/rs_w_700_cg_true_m.webp",
+            "image_link": "https://hero2theline.org",
+            "title": "<p><strong>Hero 2 The Line</strong><br/>Non-Profit | Service Dogs for Veterans & Gold Star Families</p>",
+            "text": "<p>Hero 2 The Line provides trained lab puppies to veterans and Gold Star Families — offering the kind of unconditional support that helps with healing, independence, and daily life after service. A newer collaboration we're proud to grow.</p><p></p>",
+            "button_text": "Learn More",
+            "button_link": "https://hero2theline.org"
+          }
+        },
+        "card_CEc9t7": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Homepage_03-min.jpg",
+            "image_link": "https://givingbackoutdoors.org",
+            "title": "<p><strong>Giving Back Outdoors</strong><br/>Non-Profit | Veteran & Youth Hunts & Fishing Trips | Iowa</p>",
+            "text": "<p>Erik Logsdon and the Giving Back Outdoors team organize hunts and fishing trips for veterans and their families — getting people back into nature, building community, and creating experiences that matter. We're proud to support their work out of Iowa.</p>",
+            "button_text": "Learn More",
+            "button_link": "https://givingbackoutdoors.org"
+          }
+        },
+        "card_UVkJnK": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/a223b5_13583b7956b8489ebef15ab4bb33db85_mv2.avif",
+            "image_link": "https://www.huntingwithsoldiers.org/",
+            "title": "<p><strong>Hunting with Soldiers</strong><br/>Non-Profit | Outdoor Healing & PTSD Support | Texas</p>",
+            "text": "<p>Based out of Paducah, TX, Hunting with Soldiers uses the outdoors as a vehicle for healing — organizing hunts and fishing trips that bring veterans together and provide real PTSD support through nature and brotherhood.</p>",
+            "button_text": "Learn More",
+            "button_link": "https://www.huntingwithsoldiers.org/"
+          }
+        },
+        "card_HaQ9UE": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jan_4_2026_12_41_47_PM.webp",
+            "image_link": "https://www.theoutreach-project.com/",
+            "title": "<p><strong>The Outreach Project</strong><br/>Veteran Resource Podcast | Las Vegas & San Antonio</p>",
+            "text": "<p>Josh Melching and Jonathan Hodge run one of the most authentic veteran-focused podcasts out there — connecting people to resources, stories, and community. A trusted voice in the veteran space and a natural fit for the Iron Soldiers Coffee Company network.</p>",
+            "button_text": "Learn More",
+            "button_link": "https://www.theoutreach-project.com/"
+          }
+        },
+        "card_yNQpXh": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/TIo_bullet_logo_final.webp",
+            "image_link": "https://www.trueimpactoutdoors.com/",
+            "title": "<p><strong>True Impact Outdoors</strong><br/>Non-Profit | Veteran & First Responder Outdoor Experiences</p>",
+            "text": "<p>True Impact Outdoors is dedicated to getting veterans and first responders into the field — using the healing power of the outdoors to build community, restore purpose, and honor those who have served on the front lines.</p>",
+            "button_text": "Learn More",
+            "button_link": "https://www.trueimpactoutdoors.com/"
+          }
+        },
+        "card_whFbzm": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "image_link": "",
+            "title": "<p><strong>Partner Name</strong></p>",
+            "text": "<p>A brief description of this partner or network.</p>",
+            "button_text": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_Y8NC47",
+        "card_NULW3j",
+        "card_ba9PML",
+        "card_48Km7h",
+        "card_CEc9t7",
+        "card_UVkJnK",
+        "card_HaQ9UE",
+        "card_yNQpXh",
+        "card_whFbzm"
+      ],
+      "name": "Network Cards",
+      "settings": {
+        "heading": "<h2>The <strong>Allied Network</strong></h2>",
+        "subtext": "<p>Iron Soldiers Coffee Company doesn't just support the mission through the cup — we build real relationships with the organizations, shows, and movements fighting for veterans, the outdoors, and American values. These are the partners we stand with.</p>",
+        "bg_color": "#ffffff",
+        "text_color": "#111111",
+        "bold_color": "#556a2f",
+        "card_bg_color": "#f6f6f6",
+        "button_bg_color": "#556a2f",
+        "button_text_color": "#ffffff",
+        "content_max_width": 900,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "cwc_network_cards_pHwNAP": {
+      "type": "CWC_network_cards",
+      "blocks": {
+        "card_dWKbEJ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/cropped-cropped-trekin-header-logo-1.webp",
+            "image_link": "https://trekinoutdoors.com",
+            "title": "<p><strong>Trekin Outdoors</strong><br/>Hunting Show | Sportsman Channel</p>",
+            "text": "<p>Chris Queen and the Trekin Outdoors crew bring real hunting adventures to the Sportsman Channel. We're proud to be aligned with a show that celebrates the outdoor lifestyle and the culture Iron Soldiers Coffee Company was built on.</p><p><span style=\"text-decoration:underline\"><em>On the Sportsman Channel Wednesday Nights at 7pm and MyOutdoor TV</em></span></p>",
+            "button_text": "Learn More",
+            "button_link": "https://trekinoutdoors.com"
+          }
+        },
+        "card_gG7BNY": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/0__White_Logo_MPTV_2023_1_2.png",
+            "image_link": "https://masspursuittv.com",
+            "title": "<p><strong>Mass Pursuit TV</strong><br/>Streaming Hunting Network | YouTube</p><p></p>",
+            "text": "<p>Wilbur Ramos and Keith Rogers have built one of the fastest-growing hunting networks in the streaming space. Mass Pursuit TV brings the hunting world directly to the audience — and Iron Soldiers Coffee  Company is right there with them.</p>",
+            "button_text": "Learn More",
+            "button_link": "https://masspursuittv.com"
+          }
+        },
+        "card_XpkaGF": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "image_link": "",
+            "title": "<p><strong>Partner Name</strong></p>",
+            "text": "<p>A brief description of this partner or network.</p>",
+            "button_text": "Learn More",
+            "button_link": ""
+          }
+        },
+        "card_zYcjcT": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "image_link": "",
+            "title": "<p><strong>Partner Name</strong></p>",
+            "text": "<p>A brief description of this partner or network.</p>",
+            "button_text": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_dWKbEJ",
+        "card_gG7BNY",
+        "card_XpkaGF",
+        "card_zYcjcT"
+      ],
+      "name": "Network Cards",
+      "settings": {
+        "heading": "<h2><strong>In the Field</strong> With Us</h2>",
+        "subtext": "<p>The outdoors is in Iron Soldiers Coffee Company's DNA. These are the shows, networks, and creators we've partnered with — bringing the hunting and outdoor community together with the coffee fueling the early mornings.</p>",
+        "bg_color": "#ffffff",
+        "text_color": "#111111",
+        "bold_color": "#556a2f",
+        "card_bg_color": "#f8f8f8",
+        "button_bg_color": "#556a2f",
+        "button_text_color": "#ffffff",
+        "content_max_width": 900,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "cwc_network_cards_cm8bnF": {
+      "type": "CWC_network_cards",
+      "blocks": {
+        "card_zEEX47": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Guardian-Conference-Logo-Wide-Light-Background-768x346.png",
+            "image_link": "https://guardianconference.com",
+            "title": "<p><strong>ConcealedCarry.com — Guardian Nation Conference</strong><br/>Annual Event Sponsor</p>",
+            "text": "<p>Iron Soldiers Coffee Company is the official coffee sponsor of the Guardian Nation Conference — an annual gathering hosted by ConcealedCarry.com bringing together responsible gun owners, self-defense advocates, and patriots from across the country.</p>",
+            "button_text": "Learn More",
+            "button_link": "https://guardianconference.com"
+          }
+        },
+        "card_QdLQAA": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/BowhuntingLeagueAvatar.webp",
+            "image_link": "https://bowhuntingleague.com",
+            "title": "<p><strong>Bowhunting League</strong><br/>Nationwide Bowhunting Competition Partner</p>",
+            "text": "<p>The Bowhunting League runs a free, ongoing nationwide bowhunting contest — and Iron Soldiers is a featured sponsor across multiple states. When a member trophies, Iron Soldiers is right there on the shirt alongside the local sponsors celebrating the harvest.</p>",
+            "button_text": "Learn More",
+            "button_link": "https://bowhuntingleague.com"
+          }
+        },
+        "card_CNw4KK": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "image_link": "",
+            "title": "<p><strong>Want to Partner with Iron Soldier?</strong></p>",
+            "text": "<p>We're selective about who we align with. If your organization, show, or mission shares our values — veterans, the outdoors, and unapologetic American spirit — we'd like to hear from you.</p>",
+            "button_text": "Get in Touch",
+            "button_link": ""
+          }
+        },
+        "card_ttJmde": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "image_link": "",
+            "title": "<p><strong>Partner Name</strong></p>",
+            "text": "<p>A brief description of this partner or network.</p>",
+            "button_text": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_zEEX47",
+        "card_QdLQAA",
+        "card_CNw4KK",
+        "card_ttJmde"
+      ],
+      "name": "Network Cards",
+      "settings": {
+        "heading": "<h2><strong>Industry </strong>Partners</h2>",
+        "subtext": "<p>Iron Soldiers Coffee Company is also proud to sponsor and participate in these events and platforms — putting our coffee and our brand in front of the communities we care about most.</p>",
+        "bg_color": "#ffffff",
+        "text_color": "#111111",
+        "bold_color": "#556a2f",
+        "card_bg_color": "#f8f8f8",
+        "button_bg_color": "#556a2f",
+        "button_text_color": "#ffffff",
+        "content_max_width": 900,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "blocks_hyUtRY": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_0ae02b1_JgkypJ": {
+          "type": "ai_gen_block_0ae02b1",
+          "settings": {
+            "title": "<strong>Want to Partner with Iron Soldiers Coffee Company?</strong>",
+            "subtext": "<p>We're selective about who we align with. If your organization, show, or mission shares our values — veterans, the outdoors, and unapologetic American spirit — we'd like to hear from you.</p>",
+            "button_text": "Get in Touch",
+            "button_link": "shopify://pages/contact",
+            "desktop_width_percent": 100,
+            "content_max_width": 800,
+            "text_alignment": "center",
+            "padding_top": 40,
+            "padding_bottom": 40,
+            "padding_horizontal": 20,
+            "title_spacing": 20,
+            "subtext_spacing": 25,
+            "background_color": "#fffee7",
+            "title_color": "#556a2f",
+            "subtext_color": "#555555",
+            "title_size": 32,
+            "title_weight": "700",
+            "subtext_size": 16,
+            "button_bg_color": "#556a2f",
+            "button_bg_hover_color": "#556a2f",
+            "button_text_color": "#ffffff",
+            "button_text_hover_color": "#ffffff",
+            "button_border_color": "#111111",
+            "button_border_hover_color": "#ff871d",
+            "button_border_width": 0,
+            "button_font_size": 16,
+            "button_font_weight": "600",
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 30,
+            "button_border_radius": 4
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_0ae02b1_JgkypJ"
+      ],
+      "name": "Content block",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "7b352823-a56c-44c6-af34-db3fca79bcaa",
+    "cwc_network_cards_rrKMzD",
+    "cwc_network_cards_pHwNAP",
+    "cwc_network_cards_cm8bnF",
+    "blocks_hyUtRY"
+  ]
+}

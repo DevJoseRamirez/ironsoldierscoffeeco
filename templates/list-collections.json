@@ -1,10 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "list-collection",
       "settings": {
         "ena_bg_img": true,
-        "bg_breadcrumb": "shopify:\/\/shop_images\/mike-kenneally-TD4DBagg2wE-unsplash.jpg",
+        "bg_breadcrumb": "shopify://shop_images/mike-kenneally-TD4DBagg2wE-unsplash.jpg",
         "bg_color_breadcrumb": "#ffffff",
         "color_breadcrumb": "#ffffff",
         "select_style_bread": "style_2"

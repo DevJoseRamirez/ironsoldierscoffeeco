@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,8 +23,8 @@
       "name": "BANNER V2",
       "settings": {
         "select_pos": "left",
-        "img_banner1": "shopify:\/\/shop_images\/Iron_Soldier_Trading_Company-min.png",
-        "img_banner1_mb": "shopify:\/\/shop_images\/Iron_Soldier_Trading_Company_mobile-min.png",
+        "img_banner1": "shopify://shop_images/Iron_Soldier_Trading_Company-min.png",
+        "img_banner1_mb": "shopify://shop_images/Iron_Soldier_Trading_Company_mobile-min.png",
         "title_banner": "",
         "color_title": "#222222",
         "sub_title": "",
@@ -25,7 +34,7 @@
         "bg_btn": "#000000",
         "color_btn_hover": "#000000",
         "bg_btn_hover": "#ffffff",
-        "url_button1": "shopify:\/\/collections\/new-trading-company",
+        "url_button1": "shopify://collections/new-trading-company",
         "margin_top": "0",
         "margin_bottom": "0"
       }
@@ -51,16 +60,16 @@
       "type": "section-banner-v8",
       "name": "BANNER V8",
       "settings": {
-        "img_banner1": "shopify:\/\/shop_images\/Iron_Soldires_-_BBQ_Rubs_Seasoning-min.png",
+        "img_banner1": "shopify://shop_images/Iron_Soldires_-_BBQ_Rubs_Seasoning-min.png",
         "sub_title1": "",
         "title_banner1": "",
         "btn_banner1": "",
-        "url_banner1": "shopify:\/\/collections\/rubs",
-        "img_banner2": "shopify:\/\/shop_images\/Iron_Soldires_-_Hot_BBQ_Sauces-min_4d73ddb7-4a44-4108-bb74-059fadf4dd7e.png",
+        "url_banner1": "shopify://collections/rubs",
+        "img_banner2": "shopify://shop_images/Iron_Soldires_-_Hot_BBQ_Sauces-min_4d73ddb7-4a44-4108-bb74-059fadf4dd7e.png",
         "sub_title2": "",
         "title_banner2": "",
         "btn_banner2": "",
-        "url_banner2": "shopify:\/\/collections\/sauce",
+        "url_banner2": "shopify://collections/sauce",
         "color_top_title": "#222222",
         "color_title": "#222222",
         "color_btn": "#000000",
@@ -126,35 +135,35 @@
           "type": "colection",
           "settings": {
             "title_collection": "Glasses",
-            "brand_url": "shopify:\/\/collections\/glasses"
+            "brand_url": "shopify://collections/glasses"
           }
         },
         "colection_HWRPnM": {
           "type": "colection",
           "settings": {
             "title_collection": "Tumblers",
-            "brand_url": "shopify:\/\/collections\/tumblers"
+            "brand_url": "shopify://collections/tumblers"
           }
         },
         "colection_JGHWtc": {
           "type": "colection",
           "settings": {
             "title_collection": "Apparel",
-            "brand_url": "shopify:\/\/collections\/apparel"
+            "brand_url": "shopify://collections/apparel"
           }
         },
         "colection_VDMTmU": {
           "type": "colection",
           "settings": {
             "title_collection": "Mugs",
-            "brand_url": "shopify:\/\/collections\/mugs"
+            "brand_url": "shopify://collections/mugs"
           }
         },
         "colection_UmP8w3": {
           "type": "colection",
           "settings": {
             "title_collection": "Merchandise",
-            "brand_url": "shopify:\/\/collections\/merchandise"
+            "brand_url": "shopify://collections/merchandise"
           }
         }
       },
@@ -178,8 +187,8 @@
       "name": "BANNER V2",
       "settings": {
         "select_pos": "left",
-        "img_banner1": "shopify:\/\/shop_images\/GI_Ratoin_Rubs_Mega_Bundle-min.png",
-        "img_banner1_mb": "shopify:\/\/shop_images\/GI_Ratoin_Rubs_Mega_Bundle_mobile-min.png",
+        "img_banner1": "shopify://shop_images/GI_Ratoin_Rubs_Mega_Bundle-min.png",
+        "img_banner1_mb": "shopify://shop_images/GI_Ratoin_Rubs_Mega_Bundle_mobile-min.png",
         "title_banner": "",
         "color_title": "#222222",
         "sub_title": "",
@@ -189,7 +198,7 @@
         "bg_btn": "#000000",
         "color_btn_hover": "#000000",
         "bg_btn_hover": "#ffffff",
-        "url_button1": "shopify:\/\/collections\/rubs",
+        "url_button1": "shopify://collections/rubs",
         "margin_top": "0",
         "margin_bottom": "0"
       }
@@ -198,7 +207,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_featured_carousel_rb7FjG": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1280
           }
@@ -234,8 +243,8 @@
       "name": "BANNER V2",
       "settings": {
         "select_pos": "left",
-        "img_banner1": "shopify:\/\/shop_images\/Fuel_Your_Day_with_Coffee_That_Makes_A_Difference___hero___02-min.png",
-        "img_banner1_mb": "shopify:\/\/shop_images\/Group_1000007377mobile-min.png",
+        "img_banner1": "shopify://shop_images/Fuel_Your_Day_with_Coffee_That_Makes_A_Difference___hero___02-min.png",
+        "img_banner1_mb": "shopify://shop_images/Group_1000007377mobile-min.png",
         "title_banner": "",
         "color_title": "#222222",
         "sub_title": "",
@@ -245,7 +254,7 @@
         "bg_btn": "#000000",
         "color_btn_hover": "#000000",
         "bg_btn_hover": "#ffffff",
-        "url_button1": "\/",
+        "url_button1": "/",
         "margin_top": "0",
         "margin_bottom": "0"
       }

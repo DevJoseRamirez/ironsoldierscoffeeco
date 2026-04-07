@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection_template": {
@@ -5,7 +14,7 @@
       "settings": {
         "select_style_bread": "style_1",
         "ena_bg_img": false,
-        "bg_breadcrumb": "shopify:\/\/shop_images\/coffee_9b55b3d1-a81c-493d-82f8-9255ef1e593f.png",
+        "bg_breadcrumb": "shopify://shop_images/coffee_9b55b3d1-a81c-493d-82f8-9255ef1e593f.png",
         "bg_color_breadcrumb": "#faf3e6",
         "color_breadcrumb": "#111111",
         "collection_layout": "infinity_scroll",
@@ -19,7 +28,7 @@
         "big_title": "",
         "mini_title": "",
         "btn_title": "",
-        "bannerfull_url": "https:\/\/www.shopify.com\/free-trial?ref=shopifycenter",
+        "bannerfull_url": "https://www.shopify.com/free-trial?ref=shopifycenter",
         "color_title": "#ffffff",
         "ena_best_seller": false,
         "title_heading": "BEST SELLERS",

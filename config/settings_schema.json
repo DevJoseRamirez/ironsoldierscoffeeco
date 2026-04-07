@@ -4,15 +4,15 @@
     "theme_name": "Cufee",
     "theme_author": "ShopiLaunch",
     "theme_version": "1.0.0",
-    "theme_documentation_url": "https:\/\/shopilaunch.com",
-    "theme_support_url": "https:\/\/shopilaunch.com"
+    "theme_documentation_url": "https://shopilaunch.com",
+    "theme_support_url": "https://shopilaunch.com"
   },
   {
     "name": "Currency",
     "settings": [
       {
         "type": "paragraph",
-        "content": "To offer multiple currencies on your online store, you must first [edit your store's currency formatting]({{ site.url }}\/manual\/using-themes\/change-the-layout\/help-script-find-money-formats)."
+        "content": "To offer multiple currencies on your online store, you must first [edit your store's currency formatting]({{ site.url }}/manual/using-themes/change-the-layout/help-script-find-money-formats)."
       },
       {
         "type": "checkbox",
@@ -42,7 +42,7 @@
         "id": "supported_currencies",
         "label": "Supported currencies",
         "default": "INR GBP CAD USD AUD EUR JPY",
-        "info": "Use the country's ISO [currency code](http:\/\/www.xe.com\/iso4217.php). Separate your currency codes with a space."
+        "info": "Use the country's ISO [currency code](http://www.xe.com/iso4217.php). Separate your currency codes with a space."
       },
       {
         "type": "text",
@@ -133,7 +133,7 @@
         "type": "select",
         "id": "select_newletter",
         "label": "Select Style",
-        "info": "[View Samples](https:\/\/cdn.shopify.com\/s\/files\/1\/0579\/5568\/0414\/files\/Popup_Newsletter.jpg?v=1627286812)",
+        "info": "[View Samples](https://cdn.shopify.com/s/files/1/0579/5568/0414/files/Popup_Newsletter.jpg?v=1627286812)",
         "options": [
           {
             "value": "newsletter_v1",
@@ -185,7 +185,7 @@
         "id": "icon_sc_popup1",
         "label": "Icon 1",
         "default": "fa fa-twitter",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -197,7 +197,7 @@
         "id": "icon_sc_popup2",
         "label": "Icon 2",
         "default": "fa fa-dribbble",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -209,7 +209,7 @@
         "id": "icon_sc_popup3",
         "label": "Icon 3",
         "default": "fa fa-behance",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -221,7 +221,7 @@
         "id": "icon_sc_popup4",
         "label": "Icon 4",
         "default": "fa fa-instagram",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -445,7 +445,7 @@
           },
           {
             "value": "google_fonts",
-            "label": "Google Fonts [Where do I find Google Fonts?](http:\/\/www.google.com\/fonts)"
+            "label": "Google Fonts [Where do I find Google Fonts?](http://www.google.com/fonts)"
           }
         ],
         "default": "google_fonts"
@@ -495,7 +495,7 @@
         "type": "text",
         "id": "hd_icon_search_mb",
         "label": "Icon Search",
-        "info": "[Get icon from here](https:\/\/fontawesome.com\/v4.7.0\/icons\/)"
+        "info": "[Get icon from here](https://fontawesome.com/v4.7.0/icons/)"
       },
       {
         "type": "textarea",
@@ -506,7 +506,7 @@
         "type": "text",
         "id": "hd_icon_cart_mb",
         "label": "Icon Cart",
-        "info": "[Get icon from here](https:\/\/fontawesome.com\/v4.7.0\/icons\/)"
+        "info": "[Get icon from here](https://fontawesome.com/v4.7.0/icons/)"
       },
       {
         "type": "textarea",
@@ -595,7 +595,7 @@
         "type": "text",
         "id": "apmenuitem_title_1",
         "label": "1st Menu item",
-        "info": "(*) Enter \"Link Name\" of \"Navigation \/ Main Menu\"."
+        "info": "(*) Enter \"Link Name\" of \"Navigation / Main Menu\"."
       },
       {
         "type": "checkbox",
@@ -637,7 +637,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_eblocklinks_1",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -646,51 +646,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block links in a row of megamenu"
@@ -702,51 +702,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the links(Navigation->Menu) than block links"
@@ -828,7 +828,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_evideo_1",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -837,51 +837,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block video in a row of megamenu"
@@ -899,7 +899,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_eproduct_1",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -908,51 +908,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block products in a row of megamenu"
@@ -979,7 +979,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_ehtml_1",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -988,51 +988,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block html in a row of megamenu"
@@ -1180,7 +1180,7 @@
         "type": "text",
         "id": "apmenuitem_title_2",
         "label": "2nd Menu item",
-        "info": "(*) Enter \"Link Name\" of \"Navigation \/ Main Menu\"."
+        "info": "(*) Enter \"Link Name\" of \"Navigation / Main Menu\"."
       },
       {
         "type": "checkbox",
@@ -1222,7 +1222,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_eblocklinks_2",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -1231,51 +1231,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block links in a row of megamenu"
@@ -1287,51 +1287,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the links(Navigation->Menu) than block links"
@@ -1413,7 +1413,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_evideo_2",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -1422,51 +1422,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block video in a row of megamenu"
@@ -1484,7 +1484,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_eproduct_2",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -1493,51 +1493,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block products in a row of megamenu"
@@ -1564,7 +1564,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_ehtml_2",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -1573,51 +1573,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block html in a row of megamenu"
@@ -1765,7 +1765,7 @@
         "type": "text",
         "id": "apmenuitem_title_3",
         "label": "3rd Menu item",
-        "info": "(*) Enter \"Link Name\" of \"Navigation \/ Main Menu\"."
+        "info": "(*) Enter \"Link Name\" of \"Navigation / Main Menu\"."
       },
       {
         "type": "checkbox",
@@ -1807,7 +1807,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_eblocklinks_3",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -1816,51 +1816,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block links in a row of megamenu"
@@ -1872,51 +1872,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the links(Navigation->Menu) than block links"
@@ -1998,7 +1998,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_evideo_3",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -2007,51 +2007,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block video in a row of megamenu"
@@ -2069,7 +2069,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_eproduct_3",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -2078,51 +2078,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block products in a row of megamenu"
@@ -2149,7 +2149,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_ehtml_3",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -2158,51 +2158,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block html in a row of megamenu"
@@ -2350,7 +2350,7 @@
         "type": "text",
         "id": "apmenuitem_title_4",
         "label": "4th Menu item",
-        "info": "(*) Enter \"Link Name\" of \"Navigation \/ Main Menu\"."
+        "info": "(*) Enter \"Link Name\" of \"Navigation / Main Menu\"."
       },
       {
         "type": "checkbox",
@@ -2392,7 +2392,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_eblocklinks_4",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -2401,51 +2401,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block links in a row of megamenu"
@@ -2457,51 +2457,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the links(Navigation->Menu) than block links"
@@ -2583,7 +2583,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_evideo_4",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -2592,51 +2592,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block video in a row of megamenu"
@@ -2654,7 +2654,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_eproduct_4",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -2663,51 +2663,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block products in a row of megamenu"
@@ -2734,7 +2734,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_ehtml_4",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -2743,51 +2743,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block html in a row of megamenu"
@@ -2935,7 +2935,7 @@
         "type": "text",
         "id": "apmenuitem_title_5",
         "label": "5th Menu item",
-        "info": "(*) Enter \"Link Name\" of \"Navigation \/ Main Menu\"."
+        "info": "(*) Enter \"Link Name\" of \"Navigation / Main Menu\"."
       },
       {
         "type": "checkbox",
@@ -2977,7 +2977,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_eblocklinks_5",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -2986,51 +2986,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block links in a row of megamenu"
@@ -3042,51 +3042,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the links(Navigation->Menu) than block links"
@@ -3168,7 +3168,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_evideo_5",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -3177,51 +3177,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block video in a row of megamenu"
@@ -3239,7 +3239,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_eproduct_5",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -3248,51 +3248,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block products in a row of megamenu"
@@ -3319,7 +3319,7 @@
       {
         "type": "checkbox",
         "id": "apmenuitem_ehtml_5",
-        "label": "Enable\/Disable"
+        "label": "Enable/Disable"
       },
       {
         "type": "select",
@@ -3328,51 +3328,51 @@
         "options": [
           {
             "value": "1",
-            "label": "1\/12 (8.33%)"
+            "label": "1/12 (8.33%)"
           },
           {
             "value": "2",
-            "label": "2\/12 (16.67%)"
+            "label": "2/12 (16.67%)"
           },
           {
             "value": "3",
-            "label": "3\/12 (25.00%)"
+            "label": "3/12 (25.00%)"
           },
           {
             "value": "4",
-            "label": "4\/12 (33.33%)"
+            "label": "4/12 (33.33%)"
           },
           {
             "value": "5",
-            "label": "5\/12 (41.67%)"
+            "label": "5/12 (41.67%)"
           },
           {
             "value": "6",
-            "label": "6\/12 (50.00%)"
+            "label": "6/12 (50.00%)"
           },
           {
             "value": "7",
-            "label": "7\/12 (58.33%)"
+            "label": "7/12 (58.33%)"
           },
           {
             "value": "8",
-            "label": "8\/12 (66.67%)"
+            "label": "8/12 (66.67%)"
           },
           {
             "value": "9",
-            "label": "9\/12 (75.00%)"
+            "label": "9/12 (75.00%)"
           },
           {
             "value": "10",
-            "label": "10\/12 (83.33%)"
+            "label": "10/12 (83.33%)"
           },
           {
             "value": "11",
-            "label": "11\/12 (91.67%)"
+            "label": "11/12 (91.67%)"
           },
           {
             "value": "12",
-            "label": "12\/12 (100.00%)"
+            "label": "12/12 (100.00%)"
           }
         ],
         "info": "Width of the block html in a row of megamenu"
@@ -3595,7 +3595,7 @@
         "id": "icon_sc_fv1_1",
         "label": "Icon 1",
         "default": "fa fa-twitter",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3607,7 +3607,7 @@
         "id": "icon_sc_fv1_2",
         "label": "Icon 2",
         "default": "fa fa-dribbble",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3619,7 +3619,7 @@
         "id": "icon_sc_fv1_3",
         "label": "Icon 3",
         "default": "fa fa-behance",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3631,7 +3631,7 @@
         "id": "icon_sc_fv1_4",
         "label": "Icon 4",
         "default": "fa fa-instagram",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3746,7 +3746,7 @@
         "id": "icon_sc_fv2_1",
         "label": "Icon 1",
         "default": "fa fa-twitter",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3758,7 +3758,7 @@
         "id": "icon_sc_fv2_2",
         "label": "Icon 2",
         "default": "fa fa-dribbble",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3770,7 +3770,7 @@
         "id": "icon_sc_fv2_3",
         "label": "Icon 3",
         "default": "fa fa-behance",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3782,7 +3782,7 @@
         "id": "icon_sc_fv2_4",
         "label": "Icon 4",
         "default": "fa fa-instagram",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3858,7 +3858,7 @@
         "id": "icon_sc_fv3_1",
         "label": "Icon 1",
         "default": "fa fa-twitter",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3870,7 +3870,7 @@
         "id": "icon_sc_fv3_2",
         "label": "Icon 2",
         "default": "fa fa-dribbble",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3882,7 +3882,7 @@
         "id": "icon_sc_fv3_3",
         "label": "Icon 3",
         "default": "fa fa-behance",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -3894,7 +3894,7 @@
         "id": "icon_sc_fv3_4",
         "label": "Icon 4",
         "default": "fa fa-instagram",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -4055,7 +4055,7 @@
         "id": "icon_sc_fv5_1",
         "label": "Icon 1",
         "default": "fa fa-twitter",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -4067,7 +4067,7 @@
         "id": "icon_sc_fv5_2",
         "label": "Icon 2",
         "default": "fa fa-dribbble",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -4079,7 +4079,7 @@
         "id": "icon_sc_fv5_3",
         "label": "Icon 3",
         "default": "fa fa-behance",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -4091,7 +4091,7 @@
         "id": "icon_sc_fv5_4",
         "label": "Icon 4",
         "default": "fa fa-instagram",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -4209,7 +4209,7 @@
         "id": "icon_sc_fv6_1",
         "label": "Icon 1",
         "default": "fa fa-twitter",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -4221,7 +4221,7 @@
         "id": "icon_sc_fv6_2",
         "label": "Icon 2",
         "default": "fa fa-dribbble",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -4233,7 +4233,7 @@
         "id": "icon_sc_fv6_3",
         "label": "Icon 3",
         "default": "fa fa-behance",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -4245,7 +4245,7 @@
         "id": "icon_sc_fv6_4",
         "label": "Icon 4",
         "default": "fa fa-instagram",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -4295,7 +4295,7 @@
         "type": "select",
         "id": "swatch_style",
         "label": "Swatch Options Style",
-        "info": "[View Samples](https:\/\/cdn.shopify.com\/s\/files\/1\/0579\/5568\/0414\/files\/Swatch-Styles.jpg?v=1627289328)",
+        "info": "[View Samples](https://cdn.shopify.com/s/files/1/0579/5568/0414/files/Swatch-Styles.jpg?v=1627289328)",
         "options": [
           {
             "value": "default",
@@ -4340,7 +4340,7 @@
         "type": "select",
         "id": "product_style",
         "label": "Product Item Style",
-        "info": "[View Samples](https:\/\/foden-store-demo-v2.myshopify.com\/pages\/product-hover)",
+        "info": "[View Samples](https://foden-store-demo-v2.myshopify.com/pages/product-hover)",
         "options": [
           {
             "value": "style_1",
@@ -4453,7 +4453,7 @@
         "type": "text",
         "id": "pia_wishlist",
         "label": "Icon",
-        "info": "[Get icon from here](https:\/\/fontawesome.com\/v4.7.0\/icons\/)",
+        "info": "[Get icon from here](https://fontawesome.com/v4.7.0/icons/)",
         "default": "fa fa-heart-o"
       },
       {
@@ -4475,7 +4475,7 @@
         "type": "text",
         "id": "pia_quickview",
         "label": "Icon",
-        "info": "[Get icon from here](https:\/\/fontawesome.com\/v4.7.0\/icons\/)",
+        "info": "[Get icon from here](https://fontawesome.com/v4.7.0/icons/)",
         "default": "ti-search"
       },
       {
@@ -4497,7 +4497,7 @@
         "type": "text",
         "id": "pia_selectoption",
         "label": "Icon",
-        "info": "[Get icon from here](https:\/\/fontawesome.com\/v4.7.0\/icons\/)",
+        "info": "[Get icon from here](https://fontawesome.com/v4.7.0/icons/)",
         "default": "ti-more-alt"
       },
       {
@@ -4519,7 +4519,7 @@
         "type": "text",
         "id": "pia_addcart",
         "label": "Icon",
-        "info": "[Get icon from here](https:\/\/fontawesome.com\/v4.7.0\/icons\/)",
+        "info": "[Get icon from here](https://fontawesome.com/v4.7.0/icons/)",
         "default": "icon-icon-cart"
       },
       {
@@ -4541,7 +4541,7 @@
         "type": "text",
         "id": "pia_sold",
         "label": "Icon",
-        "info": "[Get icon from here](https:\/\/fontawesome.com\/v4.7.0\/icons\/)",
+        "info": "[Get icon from here](https://fontawesome.com/v4.7.0/icons/)",
         "default": "ti-close"
       },
       {
@@ -5203,7 +5203,7 @@
         "id": "show_servicebox",
         "label": "Show Servicebox",
         "default": true,
-        "info": "[View Samples](https:\/\/www.shopify.com\/)"
+        "info": "[View Samples](https://www.shopify.com/)"
       },
       {
         "type": "text",
@@ -5237,7 +5237,7 @@
         "type": "textarea",
         "id": "content_box_2",
         "label": "Content Box",
-        "default": "Return this product within 100 days if you change your mind. Get a refund\/replacement & free return shipping if it arrives damaged or not as described."
+        "default": "Return this product within 100 days if you change your mind. Get a refund/replacement & free return shipping if it arrives damaged or not as described."
       },
       {
         "type": "text",
@@ -5372,7 +5372,7 @@
       },
       {
         "type": "paragraph",
-        "content": "After enabling reviews you will need to install the free [Shopify Product Reviews](https:\/\/apps.shopify.com\/product-reviews) app."
+        "content": "After enabling reviews you will need to install the free [Shopify Product Reviews](https://apps.shopify.com/product-reviews) app."
       },
       {
         "type": "text",
@@ -6157,7 +6157,7 @@
         "id": "icon_pass_1",
         "label": "Icon 1",
         "default": "fa fa-twitter",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -6169,7 +6169,7 @@
         "id": "icon_pass_2",
         "label": "Icon 2",
         "default": "fa fa-dribbble",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -6181,7 +6181,7 @@
         "id": "icon_pass_3",
         "label": "Icon 3",
         "default": "fa fa-behance",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -6193,7 +6193,7 @@
         "id": "icon_pass_4",
         "label": "Icon 4",
         "default": "fa fa-instagram",
-        "info": "[Get icon in here](https:\/\/fontawesome.com\/v4.7.0\/icons)"
+        "info": "[Get icon in here](https://fontawesome.com/v4.7.0/icons)"
       },
       {
         "type": "url",
@@ -6219,7 +6219,7 @@
         "id": "gmap_key",
         "type": "text",
         "default": "AIzaSyCEkQ6AW_lnHAzPiXPdSNy1GKXiI1I9AGg",
-        "info": "If your store experiences more than 2,500 visitors a day, you’ll need to generate both [JavaScript](https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key) and [Geocoding](https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key) API keys",
+        "info": "If your store experiences more than 2,500 visitors a day, you’ll need to generate both [JavaScript](https://developers.google.com/maps/documentation/javascript/get-api-key) and [Geocoding](https://developers.google.com/maps/documentation/geocoding/get-api-key) API keys",
         "label": "Google Maps API key"
       },
       {

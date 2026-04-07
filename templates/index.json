@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "cwc_two_image_banner_GJhNfG": {
@@ -6,19 +15,19 @@
         "image_block_pctBLb": {
           "type": "image_block",
           "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/Fuel_Your_Day_with_Coffee_That_Makes_A_Difference___hero___02-min.png",
-            "mobile_image": "shopify:\/\/shop_images\/Group_1000007377mobile-min.png",
+            "desktop_image": "shopify://shop_images/Fuel_Your_Day_with_Coffee_That_Makes_A_Difference___hero___02-min.png",
+            "mobile_image": "shopify://shop_images/Group_1000007377mobile-min.png",
             "alt_text": "",
-            "link": "shopify:\/\/collections\/all-coffee"
+            "link": "shopify://collections/all-coffee"
           }
         },
         "image_block_4twQFn": {
           "type": "image_block",
           "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/BBQ_Rubs_Sauces___hero___01-min.png",
-            "mobile_image": "shopify:\/\/shop_images\/BBQ_Rubs_Sauces___hero___3mobile-min.png",
+            "desktop_image": "shopify://shop_images/BBQ_Rubs_Sauces___hero___01-min.png",
+            "mobile_image": "shopify://shop_images/BBQ_Rubs_Sauces___hero___3mobile-min.png",
             "alt_text": "",
-            "link": "shopify:\/\/pages\/trading-company"
+            "link": "shopify://pages/trading-company"
           }
         }
       },
@@ -45,18 +54,18 @@
       ],
       "settings": {
         "select_pos": "left",
-        "img_banner1": "shopify:\/\/shop_images\/Iron_Soldier_Coffee_Co.jpg",
-        "img_banner1_mb": "shopify:\/\/shop_images\/Iron_Soldier_Coffee_Co_M.png",
+        "img_banner1": "shopify://shop_images/Iron_Soldier_Coffee_Co.jpg",
+        "img_banner1_mb": "shopify://shop_images/Iron_Soldier_Coffee_Co_M.png",
         "title_banner": "Fuel Your Day with Coffee  That Makes A Difference",
         "color_title": "#ffffff",
-        "sub_title": "<p>BREWING COURAGE, ONE CUP AT A TIME<\/p>",
+        "sub_title": "<p>BREWING COURAGE, ONE CUP AT A TIME</p>",
         "color_sub_title": "#ffffff",
         "button_1": "SHOP NOW",
         "color_btn": "#ffffff",
         "bg_btn": "#556b2f",
         "color_btn_hover": "#000000",
         "bg_btn_hover": "#ffffff",
-        "url_button1": "shopify:\/\/collections\/all-coffee",
+        "url_button1": "shopify://collections/all-coffee",
         "margin_top": "0",
         "margin_bottom": "0"
       }
@@ -72,7 +81,7 @@
         "content_info": "\"100% of proceeds are used for youth education programs & veteran support. Join 2,500+ supporters and enjoy a cup of tasty joe with it.\" Our Mission goes way beyond Great Coffee, but that's a start, will you Join Us?",
         "color_content_info": "#556b2f",
         "more_about": "More about us",
-        "url_banner": "shopify:\/\/pages\/about-us",
+        "url_banner": "shopify://pages/about-us",
         "margin_top": "048",
         "margin_bottom": "0"
       }
@@ -81,7 +90,7 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "video": "shopify:\/\/files\/videos\/ISCC Final Draft, Heroes.mov",
+        "video": "shopify://files/videos/ISCC Final Draft, Heroes.mov",
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -91,18 +100,18 @@
       "type": "section-banner-v2",
       "settings": {
         "select_pos": "left",
-        "img_banner1": "shopify:\/\/shop_images\/Mask_groupvets.png",
-        "img_banner1_mb": "shopify:\/\/shop_images\/Branson_Missouri_Day_Room_-_mobile-min.png",
+        "img_banner1": "shopify://shop_images/Mask_groupvets.png",
+        "img_banner1_mb": "shopify://shop_images/Branson_Missouri_Day_Room_-_mobile-min.png",
         "title_banner": "You're Supporting Soldiers & Their Families",
         "color_title": "#ffffff",
-        "sub_title": "<p>Buying our coffee puts dollars from every sale toward supporting our Soldiers!  Annually hosted Pancake Breakfast, Flagpole Installs, to Camouflage Christmas Programs each purchase makes an impact on our Mission!  <\/p><p><em> - Image: Branson Missouri, Day Room<\/em><\/p>",
+        "sub_title": "<p>Buying our coffee puts dollars from every sale toward supporting our Soldiers!  Annually hosted Pancake Breakfast, Flagpole Installs, to Camouflage Christmas Programs each purchase makes an impact on our Mission!  </p><p><em> - Image: Branson Missouri, Day Room</em></p>",
         "color_sub_title": "#ffffff",
         "button_1": "Count Me In!",
         "color_btn": "#ffffff",
         "bg_btn": "#556b2f",
         "color_btn_hover": "#000000",
         "bg_btn_hover": "#ffffff",
-        "url_button1": "shopify:\/\/collections\/all-coffee",
+        "url_button1": "shopify://collections/all-coffee",
         "margin_top": "",
         "margin_bottom": ""
       }
@@ -115,7 +124,7 @@
         "content_info": "At Iron Soldiers Coffee Company, our mission is clear: to support veterans by providing them with more than just a cup of coffee, but a symbol of camaraderie, resilience, and community. We are dedicated to crafting fresh, roast-to-order coffee that not only fuels your day but also fuels our commitment to giving back to those who have served. With every sip, you're not just enjoying a premium blend; you're standing in solidarity with our veterans, honoring their sacrifice, and supporting them and their families. Join us in our mission to serve those who have served us, one delicious cup at a time.",
         "color_content_info": "#556b2f",
         "more_about": "More about us",
-        "url_banner": "shopify:\/\/pages\/about-us",
+        "url_banner": "shopify://pages/about-us",
         "margin_top": "36",
         "margin_bottom": "0"
       }
@@ -126,27 +135,27 @@
         "template--19964658680126__2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87-colection-3": {
           "type": "colection",
           "settings": {
-            "brand_img": "shopify:\/\/shop_images\/G503_JEEP.png",
+            "brand_img": "shopify://shop_images/G503_JEEP.png",
             "title_collection": "Jeep Series",
-            "brand_url": "shopify:\/\/products\/breakfast-blend-11",
+            "brand_url": "shopify://products/breakfast-blend-11",
             "block_content": "Jeep Series Breakfast Blend to start your day! Roast: Medium House Breakfast Blend. Smooth blend of coffee from South America."
           }
         },
         "template--19964658680126__2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87-colection-1": {
           "type": "colection",
           "settings": {
-            "brand_img": "shopify:\/\/shop_images\/shermantank-min.jpg",
+            "brand_img": "shopify://shop_images/shermantank-min.jpg",
             "title_collection": "Sherman Tank Edition",
-            "brand_url": "shopify:\/\/products\/6-bean-blend-1",
+            "brand_url": "shopify://products/6-bean-blend-1",
             "block_content": "Great for Espresso meticulous blend of coffee from around the world Sherman Tank Series is our tribute to the Iconic WWII Tank."
           }
         },
         "template--19964658680126__2c5fbe2b-8e13-4135-8c44-4dcf70cf0a87-colection-2": {
           "type": "colection",
           "settings": {
-            "brand_img": "shopify:\/\/shop_images\/halftrack-1-min.jpg",
+            "brand_img": "shopify://shop_images/halftrack-1-min.jpg",
             "title_collection": "Halftrack Edition",
-            "brand_url": "shopify:\/\/products\/cowboy-blend-11",
+            "brand_url": "shopify://products/cowboy-blend-11",
             "block_content": "Our Special Series \"Halftrack\" Blend pays tribute to the Iron Soldier that was a wonderful piece of armor that saw a wide range of use from WWII all the way into the 1980's!"
           }
         }
@@ -167,41 +176,41 @@
         "16600116052e1a32be-0": {
           "type": "colection",
           "settings": {
-            "brand_img": "shopify:\/\/shop_images\/Mask_group-6.png",
+            "brand_img": "shopify://shop_images/Mask_group-6.png",
             "title_collection": "Coffee Blends",
-            "brand_url": "shopify:\/\/collections\/blends"
+            "brand_url": "shopify://collections/blends"
           }
         },
         "bd4a9378-296d-40f1-b83b-41486d06dcbe": {
           "type": "colection",
           "settings": {
-            "brand_img": "shopify:\/\/shop_images\/enamel-mug-white-12oz-front-643025f40b7dd.png",
+            "brand_img": "shopify://shop_images/enamel-mug-white-12oz-front-643025f40b7dd.png",
             "title_collection": "Coffee Mugs",
-            "brand_url": "shopify:\/\/collections\/mugs"
+            "brand_url": "shopify://collections/mugs"
           }
         },
         "16600116052e1a32be-1": {
           "type": "colection",
           "settings": {
-            "brand_img": "shopify:\/\/shop_images\/Mask_group-5.png",
+            "brand_img": "shopify://shop_images/Mask_group-5.png",
             "title_collection": "Flavored Coffee",
-            "brand_url": "shopify:\/\/collections\/flavored"
+            "brand_url": "shopify://collections/flavored"
           }
         },
         "0eb44197-cf54-4e09-9b7e-0671a92936ac": {
           "type": "colection",
           "settings": {
-            "brand_img": "shopify:\/\/shop_images\/1ac2f32b9877996dccc33cfd8974cd30.jpg",
+            "brand_img": "shopify://shop_images/1ac2f32b9877996dccc33cfd8974cd30.jpg",
             "title_collection": "Merchandise",
-            "brand_url": "shopify:\/\/collections\/merchandise"
+            "brand_url": "shopify://collections/merchandise"
           }
         },
         "16600116052e1a32be-2": {
           "type": "colection",
           "settings": {
-            "brand_img": "shopify:\/\/shop_images\/Mask_group.png",
+            "brand_img": "shopify://shop_images/Mask_group.png",
             "title_collection": "Single Origin Coffee",
-            "brand_url": "shopify:\/\/collections\/single-origin"
+            "brand_url": "shopify://collections/single-origin"
           }
         }
       },
@@ -264,7 +273,7 @@
       "type": "apps",
       "blocks": {
         "f376fedc-96e8-47e6-a196-616e2fa49605": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1440
           }
@@ -303,9 +312,9 @@
         "bg_btn": "#ffffff",
         "bg_btn_hover": "#ffffff",
         "color_btn_hover": "#ffffff",
-        "url_banner": "shopify:\/\/collections\/merchandise",
-        "img_banner": "shopify:\/\/shop_images\/Mask_group_9f6d6650-e136-4a9b-8b92-42f2b28baee5.png",
-        "img_banner2": "shopify:\/\/shop_images\/Mask_group-1_ecf5f1e4-c881-460e-b1ae-6773675cf995.png"
+        "url_banner": "shopify://collections/merchandise",
+        "img_banner": "shopify://shop_images/Mask_group_9f6d6650-e136-4a9b-8b92-42f2b28baee5.png",
+        "img_banner2": "shopify://shop_images/Mask_group-1_ecf5f1e4-c881-460e-b1ae-6773675cf995.png"
       }
     },
     "d1c889e3-61b3-455b-b873-382b8e6dc739": {
@@ -316,7 +325,7 @@
           "settings": {
             "block_title_small": "Helping Veterans and Their Families",
             "color_title_small": "#ffffff",
-            "brand_url": "shopify:\/\/collections\/all"
+            "brand_url": "shopify://collections/all"
           }
         },
         "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-1": {
@@ -324,7 +333,7 @@
           "settings": {
             "block_title_small": "Roasted & Shipped The Same Day",
             "color_title_small": "#ffffff",
-            "brand_url": "shopify:\/\/collections\/all"
+            "brand_url": "shopify://collections/all"
           }
         },
         "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-2": {
@@ -332,7 +341,7 @@
           "settings": {
             "block_title_small": "Freshness Guaranteed",
             "color_title_small": "#ffffff",
-            "brand_url": "shopify:\/\/collections\/all"
+            "brand_url": "shopify://collections/all"
           }
         },
         "template--19556968988990__d1c889e3-61b3-455b-b873-382b8e6dc739-16875275605f44be57-0": {
@@ -340,7 +349,7 @@
           "settings": {
             "block_title_small": "Free Shipping On All Coffee & Tea",
             "color_title_small": "#ffffff",
-            "brand_url": "shopify:\/\/collections\/all"
+            "brand_url": "shopify://collections/all"
           }
         }
       },
@@ -352,8 +361,8 @@
       ],
       "settings": {
         "bg_section": "#556b2f",
-        "url_banner": "shopify:\/\/collections\/all",
-        "img_banner": "shopify:\/\/shop_images\/Group_1165layered.png",
+        "url_banner": "shopify://collections/all",
+        "img_banner": "shopify://shop_images/Group_1165layered.png",
         "title_banner": "Iron soldiers coffee company",
         "color_title": "#ffffff",
         "button_banner": "Get Started!",
@@ -367,18 +376,18 @@
       "type": "section-banner-v2",
       "settings": {
         "select_pos": "left",
-        "img_banner1": "shopify:\/\/shop_images\/Mask_group4_oly-1.png",
-        "img_banner1_mb": "shopify:\/\/shop_images\/Mask_group4_oly.png",
+        "img_banner1": "shopify://shop_images/Mask_group4_oly-1.png",
+        "img_banner1_mb": "shopify://shop_images/Mask_group4_oly.png",
         "title_banner": "Join Our Mission with Every Sip",
         "color_title": "#ffffff",
-        "sub_title": "<p>Transform your coffee ritual into an act of support. Together, we can make every cup count for our brave soldiers.<\/p>",
+        "sub_title": "<p>Transform your coffee ritual into an act of support. Together, we can make every cup count for our brave soldiers.</p>",
         "color_sub_title": "#ffffff",
         "button_1": "Brew a Difference Today",
         "color_btn": "#ffffff",
         "bg_btn": "#556b2f",
         "color_btn_hover": "#000000",
         "bg_btn_hover": "#ffffff",
-        "url_button1": "shopify:\/\/collections\/all-coffee",
+        "url_button1": "shopify://collections/all-coffee",
         "margin_top": "",
         "margin_bottom": ""
       }
