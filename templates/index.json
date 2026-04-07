@@ -9,6 +9,24 @@
  */
 {
   "sections": {
+    "cwc_three_image_banner_ejih8Q": {
+      "type": "CWC_three_image_banner",
+      "name": "Three Image Banner",
+      "settings": {
+        "banner_1_image": "shopify://shop_images/hero_coffee.png",
+        "banner_1_image_mobile": "shopify://shop_images/hero_coffee_mmobile_1.png",
+        "banner_1_link": "shopify://collections/all-coffee",
+        "banner_2_image": "shopify://shop_images/hero_trade_company.png",
+        "banner_2_image_mobile": "shopify://shop_images/hero_trade_m.png",
+        "banner_2_link": "shopify://pages/trading-company",
+        "banner_3_image": "shopify://shop_images/hero_interview.png",
+        "banner_3_image_mobile": "shopify://shop_images/hero_interview_m.png",
+        "banner_3_link": "shopify://blogs/news/more-than-just-coffee-the-inspiring-mission-of-iron-soldiers-coffee-co",
+        "bg_color": "#111111",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "cwc_two_image_banner_GJhNfG": {
       "type": "CWC_two_image_banner",
       "blocks": {
@@ -35,6 +53,7 @@
         "image_block_pctBLb",
         "image_block_4twQFn"
       ],
+      "disabled": true,
       "name": "CWC Two Image Banner",
       "settings": {
         "background_color": "#faf9f6",
@@ -410,6 +429,7 @@
     }
   },
   "order": [
+    "cwc_three_image_banner_ejih8Q",
     "cwc_two_image_banner_GJhNfG",
     "f3564036-5385-4ce6-8098-21665f861ffc",
     "119987c0-5c7e-4297-822a-7e66d01f5e1c",
