@@ -270,7 +270,11 @@
 
 
                       {% comment %} add to cart button here {% endcomment %}
-                      <button type="submit" class="shop-button enj-add-to-cart-btn engoj-btn-addtocart">
+                      <button 
+                        {% if product.handle == 'doc-sims-brew'%}
+                          style="background-color: #553472; color: #F9EEDA" 
+                      {% endif %}
+                        type="submit" class="shop-button enj-add-to-cart-btn engoj-btn-addtocart">
                         {{ settings.pia_addcart_name }}
                       </button>
                     </div>

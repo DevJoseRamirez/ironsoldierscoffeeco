@@ -109,15 +109,19 @@
       "type": "product-tabs",
       "settings": {
         "description-tab": true,
-        "reviews-tab": true,
+        "reviews-tab": false,
         "add-tab_1": "grind-types",
         "add-tab_2": "about-us"
       }
     },
-    "16876922901175eeaf": {
+    "177100440242f69059": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "1776127848546b0d15": {
       "type": "apps",
       "blocks": {
-        "dcc2654d-03d5-4a42-a66a-634bd15ea1bd": {
+        "judge_me_reviews_review_widget_C3N7Qn": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
@@ -128,13 +132,9 @@
         }
       },
       "block_order": [
-        "dcc2654d-03d5-4a42-a66a-634bd15ea1bd"
+        "judge_me_reviews_review_widget_C3N7Qn"
       ],
       "disabled": true,
-      "settings": {}
-    },
-    "177100440242f69059": {
-      "type": "_blocks",
       "settings": {}
     }
   },
@@ -142,7 +142,7 @@
     "1734828810bf8f895e",
     "main",
     "7590d5a8-fcb8-4fec-805e-b18aaed156c6",
-    "16876922901175eeaf",
-    "177100440242f69059"
+    "177100440242f69059",
+    "1776127848546b0d15"
   ]
 }

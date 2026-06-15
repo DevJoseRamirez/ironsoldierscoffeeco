@@ -11,7 +11,7 @@
     {% endstyle %}
 {% endif %}
 
-{% comment %} PRODUCT TEMPLATE {% endcomment %}
+{% comment %} PRODUCT TEMPLATE IN USE {% endcomment %}
 
 
 {% assign on_sale = false %}
@@ -637,7 +637,11 @@
                         <input type="number" size="4" title="Qty" value="1" min="1" id="Quantity" name="quantity" />
                       </div>
                       {% endif %}
-                      <button type="submit" class="shop-button enj-add-to-cart-btn engoj-btn-addtocart">
+
+                      {% render 'cwc_button-styles' %}
+
+                      <button 
+                        type="submit" class="shop-button enj-add-to-cart-btn engoj-btn-addtocart">
                         {{ settings.pia_addcart_name }}
                       </button>
                     </div>

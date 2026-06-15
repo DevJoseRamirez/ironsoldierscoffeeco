@@ -109,9 +109,9 @@
       "type": "product-tabs",
       "settings": {
         "description-tab": true,
-        "reviews-tab": true,
+        "reviews-tab": false,
         "add-tab_1": "grind-types",
-        "add-tab_2": "the-armored-car"
+        "add-tab_2": "about-us"
       }
     },
     "16876922901175eeaf": {

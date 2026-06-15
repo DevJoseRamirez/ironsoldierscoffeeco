@@ -109,7 +109,7 @@
       "type": "product-tabs",
       "settings": {
         "description-tab": true,
-        "reviews-tab": true,
+        "reviews-tab": false,
         "add-tab_1": "",
         "add-tab_2": ""
       }

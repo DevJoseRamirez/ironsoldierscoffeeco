@@ -4,7 +4,6 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js p-0" {% if settings.enable_rtl_mode %} dir="rtl"{% endif %} > <!--<![endif]-->
 <head>
 
-  <meta name="google-site-verification" content="q6a8D5AIYMemNiCG8Vjg4L0JHvlJhQED89WagyXJAvg" />
 
   <!-- Microsoft Clarity -->
 <script type="text/javascript">
@@ -60,8 +59,8 @@
   <!-- Header hook for plugins ================================================== -->
   {{ content_for_header }}
   {% render 'oldIE-js' %}
-  <script src="{{ 'jquery-3.5.0.min.js' | asset_url }}" type="text/javascript" async ></script>
-  <script src="{{ 'api.jquery.js' | shopify_asset_url }}" type="text/javascript" async ></script>
+  <script src="{{ 'jquery-3.5.0.min.js' | asset_url }}" type="text/javascript" ></script>
+  <script src="{{ 'api.jquery.js' | shopify_asset_url }}" type="text/javascript" ></script>
   <script src="{{ 'modernizr-2.8.3.min.js' | asset_url }}" type="text/javascript" async></script>
   <script src="{{ 'option_selection.js' | shopify_asset_url }}" type="text/javascript" async></script>  
   <script src="{{ 'lazysizes.min.js' | asset_url }}" type="text/javascript" async></script>
@@ -112,6 +111,8 @@
 
   {% render 'social-meta-tags' %}
   {%- render 'bold-subscription-widget' -%}
+  <meta name="google-site-verification" content="q6a8D5AIYMemNiCG8Vjg4L0JHvlJhQED89WagyXJAvg" />
+
 </head>
 {% comment %}
 Add the page template as a class for easy page or template specific styling.

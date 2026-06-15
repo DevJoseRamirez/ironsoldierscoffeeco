@@ -18,7 +18,6 @@
 
 <section id="cwc-network-cards-{{ section.id }}" class="cwc-network-cards">
   <div class="cwc-network-cards__container">
-
     {% comment %} Section Header {% endcomment %}
     {% if section.settings.heading != blank or section.settings.subtext != blank %}
       <div class="cwc-network-cards__content">
@@ -43,13 +42,12 @@
           {% case block.type %}
             {% when 'card' %}
               <div class="cwc-network-cards__card" {{ block.shopify_attributes }}>
-                
                 {% comment %} Logo / Image {% endcomment %}
                 {% if block.settings.image != blank %}
                   <div class="cwc-network-cards__card-image">
                     {% if block.settings.image_link != blank %}
                       <a href="{{ block.settings.image_link }}" target="_blank" rel="noopener">
-                        <img 
+                        <img
                           src="{{ block.settings.image | image_url: height: 120 }}"
                           alt="{{ block.settings.image.alt | default: 'Partner logo' | escape }}"
                           loading="lazy"
@@ -57,7 +55,7 @@
                         >
                       </a>
                     {% else %}
-                      <img 
+                      <img
                         src="{{ block.settings.image | image_url: height: 120 }}"
                         alt="{{ block.settings.image.alt | default: 'Partner logo' | escape }}"
                         loading="lazy"
@@ -81,21 +79,37 @@
                   </div>
                 {% endif %}
 
-                {% comment %} Button {% endcomment %}
-                {% if block.settings.button_text != blank and block.settings.button_link != blank %}
-                  <div class="cwc-network-cards__card-button">
-                    <a href="{{ block.settings.button_link }}" target="_blank" class="cwc-network-cards__button">
-                      {{ block.settings.button_text }}
-                    </a>
-                  </div>
-                {% endif %}
-
+                <div class="cwc-network-cards__card-button-wrap">
+                  {% comment %} Button {% endcomment %}
+                  {% if block.settings.button_text != blank and block.settings.image_link != blank %}
+                    <div class="cwc-network-cards__card-button">
+                      <a
+                        href="{{ block.settings.image_link }}"
+                        target="_blank"
+                        class="cwc-network-cards__button"
+                      >
+                        {{ block.settings.button_text }}
+                      </a>
+                    </div>
+                  {% endif %}
+                  {% comment %} Button 2 {% endcomment %}
+                  {% if block.settings.button_text_2 != blank and block.settings.button_link_2 != blank %}
+                    <div class="cwc-network-cards__card-button">
+                      <a
+                        href="{{ block.settings.button_link_2 }}"
+                        target="_blank"
+                        class="cwc-network-cards__button alt_style"
+                      >
+                        {{ block.settings.button_text_2 }}
+                      </a>
+                    </div>
+                  {% endif %}
+                </div>
               </div>
           {% endcase %}
         {% endfor %}
       </div>
     {% endif %}
-
   </div>
 </section>
 
@@ -219,8 +233,8 @@
         {
           "type": "url",
           "id": "image_link",
-          "label": "Image Link",
-          "info": "Optional. Opens in new tab."
+          "label": "Link",
+          "info": "Opens in new tab."
         },
         {
           "type": "header",
@@ -249,9 +263,20 @@
           "default": "Learn More"
         },
         {
+          "type": "header",
+          "content": "Button 2"
+        },
+        {
           "type": "url",
-          "id": "button_link",
-          "label": "Button Link"
+          "id": "button_link_2",
+          "label": "Link",
+          "info": "Opens in new tab."
+        },
+        {
+          "type": "text",
+          "id": "button_text_2",
+          "label": "Button Text",
+          "default": "Shop Now"
         }
       ]
     }
@@ -261,12 +286,7 @@
     {
       "name": "Network Cards",
       "category": "CWC Custom",
-      "blocks": [
-        { "type": "card" },
-        { "type": "card" },
-        { "type": "card" },
-        { "type": "card" }
-      ]
+      "blocks": [{ "type": "card" }, { "type": "card" }, { "type": "card" }, { "type": "card" }]
     }
   ]
 }
