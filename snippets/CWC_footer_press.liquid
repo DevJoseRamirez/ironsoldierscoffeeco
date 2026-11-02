@@ -1,0 +1,52 @@
+{% comment %}
+  CWC Footer Press Logos — "As Featured On" row inside footer-v4.
+  Settings live in sections/footer.liquid under "CWC Press Logos".
+
+  Usage:
+    {% render 'CWC_footer_press', ft: section.settings, text_color: section.settings.ft_other_color_text %}
+{% endcomment %}
+
+{%- if ft.ft_press_enable -%}
+  {%- liquid
+    assign logo_suffix = ''
+    if ft.ft_press_style == 'white'
+      assign logo_suffix = '_white'
+    endif
+
+    # network handle | label | native width (80px tall) | visual balance scale
+    assign networks = 'fox|FOX|185|0.9,nbc|NBC|132|1,cbs|CBS|277|0.7,cw|The CW|182|0.85,abc|ABC|79|1' | split: ','
+  -%}
+
+  {{ 'CWC_footer_press.css' | asset_url | stylesheet_tag }}
+
+  <div
+    class="cwc_footer-press"
+    style="--text-color: {{ text_color | default: '#ffffff' }}; --logo-height: {{ ft.ft_press_height | default: 22 }}px; --logo-gap: {{ ft.ft_press_gap | default: 100 }}px;"
+  >
+    <div class="cwc_footer-press__container">
+      {% if ft.ft_press_label != blank %}
+        <p class="cwc_footer-press__label">{{ ft.ft_press_label }}</p>
+      {% endif %}
+
+      <ul class="cwc_footer-press__logos" role="list">
+        {%- for network in networks -%}
+          {%- assign parts = network | split: '|' -%}
+          {%- assign toggle_id = 'ft_press_' | append: parts[0] -%}
+          {%- if ft[toggle_id] -%}
+            {%- assign logo_file = 'CWC_press_logo_' | append: parts[0] | append: logo_suffix | append: '.png' -%}
+            <li class="cwc_footer-press__logo" style="--logo-scale: {{ parts[3] }};">
+              <img
+                src="{{ logo_file | asset_url }}"
+                alt="Iron Soldiers Coffee featured on {{ parts[1] }}"
+                class="cwc_footer-press__logo-image"
+                width="{{ parts[2] }}"
+                height="80"
+                loading="lazy"
+              >
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+{%- endif -%}

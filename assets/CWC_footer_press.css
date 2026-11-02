@@ -1,0 +1,89 @@
+/* ==============================
+   CWC Footer Press Logos
+   ============================== */
+
+.cwc_footer-press {
+  color: var(--text-color);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 1.5rem 0;
+}
+
+.cwc_footer-press__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+}
+
+.cwc_footer-press__label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: inherit;
+  opacity: 0.8;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.cwc_footer-press__logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem var(--logo-gap, 100px);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cwc_footer-press__logo {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.cwc_footer-press__logo-image {
+  display: block;
+  height: calc(var(--logo-height) * var(--logo-scale, 1));
+  width: auto;
+  max-width: none;
+  opacity: 0.9;
+}
+
+/* ==============================
+   Tablet Responsive
+   ============================== */
+@media screen and (max-width: 991px) {
+  .cwc_footer-press__container {
+    padding: 0 1.25rem;
+  }
+}
+
+/* ==============================
+   Mobile Responsive
+   ============================== */
+@media screen and (max-width: 768px) {
+  .cwc_footer-press {
+    padding: 1.25rem 0;
+  }
+
+  .cwc_footer-press__container {
+    padding: 0 1rem;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .cwc_footer-press__logos {
+    gap: 0.75rem 1.25rem;
+  }
+
+  .cwc_footer-press__logo-image {
+    height: calc(var(--logo-height) * var(--logo-scale, 1) * 0.85);
+  }
+}

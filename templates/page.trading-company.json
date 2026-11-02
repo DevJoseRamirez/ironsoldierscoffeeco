@@ -258,6 +258,79 @@
         "margin_top": "0",
         "margin_bottom": "0"
       }
+    },
+    "cwc_press_bar_trading": {
+      "type": "CWC_press_bar",
+      "blocks": {
+        "logo_fox": {
+          "type": "logo",
+          "settings": {
+            "network": "fox",
+            "size_adjust": 100,
+            "new_tab": true,
+            "logo_alt": "Iron Soldiers Coffee featured on FOX"
+          }
+        },
+        "logo_nbc": {
+          "type": "logo",
+          "settings": {
+            "network": "nbc",
+            "size_adjust": 100,
+            "new_tab": true,
+            "logo_alt": "Iron Soldiers Coffee featured on NBC"
+          }
+        },
+        "logo_cbs": {
+          "type": "logo",
+          "settings": {
+            "network": "cbs",
+            "size_adjust": 100,
+            "new_tab": true,
+            "logo_alt": "Iron Soldiers Coffee featured on CBS"
+          }
+        },
+        "logo_cw": {
+          "type": "logo",
+          "settings": {
+            "network": "cw",
+            "size_adjust": 100,
+            "new_tab": true,
+            "logo_alt": "Iron Soldiers Coffee featured on The CW"
+          }
+        },
+        "logo_abc": {
+          "type": "logo",
+          "settings": {
+            "network": "abc",
+            "size_adjust": 100,
+            "new_tab": true,
+            "logo_alt": "Iron Soldiers Coffee featured on ABC"
+          }
+        }
+      },
+      "block_order": [
+        "logo_fox",
+        "logo_nbc",
+        "logo_cbs",
+        "logo_cw",
+        "logo_abc"
+      ],
+      "settings": {
+        "heading": "<p>As Featured On</p>",
+        "label_position": "inline",
+        "bg_color": "#FAF3E6",
+        "text_color": "#6b7280",
+        "bold_color": "#352812",
+        "show_borders": true,
+        "border_color": "#e8dcc6",
+        "logo_style": "color",
+        "monochrome": false,
+        "logo_height": 30,
+        "logo_gap": 100,
+        "logo_gap_mobile": 20,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -265,6 +338,7 @@
     "section_banner_v2_Hiz6Lh",
     "section_info_v1_HbzUTk",
     "section_banner_v8_LNirpY",
+    "cwc_press_bar_trading",
     "section_product_v2_dA7KdV",
     "section_info_v1_jwBhMD",
     "section_collection_v2_gU8fwr",

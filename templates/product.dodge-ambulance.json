@@ -144,11 +144,85 @@
     "177100440242f69059": {
       "type": "_blocks",
       "settings": {}
+    },
+    "cwc_press_bar_product": {
+      "type": "CWC_press_bar",
+      "blocks": {
+        "logo_fox": {
+          "type": "logo",
+          "settings": {
+            "network": "fox",
+            "size_adjust": 100,
+            "new_tab": true,
+            "logo_alt": "Iron Soldiers Coffee featured on FOX"
+          }
+        },
+        "logo_nbc": {
+          "type": "logo",
+          "settings": {
+            "network": "nbc",
+            "size_adjust": 100,
+            "new_tab": true,
+            "logo_alt": "Iron Soldiers Coffee featured on NBC"
+          }
+        },
+        "logo_cbs": {
+          "type": "logo",
+          "settings": {
+            "network": "cbs",
+            "size_adjust": 100,
+            "new_tab": true,
+            "logo_alt": "Iron Soldiers Coffee featured on CBS"
+          }
+        },
+        "logo_cw": {
+          "type": "logo",
+          "settings": {
+            "network": "cw",
+            "size_adjust": 100,
+            "new_tab": true,
+            "logo_alt": "Iron Soldiers Coffee featured on The CW"
+          }
+        },
+        "logo_abc": {
+          "type": "logo",
+          "settings": {
+            "network": "abc",
+            "size_adjust": 100,
+            "new_tab": true,
+            "logo_alt": "Iron Soldiers Coffee featured on ABC"
+          }
+        }
+      },
+      "block_order": [
+        "logo_fox",
+        "logo_nbc",
+        "logo_cbs",
+        "logo_cw",
+        "logo_abc"
+      ],
+      "settings": {
+        "heading": "<p>As Featured On</p>",
+        "label_position": "inline",
+        "bg_color": "#ffffff",
+        "text_color": "#6b7280",
+        "bold_color": "#353b25",
+        "show_borders": true,
+        "border_color": "#ececec",
+        "logo_style": "color",
+        "monochrome": false,
+        "logo_height": 30,
+        "logo_gap": 100,
+        "logo_gap_mobile": 20,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
     "1734828810bf8f895e",
     "main",
+    "cwc_press_bar_product",
     "7590d5a8-fcb8-4fec-805e-b18aaed156c6",
     "177100592684408dc7",
     "1771004682fc5cf570",
