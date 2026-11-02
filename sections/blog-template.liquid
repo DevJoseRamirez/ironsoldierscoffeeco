@@ -1,4 +1,4 @@
-{% paginate blog.articles by {{section.settings.posts_limit}} %}
+{% paginate blog.articles by section.settings.posts_limit %}
 
 <section>
   <div class="wrap-bread-crumb breadcrumb_collection2">
@@ -404,4 +404,13 @@
     }
   ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% paginate blog.articles by {{section.settings.posts_limit}} %}"
+  to: "{% paginate blog.articles by section.settings.posts_limit %}"
+  position: 0..60
+{%- endcomment -%}

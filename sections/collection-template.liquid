@@ -13,7 +13,7 @@ For more information on collection tags:
 
 {% endif %}
 
-{% paginate collection.products by {{section.settings.prod_per_page}} %}
+{% paginate collection.products by section.settings.prod_per_page %}
 
 {% comment %}
 Use .grid--rev so that the collection tags appear below the products on mobile
@@ -528,4 +528,13 @@ Use .grid--rev so that the collection tags appear below the products on mobile
     }
   ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% paginate collection.products by {{section.settings.prod_per_page}} %}"
+  to: "{% paginate collection.products by section.settings.prod_per_page %}"
+  position: 408..476
+{%- endcomment -%}

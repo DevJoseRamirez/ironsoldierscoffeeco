@@ -57,7 +57,6 @@
     },
     "about_servicebox": {
       "type": "about-servicebox",
-      "disabled": true,
       "blocks": {
         "15e208a6-b518-4d9e-8f27-0bd7642f7b52": {
           "type": "service",
@@ -89,13 +88,13 @@
         "ed9fe945-4590-42b3-8201-465e38b85fb7",
         "acff72af-e41c-4ec2-ae49-3ebd88912f96"
       ],
+      "disabled": true,
       "settings": {
         "enable_s_servicebox": true
       }
     },
     "our_teams": {
       "type": "our-teams",
-      "disabled": true,
       "blocks": {
         "7240b5e3-fef0-4464-8dc5-15860f825a7c": {
           "type": "teams",
@@ -148,6 +147,7 @@
         "b74f707a-a910-4efb-bb5a-c7f8481275d5",
         "539e7d51-149b-44ec-bdf6-212979ba43c6"
       ],
+      "disabled": true,
       "settings": {
         "enable_teams": true,
         "title_teams": "Behind The Brands",
@@ -182,6 +182,30 @@
         "ins_limit_number": "7",
         "item_icon": "fa fa-instagram"
       }
+    },
+    "blocks_Ka6Jz3": {
+      "type": "_blocks",
+      "name": "Image with content",
+      "settings": {}
+    },
+    "1786570406e7f24501": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_628abc9_hyGK3Y": {
+          "type": "ai_gen_block_628abc9",
+          "settings": {
+            "image": "shopify://shop_images/M325399_-_Iron_Soldiers_Coffee_Company_-_About_page_infographic_6928b6c5-3ae4-464c-af62-7447e87bf46c.jpg",
+            "image_width": 650,
+            "padding_top": 40,
+            "padding_bottom": 40
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_628abc9_hyGK3Y"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -190,6 +214,8 @@
     "about_servicebox",
     "our_teams",
     "newsletter_about",
-    "instagram_about"
+    "instagram_about",
+    "blocks_Ka6Jz3",
+    "1786570406e7f24501"
   ]
 }

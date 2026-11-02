@@ -156,7 +156,7 @@
           "settings": {
             "brand_img": "shopify://shop_images/G503_JEEP.png",
             "title_collection": "Jeep Series",
-            "brand_url": "shopify://products/breakfast-blend-11",
+            "brand_url": "shopify://products/g503-jeep-blend",
             "block_content": "Jeep Series Breakfast Blend to start your day! Roast: Medium House Breakfast Blend. Smooth blend of coffee from South America."
           }
         },
@@ -165,7 +165,7 @@
           "settings": {
             "brand_img": "shopify://shop_images/shermantank-min.jpg",
             "title_collection": "Sherman Tank Edition",
-            "brand_url": "shopify://products/6-bean-blend-1",
+            "brand_url": "shopify://products/sherman-tank-edition",
             "block_content": "Great for Espresso meticulous blend of coffee from around the world Sherman Tank Series is our tribute to the Iconic WWII Tank."
           }
         },
@@ -174,7 +174,7 @@
           "settings": {
             "brand_img": "shopify://shop_images/halftrack-1-min.jpg",
             "title_collection": "Halftrack Edition",
-            "brand_url": "shopify://products/cowboy-blend-11",
+            "brand_url": "shopify://products/halftrack-edition",
             "block_content": "Our Special Series \"Halftrack\" Blend pays tribute to the Iron Soldier that was a wonderful piece of armor that saw a wide range of use from WWII all the way into the 1980's!"
           }
         }

@@ -94,7 +94,7 @@
     Check if content contains an image to add to the card
       - Source: http://blog.viralica.com/2013/09/twitter-product-cards-on-shopify/
   {% endcomment %}
-  {% if article.content contains "<img loading="lazy" width="" height=""" %}
+  {% if article.content contains "<img loading=" %}
     {% assign src = article.content | split: 'src="' %}
     {% assign src = src[1] | split: '"' | first | replace: '//cdn', 'http://cdn' | replace: 'http:http://', 'http://' | remove: 'https:' %}
     {% if src %}
@@ -102,3 +102,13 @@
     {% endif %}
   {% endif %}
 {% endif %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% if article.content contains "<img loading="lazy" width="" height=""" %}'
+  to: '{% if article.content contains "<img loading=" %}'
+  position: 4854..4903
+{% endcomment %}

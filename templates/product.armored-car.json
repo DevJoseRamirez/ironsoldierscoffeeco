@@ -75,7 +75,11 @@
             "convertible_header": "Converts to",
             "eligible_for_subscription_header": "Eligible for Subscription",
             "initial_dynamic_discount_text": "Save {initial_percent_discount}% ({initial_fixed_discount})",
-            "subsequent_dynamic_discounts_text": "{subsequent_percent_discount}% ({subsequent_fixed_discount}) after {order_count} order(s)"
+            "subsequent_dynamic_discounts_text": "{subsequent_percent_discount}% ({subsequent_fixed_discount}) after {order_count} order(s)",
+            "enable_pdp_price_update": false,
+            "pdp_price_container_selector": "[id^=\"price-template--\"][id$=\"__main\"]",
+            "pdp_regular_price_selector": ".price__regular .price-item--regular",
+            "pdp_sale_price_selector": ".price__sale .price-item--sale"
           }
         }
       },
@@ -111,7 +115,7 @@
         "description-tab": true,
         "reviews-tab": false,
         "add-tab_1": "grind-types",
-        "add-tab_2": "about-us"
+        "add-tab_2": "the-wwii-ford-armored-car"
       }
     },
     "16876922901175eeaf": {
